@@ -13802,6 +13802,10 @@ CONTROLBAR:ToolTipGLACamoNetting
 "This structure gains camouflage"
 END
 
+CONTROLBAR:ToolTipGLARadarVanCamoNetting
+"This Radar Van gains camouflage when not moving and not taking damage"
+END
+
 CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure
 "Buildings gain additional armor protection from attacks"
 END
