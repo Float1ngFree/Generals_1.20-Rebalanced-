@@ -4414,6 +4414,10 @@ CONTROLBAR:UpgradeAmericaFlashBangGrenade
 "&Flash-Bang Grenades"
 END
 
+CONTROLBAR:UpgradeAmericaMissileDefenderLaserLock
+"&Laser Lock"
+END
+
 CONTROLBAR:UpgradeAmericaCompositeArmor
 "Com&posite Armor"
 END
@@ -4852,6 +4856,10 @@ END
 
 UPGRADE:RangerFlashBangGrenade
 "Ranger Flash-Bang Grenades"
+END
+
+UPGRADE:MissileDefenderLaserLock
+"Missile Defender Laser Lock"
 END
 
 UPGRADE:HoverTank
@@ -6911,7 +6919,7 @@ CONTROLBAR:TooltipFireParticleUplinkCannon
 END
 
 CONTROLBAR:TooltipParaDrop
-"Drops Rangers by plane \n \n Countdown Timer: 4:00"
+"Drops a group of USA infantry by plane \n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:TooltipClusterMines
@@ -6963,7 +6971,7 @@ CONTROLBAR:TooltipFireEmergencyRepair
 END
 
 CONTROLBAR:TooltipFireRebelAmbush
-"Creates rebels \n \n Countdown Timer: 4:00"
+"Spawns a group of GLA infantry \n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:TooltipFireAnthraxBomb
@@ -6987,19 +6995,19 @@ CONTROLBAR:TooltipDemoTrapDetonate
 END
 
 CONTROLBAR:TooltipMissileDefenderLaser
-"Laser-lock improves missile rate of fire"
+"Laser-lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range"
 END
 
 CONTROLBAR:TooltipBattlePlansBombardment
-"Deploy cannon \n All units: 20% Firepower Bonus"
+"All ground units: +20% Damage \n \n Deploys a cannon: \n \n 300(60) dmg in 15(30) radius over 7s \n 400 attack range \ 25 scatter (miss) radius"
 END
 
 CONTROLBAR:TooltipBattlePlansHoldTheLine
-"Deploy walls \n All units: 10% Armor Bonus"
+"All ground units: +15% Damage Reduction \n \n Deploys walls: \n \n x2 Strategy Center hp (1500->3000)"
 END
 
 CONTROLBAR:TooltipBattlePlansSearchAndDestroy
-"Deploy scanners \n All units: 20% Weapon Range Bonus"
+"All ground units: +10% Weapon and +15% Sight Range \n \n Deploys scanners: \n \n x2 Strategy Center Sight Range (400->800) \n Detects Stealth Units in 400 range"
 END
 
 CONTROLBAR:TooltipSetRallyPoint
@@ -7031,7 +7039,11 @@ CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades
-"Rangers Flash-Bang civilian buildings to clear enemy soldiers"
+"Enables Ranger's Flash-Bang switch weapon. \n Deals area damage to enemy infantry. \n Kills 1 enemy soldier in civilian buildings. \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range"
+END
+
+CONTROLBAR:TooltipUSAUpgradeMissileDefenderLaserLock
+"Allows Missile Defenders to lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCompositeArmor
@@ -7143,7 +7155,7 @@ CONTROLBAR:ToolTipGLAUpgradeJunkRepair
 END
 
 CONTROLBAR:ToolTipGLAUpgradeCamouflage
-"Rebels are hidden from enemy sight when not shooting"
+"Rebels and RPG Troopers become stealthed: \n \n Rebels - when not shooting (2.5s delay) \n RPG Troopers - while not moving (2.5s delay)"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeTranqDarts
@@ -7199,7 +7211,7 @@ CONTROLBAR:ToolTipWayPoints
 END
 
 CONTROLBAR:ToolTipUSARangerCaptureBuilding
-"Capture targeted enemy building"
+"Capture targeted enemy or neutral building"
 END
 
 CONTROLBAR:ToolTipUSAFire20mmCannon
@@ -7231,7 +7243,7 @@ CONTROLBAR:ToolTipGLAFireToxinTractorSlime
 END
 
 CONTROLBAR:ToolTipGLARebelCaptureBuilding
-"Capture targeted enemy building"
+"Capture targeted enemy or neutral building"
 END
 
 CONTROLBAR:ToolTipGLATerroristMakeCarBomb
@@ -7243,11 +7255,11 @@ CONTROLBAR:ToolTipGLAFireFireBomb
 END
 
 CONTROLBAR:ToolTipGLAHijackerHijack
-"Hijack target enemy vehicle"
+"Hijack target enemy vehicle \n \n Kills enemy pilot and takes his place \n Ejects from USA vehicles"
 END
 
 CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe
-"Kill vehicle crew"
+"Snipe vehicle's pilot \n \n 30s reload time \n 225 attack range \n Vehicle becomes free to capture"
 END
 
 CONTROLBAR:ToolTipChinaFireMIG
@@ -7255,7 +7267,7 @@ CONTROLBAR:ToolTipChinaFireMIG
 END
 
 CONTROLBAR:ToolTipChinaRedGuardCaptureBuilding
-"Capture targeted enemy building"
+"Capture targeted enemy or neutral building"
 END
 
 CONTROLBAR:ToolTipChinaRedGuardFireStunBullets
@@ -7267,23 +7279,23 @@ CONTROLBAR:ToolTipChinaRedGuardFireBayonet
 END
 
 CONTROLBAR:ToolTipChinaFireBlackLotusCaptureHack
-"Capture enemy building"
+"Capture enemy building \n \n 150 hack range \n 6.7s preparation time \n 6s(4.5s) hack time (super lotus)"
 END
 
 CONTROLBAR:ToolTipChinaFireBlackLotusVehicleHack
-"Disable enemy vehicle"
+"Disable enemy vehicle \n \n 150(300) hack range (super lotus) \n 15s(20s) disable duration (super lotus) \n 2s preparation time \n 2s hack time"
 END
 
 CONTROLBAR:ToolTipChinaFireBlackLotusCashHack
-"Steal cash from targeted enemy Supply Center"
+"Steal cash from targeted enemy Supply Center \n \n 150 hack range \n $1000($1500) steal from enemy (super lotus) \n 6.7s preparation time \n 6s hack time"
 END
 
 CONTROLBAR:ToolTipChinaFireHackerInternetHack
-"Hack into the Internet to steal money"
+"Secondary income \n Hack into the Internet to steal money \n \n Earns XP per each hack \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n 6s preparation time \n Hacks infinitely or until stopped"
 END
 
 CONTROLBAR:ToolTipChinaHackerBuildingHack
-"Disable enemy building with a powerful computer virus"
+"Disable enemy building with a powerful computer virus \n \n 150 hack range \n 15s disable \n 7.3s preparation time \n 3s hack time"
 END
 
 CONTROLBAR:ToolTipChinaDragonTankFire
@@ -7303,7 +7315,7 @@ CONTROLBAR:ToolTipReturnToPrison
 END
 
 CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack
-"Place a TNT explosive charge"
+"Place a TNT explosive charge on a target object \n \n 10s timer \n 400(200) dmg in 0(30) radius \n Primary dmg hits unit it's placed on \n (Secondary) dmg hits area and buildings"
 END
 
 CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack
@@ -7311,15 +7323,15 @@ CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack
 END
 
 CONTROLBAR:ToolTipUSAFireBurtonTimedDemo
-"Place a timed demolition charge"
+"Place a timed demolition charge \n \n 20s timer \n 2000(150) dmg in 25(75) radius"
 END
 
 CONTROLBAR:ToolTipUSABurtonPlaceRemoteCharge
-"Place a remote-controlled demolition charge you can detonate at any time"
+"Place a remote-controlled demolition charge you can detonate at any time. \n Charge disappears if Hero dies. \n \n 8 placed charges max \n 2000(150) dmg in 25(75) radius"
 END
 
 CONTROLBAR:ToolTipUSABurtonDetonateCharges
-"Detonate all remote charges"
+"Detonate all remote charges \n \n 2000(150) dmg in 25(75) radius"
 END
 
 CONTROLBAR:ToolTipCancelConstruction
@@ -7327,19 +7339,19 @@ CONTROLBAR:ToolTipCancelConstruction
 END
 
 CONTROLBAR:ToolTipUSABuildCommandCenter
-"Commands special weapons. Creates Construction Dozers. Provides radar"
+"Commands special weapons. \n Creates Construction Dozers. \n Provides radar \n \n 5000 hp \n Strong Structure Armor"
 END
 
 CONTROLBAR:ToolTipUSABuildPowerPlant
-"Provides power for USA bases \n \n Power Supplied: 5"
+"Provides power for USA bases \n \n 800 hp \n \n Power Supplied: 5"
 END
 
 CONTROLBAR:ToolTipUSABuildBarracks
-"Trains USA soldiers for use in battle"
+"Trains USA soldiers for use in battle \n \n 1000 hp"
 END
 
 CONTROLBAR:ToolTipUSABuildSupplyCenter
-"Drop-off point for USA Chinook supply gatherers \n \n Power Required: 1"
+"Builds USA Chinook transport/supply helicopters. \n Drop-off point for USA supply gatherers \n \n 2000 hp \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipUSABuildWall
@@ -7347,23 +7359,23 @@ CONTROLBAR:ToolTipUSABuildWall
 END
 
 CONTROLBAR:ToolTipUSABuildWarFactory
-"Builds all USA ground vehicles \n \n Power Required: 1"
+"Builds all USA ground vehicles \n \n 2000 hp \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"Ground and air defense. Can relay position of enemy to nearby Patriots \n \n Power Required: 3"
+"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(400) ground(air) attack range \n 150 request assist radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildAirField
-"Builds USA aircraft \n \n Power Required: 1"
+"Builds USA aircraft \n \n 2000(2500) hp (Air Force General) \n 4 jet parking spaces \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipUSABuildParticleCannon
-"Fires a particle beam anywhere on the map \n \n Power Required: 10"
+"Fires a particle beam anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 10"
 END
 
 CONTROLBAR:ToolTipUSABuildStrategyCenter
-"All USA forces can use a single battle plan \n \n Bombardment \n Search and Destroy \n Hold the Line \n \n Power Required: 2"
+"Tech building containing critical USA upgrades. \n Allows to set one of the following battle plans: \n \n Bombardment (+20% dmg) \n Search and Destroy (+10% attack and +15% sight range) \n Hold the Line (+15% damage reduction) \n \n 1500hp \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipUSABuildDetentionCamp
@@ -7371,91 +7383,107 @@ CONTROLBAR:ToolTipUSABuildDetentionCamp
 END
 
 CONTROLBAR:ToolTipUSABuildSupplyDropZone
-"Calls in a paradrop of supplies every 2 minutes \n \n Power Required: 4"
+"Secondary income \n Calls in a paradrop of supplies every 2 minutes \n \n 1000 hp \n \n Power Required: 4"
 END
 
 CONTROLBAR:ToolTipGLABuildCommandCenter
-"Commands special weapons. Trains Workers"
+"Commands special weapons. Trains Workers \n \n 5000 hp \n Strong Structure Armor \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABUildDemoTrap
-"Stealthy explosive device"
+"Stealthy explosive device \n \n 100 hp \n 40 trigger radius \n 600(400) dmg in 25(50) radius \n"
+END
+
+CONTROLBAR:Demo_ToolTipGLABUildDemoTrap
+"Stealthy explosive device \n \n 100 hp \n 40 trigger radius \n 700(500) dmg in 25(50) radius \n"
+END
+
+CONTROLBAR:Chem_ToolTipGLABUildDemoTrap
+"Stealthy explosive device \n \n 100 hp \n 40 trigger radius \n 350(140) dmg in 20(50) radius \n Leaves Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBarracks
-"Trains GLA soldiers"
+"Trains GLA soldiers \n \n 1000 hp \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABuildSupplyStash
-"Collects supplies"
+"Collects supplies. Trains Workers \n \n 2000 hp \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABuildArmsDealer
-"Builds vehicles"
+"Builds GLA vehicles \n \n 2000 hp \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildCommandCenter
-"Commands special weapons. Creates Construction Dozers"
+"Commands special weapons. \n Creates Construction Dozers. \n Provides radar \n \n 5000 hp \n Strong Structure Armor"
 END
 
 CONTROLBAR:ToolTipChinaBuildPowerPlant
-"Chinese power plant. Can be overloaded to provide +50% power \n \n Power Supplied: 10"
+"Chinese power plant. \n Can be overloaded to provide +50% power \n \n 1500 hp \n \n Power Supplied: 10"
 END
 
 CONTROLBAR:ToolTipChinaBuildBarracks
-"Trains Chinese soldiers"
+"Trains Chinese soldiers \n \n 1000 hp"
 END
 
 CONTROLBAR:ToolTipChinaBuildSupplyCenter
-"Drop-off point for China supply gatherers \n \n Power Required: 1"
+"Builds Supply Trucks. \n Drop-off point for China supply gatherers \n \n 2000 hp \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildWarFactory
-"Builds Chinese vehicles \n \n Power Required: 1"
+"Builds Chinese vehicles \n \n 2000 hp \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildBunker
-"Can hold 5 Chinese soldiers"
+"Defensive structure \n Can hold 5 up to soldiers \n \n 1000 hp \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildPropagandaCenter
-"Builds important Chinese technologies \n \n Power Required: 2"
+"Can contain Hackers to earn money faster: \n \n 4 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Builds important Chinese technologies. \n \n 1500 hp \n 200 radius Propaganda Tower effect \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipChinaBuildAirField
-"Builds Chinese aircraft \n \n Power Required: 1"
+"Builds Chinese aircraft \n \n 2000 hp \n 4 jet parking spaces \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildGattlingCannon
-"Powerful anti-air base defense \n \n Power Required: 3"
+"Powerful anti-air/infantry base defense \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(350) ground(air) attack range \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher
-"Launches a nuclear missile. Builds important Chinese upgrades \n \n Power Required: 10"
+"Launches a nuclear missile. \n Builds important Chinese upgrades \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 10"
 END
 
 CONTROLBAR:ToolTipChinaBuildSpeakerTower
-"Heals your forces and increases firing speed \n \n Power Required: 1"
+"Heals your forces and increases firing speed \n Effect can be upgraded by (Subliminal Messaging) \n \n 150 effect radius \n 2(3)% heal/repair \n +25% Rate of Fire \n (+15% Damage) \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipGLABuildTunnelNetwork
-"Base defense and underground tunnel. Units can enter the Tunnel Network and exit at any other Tunnel Network"
+"Base defense and underground tunnel. \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 15 dmg over 0.25s \n 175 attack range \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildPalace
-"Holds important GLA technologies. Can be garrisoned by GLA troops"
+"Holds important GLA technologies. \n Can be garrisoned by GLA troops \n \n 3000 hp \n 5 fire slots \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBlackMarket
-"Holds important GLA technologies. Provides free supplies to the GLA player"
+"Secondary income \n Holds important GLA technologies. \n Provides free supplies to the GLA player \n \n 1000 hp \n +$20 every 2s \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildStingerSite
-"Anti-air and anti-tank base defense"
+"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n When destroyed leaves 500 hp GLA Hole \n"
+END
+
+CONTROLBAR:Chem_ToolTipGLABuildStingerSite
+"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n When destroyed leaves 500 hp GLA Hole \n"
+END
+
+CONTROLBAR:Demo_ToolTipGLABuildStingerSite
+"Anti-air and anti-tank base defense \n \n 1000 hp \n 30x3(33x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildScudStorm
-"Launches a volley of SCUD missiles \n \n Countdown Timer: 5:00"
+"Launches a volley of 9 SCUD missiles anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Countdown Timer: 5:00"
 END
 
 CONTROLBAR:ToolTipGLABuildPrison
@@ -7463,19 +7491,19 @@ CONTROLBAR:ToolTipGLABuildPrison
 END
 
 CONTROLBAR:ToolTipUSABuildRanger
-"Strong vs. infantry \n Weak vs. light vehicles"
+"Basic USA rifle infantry \n Can be equipped with Flash-Bang Grenades \n \n 160 hp \n 5x3 dmg over 0.9s \n 125 attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildDozer
-"Builds all USA structures and repairs buildings"
+"Builds and repairs all USA structures \n \n 250 hp"
 END
 
 CONTROLBAR:ToolTipGLABuildWorker
-"Builds all GLA structures. Repairs buildings and collects supplies"
+"Builds all GLA structures. \n Repairs buildings and collects supplies \n \n 100 hp"
 END
 
 CONTROLBAR:ToolTipChinaBuildDozer
-"Builds all Chinese structures and repairs buildings"
+"Builds and repairs all Chinese structures \n \n 250 hp"
 END
 
 CONTROLBAR:ToolTipGLABuildScorpion
@@ -7499,15 +7527,23 @@ CONTROLBAR:ToolTipChinaBuildGattlingTank
 END
 
 CONTROLBAR:ToolTipGLABuildRebel
-"Strong vs. infantry \n Weak vs. tanks, light vehicles"
+"Basic GLA  rifle infantry \n Can become camouflaged and plant Booby Traps \n \n 120 hp \n 5x3 dmg over 0.9s \n 120 attack range"
+END
+
+CONTROLBAR:Slth_ToolTipGLABuildRebel
+"Basic GLA  rifle infantry. Camouflaged. \n \n 120 hp \n 5x3 dmg over 0.9s \n 120 attack range"
+END
+
+CONTROLBAR:Demo_ToolTipGLABuildRebel
+"Basic GLA  rifle infantry \n Can plant Booby Traps \n \n 120 hp \n 5x3 dmg over 0.9s \n 120 attack range"
 END
 
 CONTROLBAR:ToolTipChinaBuildRedguard
-"Gains Horde bonus when in groups of 5 or more \n \nStrong vs. infantry \n Weak vs. vehicles"
+"2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus when in groups of 5 or more \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildHacker
-"Can disable enemy buildings with a computer virus or can hack into the internet to steal money \n \n Strong vs. buildings \n Weak vs. infantry, vehicles"
+"Provides secondary income \n Can disable enemy buildings \n Can hack into the internet to steal money \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
 END
 
 CONTROLBAR:ToolTipUSABUildChinook
@@ -7539,15 +7575,15 @@ CONTROLBAR:ToolTipUSABuildComanche
 END
 
 CONTROLBAR:ToolTipUSABuildMissileDefender
-"Use special laser-guided attack to rapid-fire missiles \n \n Strong vs. tanks, aircraft \n Weak vs. infantry"
+"Anti vehicle/aircraft infantry \n Can be upgraded with Laser Lock ability \n \n 115 hp \n 45 dmg over 1.2s \n 175 attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildPathFinder
-"Camouflaged while not moving or shooting. Spots hidden enemies \n \n Strong vs. infantry \n Weak vs. light vehicles, scouts"
+"Infantry Sniper. \n Camouflaged while not moving (2s delay). \n Spots hidden enemies within 200 range. \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n"
 END
 
 CONTROLBAR:ToolTipUSABuildColonelBurton
-"Camouflaged. Reveals himself when he shoots or plants a bomb \n \n Build Limit: 1 \n Strong vs. Infantry \n Weak vs. Scouts"
+"Hero unit. Camouflaged (2s delay) \n Can climb cliffs \n Reveals himself when he shoots or plants a bomb \n \n 200 hp \n 40x3 dmg over 0.7s \n 140 attack range \n \n Build Limit: 1"
 END
 
 CONTROLBAR:ToolTipUSABuildTomahawk
@@ -7575,11 +7611,15 @@ CONTROLBAR:ToolTipChinaBuildMIG
 END
 
 CONTROLBAR:ToolTipChinaBuildBlackLotus
-"Captures enemy buildings, steals cash from enemy supply centers and disables enemy vehicles. Camouflaged unless using an ability \n \n Strong vs. buildings, vehicles \n Weak vs. scout units"
+"Hero unit. Camouflaged (2.5s delay) \n Captures enemy buildings, steals cash from enemy supply centers and disables enemy vehicles (reveals herself) \n \n 200 hp \n \n Build Limit: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildTankHunter
-"Special TNT attack \n Gains Horde bonus when in groups of 5 or more \n \n Strong vs. tanks \n Weak vs. infantry"
+"Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus when in groups of 5 or more \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+END
+
+CONTROLBAR:Infa_ToolTipChinaBuildTankHunter
+"Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Nationalism(Patriotism) bonus when in groups of 5 or more \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n Horde Bonus: +45% Rate of Fire, +20(35)% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
@@ -7599,23 +7639,47 @@ CONTROLBAR:ToolTipChinaBuildDragonTank
 END
 
 CONTROLBAR:ToolTipGLABuildTerrorist
-"Suicide soldier \n \n Strong vs. tanks, buildings \n Weak vs. infantry, light vehicles"
+"Suicide soldier \n \n 120 hp \n 500(150) dmg in 15(45) radius"
+END
+
+CONTROLBAR:Demo_ToolTipGLABuildTerrorist
+"Suicide soldier \n \n 120 hp \n 670(270) dmg in 18(50) radius"
 END
 
 CONTROLBAR:ToolTipGLABuildRPGTrooper
-"Strong vs. tanks \n Weak vs. infantry"
+"Anti vehicle/aircraft infantry \n Can become camouflaged while not moving \n \n 110 hp \n 40 dmg over 1.1s \n 175 attack range"
+END
+
+CONTROLBAR:Slth_ToolTipGLABuildRPGTrooper
+"Anti vehicle/aircraft infantry \n Camouflaged while not moving \n \n 110 hp \n 40 dmg over 1.1s \n 175 attack range"
+END
+
+CONTROLBAR:Demo_ToolTipGLABuildRPGTrooper
+"Anti vehicle/aircraft infantry \n \n 110 hp \n 42(10) dmg in 5(10) radius over 1.1s \n 175 attack range"
+END
+
+CONTROLBAR:Chem_ToolTipGLABuildRPGTrooper
+"Anti vehicle/aircraft infantry \n \n 110 hp \n 40 dmg over 1.1s \n 175 attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius"
 END
 
 CONTROLBAR:ToolTipGLABuildAngryMob
-"Strong vs. infantry, vehicles \n Weak vs. flame, toxins, flash-bang grenades"
+"Group of unhappy people who have a couple questions \n \n Members auto respawn \n 10 people max \n 50 hp per member \n 10(20) dmg over 0.25s per gun(AK47) \n 40 dmg over 0.5s per Molotov Cocktail \n 100(120) gun/cocktail(AK47) attack range \n"
 END
 
 CONTROLBAR:ToolTipGLABuildHijacker
-"Can capture any enemy vehicle. Camouflaged \n \n Strong vs. tanks, vehicles \n Weak vs. infantry, scouts"
+"Can capture any enemy vehicle \n Camouflaged while not moving (0.5s delay) \n \n 100 hp \n Ejects from USA vehicles \n"
+END
+
+CONTROLBAR:Slth_ToolTipGLABuildHijacker
+"Can capture any enemy vehicle \n Camouflaged (always) \n \n 100 hp \n Ejects from USA vehicles \n"
 END
 
 CONTROLBAR:ToolTipGLABuildJarmenKell
-"Is camouflaged. Can hide inside civilian buildings to snipe at enemy soldiers. Can kill the crew of enemy vehicles making them vulnerable to capture \n \n Strong vs. infantry, vehicles \n Weak vs. Scouts"
+"Hero unit. Sniper. \n Camouflaged (2s delay) while not attacking \n Can snipe pilots of enemy vehicles making them vulnerable to capture \n \n 200 hp \n 180 dmg over 1s \n 225 attack range \n \n Build Limit: 1"
+END
+
+CONTROLBAR:Demo_ToolTipGLABuildJarmenKell
+"Hero unit. Sniper. \n Camouflaged (2s delay) while not attacking \n Can place Timed and Remote Demo Charges \n Can snipe pilots of enemy vehicles making them vulnerable to capture \n \n 200 hp \n 180 dmg over 1s \n 225 attack range \n \n Build Limit: 1"
 END
 
 CONTROLBAR:ToolTipGLABuildToxinTruck
@@ -7655,7 +7719,7 @@ CONTROLBAR:ToolTipUSASciencePaladin
 END
 
 CONTROLBAR:ToolTipUSASciencePathFinder
-"Pathfinders are elite camouflaged snipers \n \n Build at: Barracks"
+"Pathfinders are elite camouflaged snipers \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n Spots hidden enemies within 200 range \n \n Build at: Barracks"
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
@@ -7667,7 +7731,7 @@ CONTROLBAR:ToolTipUSAScienceSpyDrone
 END
 
 CONTROLBAR:ToolTipUSAScienceParaDrop
-"Drop Rangers from the air \n \n Rank 1: 5 Rangers \n Rank 2: 10 Rangers \n Rank 3: 20 Rangers \n \n Deploy from: Command Center"
+"Required Level: 2 Star \n \n Drop a group of USA infantry from the air \n \n Rank 1: 3 Rangers, 2 Missile Defenders \n Rank 2: 6 Rangers, 4 Missile Defenders \n Rank 3: 10 Rangers, 8 Missile Defenders, 2 Pathfinders \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSAScienceA10Strike
@@ -7703,7 +7767,7 @@ CONTROLBAR:ToolTipChinaScienceEMPPulse
 END
 
 CONTROLBAR:ToolTipGLAScienceHijacker
-"Hijackers are camouflaged and can steal enemy vehicles \n \n Build at: Barracks"
+"Hijackers are camouflaged and can steal enemy vehicles \n \n 100 hp \n Ejects from USA vehicles \n \n Build at: Barracks"
 END
 
 CONTROLBAR:ToolTipGLAScienceSCUDLauncher
@@ -7719,7 +7783,15 @@ CONTROLBAR:ToolTipGLAScienceTechnicalTraining
 END
 
 CONTROLBAR:ToolTipGLAScienceRebelAmbush
-"Allows you to create a surprise ambush of Rebels anywhere \n \n Rank 1: 4 Rebels \n Rank 2: 8 Rebels \n Rank 3: 16 Rebels \n \n Deploy from: Command Center"
+"Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 5 Rebels, 3 RPG Troopers \n Rank 3: 8 Rebels, 6 RPG Troopers, 2 Hijackers \n \n Deploy from: Command Center"
+END
+
+CONTROLBAR:Slth_ToolTipGLAScienceRebelAmbush
+"Required Level: 2 Star \n \n Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers, 1 Hijacker \n Rank 3: 6 Rebels, 4 RPG Troopers, 1 Hijacker, 1 Saboteur \n \n Deploy from: Command Center"
+END
+
+CONTROLBAR:Demo_ToolTipGLAScienceRebelAmbush
+"Allows you to create a surprise ambush of GLA Demo infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers \n Rank 3: 5 Rebels, 4 RPG Troopers, 2 Terrorists \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipGLAScienceCashBounty
@@ -7883,7 +7955,7 @@ CONTROLBAR:TooltipChinaUpgradeAircraftArmor
 END
 
 CONTROLBAR:ToolTipSwitchToRangerMachineGun
-"Switches to machine gun mode for all purpose attacking"
+"Switches to rifle gun mode \n \n 5x3 dmg over 0.9s \n 125 attack range"
 END
 
 CONTROLBAR:ToolTipSwitchToRedguardMachineGun
@@ -7895,7 +7967,7 @@ CONTROLBAR:ToolTipSwitchToRebelMachineGun
 END
 
 CONTROLBAR:ToolTipSwitchToUSAFlashBang
-"Use Flash-Bang grenades"
+"Use Flash-Bang grenades \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range \n Kills 1 enemy soldier in civilian buildings"
 END
 
 CONTROLBAR:ToolTipSwitchToChinaStunBullets
@@ -13775,7 +13847,7 @@ CONTROLBAR:TooltipUpgradeChinaNeutronShells
 END
 
 CONTROLBAR:ToolTipUpgradeChinaEMPMines
-"Mines release an Neutron blast when triggered"
+"Mines release an Neutron blast when triggered \n Will kill infantry in vehicles"
 END
 
 CONTROLBAR:TooltipUpgradeChinaFusionReactors
@@ -13811,7 +13883,7 @@ CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure
 END
 
 CONTROLBAR:ToolTipGLAUpgradeBoobyTrap
-"Rebels can place booby traps on buildings and neutral units"
+"Enables Rebels to place booby traps on buildings and neutral units \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeWorkerShoes
@@ -13862,12 +13934,12 @@ CONTROLBAR:ToolTipECMDisableVehicle
 "Disable enemy vehicle"
 END
 
-CONTROLBAR:ToolTipChinaFireRebelBoobyTrapAttack
-"Place a booby trap"
+CONTROLBAR:ToolTipGLAFireRebelBoobyTrapAttack
+"Place a booby trap on building or neutral unit \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max"
 END
 
 CONTROLBAR:ToolTipUSABuildFireBase
-"Ground defense. Garrisonable by four infantry"
+"Ground defense. \n Garrisonable by 4 infantry units \n \n 1000 hp \n 4 open fire slots \n 90(18) dmg in 10(25) radius over 3s \n 275 attack range \n Garrisoned units die with building \n"
 END
 
 CONTROLBAR:ToolTipUSABuildArtilleryPlatform
@@ -13879,7 +13951,7 @@ CONTROLBAR:ToolTipFakeGLABuilding
 END
 
 CONTROLBAR:ToolTipChinaBuildInternetCenter
-"Helps hackers bring in money. Can be upgraded to spy on opponents"
+"Can contain Hackers to earn money faster: \n \n 8 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Can be upgraded to spy on opponents: \n \n Satellite Hack I - reveals Supply and Command centers \n Satellite Hack II -  briefly reveals all enemy units/buildings \n \n 2500 hp \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipAmericaICBMLauncher
@@ -13895,7 +13967,7 @@ CONTROLBAR:ToolTipGLABuildCombatBike
 END
 
 CONTROLBAR:ToolTipGLABuildSaboteur
-"Non-combat infiltration unit. Can temporarily disable enemy buildings"
+"Non-combat infiltration unit \n Camouflaged (always). Can climb cliffs \n Sabotages enemy buildings: \n \n Supply Center - $1200 cash steal \n Power Plant - shuts down power for 30s \n Command Center - resets timers on all Special Powers \n Super Weapon - resets timers \n WarFactory/AirField - disables for 60s \n Internet Center - disables for 30s \n Fake Building - destroys \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildPropagandaTrooper
@@ -13903,7 +13975,7 @@ CONTROLBAR:ToolTipChinaBuildPropagandaTrooper
 END
 
 CONTROLBAR:ToolTipChinaBuildMiniGunner
-"Strong vs. infantry, air \n Weak vs. tanks"
+"Upgraded Basic Chinese gun infantry. \n Can attack air units \n Gains Nationalism(Patriotism) bonus when in groups of 5 or more \n \n 130 hp \n 9(5) ground(air) dmg over 0.5/0.25/0.16s \n 135(225) ground(air) attack range \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
 END
 
 CONTROLBAR:ToolTipUSABuildAvenger
@@ -14011,7 +14083,7 @@ CONTROLBAR:ToolTipSelectBattleships
 END
 
 CONTROLBAR:ToolTipChinaScienceTankParadrop
-"Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n Deploy from: Command Center"
+"Required Level: 2 Star \n \n Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceInfantryParadrop
@@ -24599,7 +24671,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"Ground and air defense. Can relay position of enemy to nearby Patriots \n \n Power Required: 3"
+"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n \n Power Required: 3
 END
 
 MAP:USA03xBurtonSurvive
@@ -24779,7 +24851,7 @@ CONTROLBAR:UpgradeChinaTacticalNukeMig
 END
 
 CONTROLBAR:Boss_ToolTipChinaBuildBarracks
-"Trains soldiers"
+"Trains soldiers \n \n 1000 hp"
 END
 
 CONTROLBAR:Boss_ToolTipChinaBuildAirField
@@ -24799,7 +24871,7 @@ CONTROLBAR:Boss_ToolTipChinaBuildSupplyCenter
 END
 
 CONTROLBAR:Infa_TooltipParaDrop
-"Drops Mini-Gunners by plane \n \n Countdown Timer: 4:00"
+"Drops a group of Mini-Gunners and Tank Hunters by plane \n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:Infa_ConstructChinaInfantryHacker
@@ -24807,7 +24879,7 @@ CONTROLBAR:Infa_ConstructChinaInfantryHacker
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHacker
-"Stealthed. Can disable enemy buildings and vehicles with a computer virus or can hack into the internet to steal money \n \n Strong vs. buildings \n Weak vs. infantry, vehicles"
+"Provides secondary income \n Camouflaged (2.5s delay) if not moving or taking damage \n Can disable enemy buildings and vehicles \n Can hack into the internet to steal money \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
 END
 
 CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus
@@ -24835,7 +24907,7 @@ OBJECT:Infa_Helix
 END
 
 CONTROLBAR:Infa_ToolTipChinaScienceInfantryParadrop
-"Drop Mini-Gunners from the air \n \n Rank 1: 5 Mini-Gunners \n Rank 2: 10 Mini-Gunners \n Rank 3: 15 Mini-Gunners \n \n Deploy from: Command Center"
+"Required Level: 2 Star \n \n Drop a group of Mini-Gunners and Tank Hunters from the air \n \n Rank 1: 3 Mini-Gunners, 2 Tank Hunters \n Rank 2: 6 Mini-Gunners, 4 Tank Hunters \n Rank 3: 12 Mini-Gunners, 8 Tank Hunters \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:UpgradeSuicideBomb
@@ -24875,7 +24947,7 @@ CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks
 END
 
 CONTROLBAR:Boss_ToolTipUSABuildPowerPlant
-"Provides power for bases \n \n Power Supplied: 5"
+"Provides power for bases \n \n 800 hp \n \n Power Supplied: 5"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildListeningOutpost
@@ -24899,7 +24971,7 @@ CONTROLBAR:Infa_ConstructChinaBunker
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildBunker
-"Can hold 10 Chinese soldiers \n Comes with minefield upgrade"
+"Can hold up to 10 soldiers \n Comes with minefield upgrade \n \n 1000 hp \n Strong Structure Armor \n"
 END
 
 OBJECT:Infa_Bunker
@@ -24915,7 +24987,7 @@ CONTROLBAR:Chem_ConstructGLAInfantryRebel
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildRebel
-"Fires a stream of toxin \n Strong vs. infantry \n Weak vs. tanks, light vehicles"
+"Upgraded Basic GLA infantry. \n Fires a short streams of toxin. \n \n 120 hp \n 8(10)x5 dmg over 1s \n 100 attack range"
 END
 
 OBJECT:Chem_Rebel
@@ -24931,7 +25003,7 @@ CONTROLBAR:Chem_ConstructGLAInfantryTerrorist
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTerrorist
-"Suicide soldier explodes in a cloud of toxin"
+"Suicide soldier, leaves a field of toxin \n \n 120 hp \n 500(200) dmg in 15(45) radius \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius"
 END
 
 CONTROLBAR:Chem_ConstructGLATunnelNetwork
@@ -24943,7 +25015,7 @@ OBJECT:Chem_TunnelNetwork
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork
-"Base defense and underground tunnel. Fires a stream of toxin. Units can enter the Tunnel Network and exit at any other Tunnel Network"
+"Fires a stream of toxin. \n Base defense and underground tunnel. \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 12(15) dmg over 0.08s \n 155 attack range \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:UpgradeStealthComanche
@@ -24963,7 +25035,7 @@ CONTROLBAR:Boss_TooltipChinaUpgradeNationalism
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant
-"Provides power for USA bases \n \n Power Supplied: 8"
+"Provides power for USA bases \n \n 800 hp \n \n Power Supplied: 8"
 END
 
 GUI:DoubleClickAttackMove
@@ -24979,7 +25051,7 @@ DIALOGEVENT:01_AllCheerSoundSubtitle
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery
-"Ground and air defense. Can relay position of enemy to nearby Turrets \n \n Power Required: 5"
+"Ground and air defense. \n Can relay position of enemy to nearby Turrets \n \n 40x3 instant dmg over 2.5s \n 225(350) ground(air) attack range \n 150 request assist radius \n \n Power Required: 5"
 END
 
 CONTROLBAR:Lazr_ConstructAmericaPatriotBattery
@@ -25215,7 +25287,7 @@ CONTROLBAR:SabotageBuilding
 END
 
 CONTROLBAR:ToolTipGLASabotageBuilding
-"Can temporarily disable enemy buildings \n \n Strong vs. Enemy Structures \n Weak vs. infantry, scouts"
+"Sabotage enemy building: \n \n Supply Center - $1200 cash steal \n Power Plant - shut down power for 30s \n Command Center - reset timers on all Special Powers \n Super Weapon - reset timers \n WarFactory/AirField - disable for 60s \n Internet Center - disable for 30s \n Fake Building - destroy"
 END
 
 SCIENCE:Nuke_ChinaCarpetBomb
@@ -25247,7 +25319,7 @@ OBJECT:Demo_DemoTrap
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant
-"Advanced Nuclear Reactor. Can be overloaded to provide more power \n \n Power Supplied: 18"
+"Advanced Nuclear Reactor. \n Can be overloaded to provide 50% more power \n \n 1500 hp \n \n Power Supplied: 18"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb
@@ -25323,7 +25395,7 @@ MAP:TwoRoads
 END
 
 CONTROLBAR:Chem_TooltipFireRebelAmbush
-"Creates toxin rebels \n \n Countdown Timer: 4:00"
+"Spawns a group of Toxin Rebels and RPG Troopers \n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
@@ -25331,7 +25403,7 @@ CONTROLBAR:AirF_ToolTipUSABuildAurora
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
-"Allows you to create a surprise ambush of Toxin Rebels anywhere \n \n Rank 1: 4 Toxin Rebels \n Rank 2: 8 Toxin Rebels \n Rank 3: 16 Toxin Rebels \n \n Deploy from: Command Center"
+"Allows you to create a surprise ambush of Toxin Rebels and RPG Troopers anywhere \n \n Rank 1: 3 Toxin Rebels, 1 RPG Trooper \n Rank 2: 4 Toxin Rebels, 3 RPG Troopers \n Rank 3: 7 Toxin Rebels, 6 RPG Troopers \n \n Deploy from: Command Center"
 END
 
 CREDITS:PackagingProjectManager
