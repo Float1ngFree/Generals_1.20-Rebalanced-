@@ -7059,11 +7059,11 @@ CONTROLBAR:TooltipUSAUpgradeTOW
 END
 
 CONTROLBAR:USAUpgradeRocketPods
-"Comanches fire rocket barrage"
+"Enables Comanches to fire rocket barrage \n \n 14 rockets spread semi-randomly in 50 radius \n 37.5(12.5) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time"
 END
 
 CONTROLBAR:TooltipUSAUpgradeLaserMissiles
-"Raptor and Stealth Fighter missiles do +25% more damage"
+"\n Raptor - +25% damage \n Stealth Fighter - +25% damage, missiles locked on target \n Comanche - +25% missile damage(not rocket pods)"
 END
 
 CONTROLBAR:TooltipChinaUpgradeMines
@@ -7375,7 +7375,7 @@ CONTROLBAR:ToolTipUSABuildParticleCannon
 END
 
 CONTROLBAR:ToolTipUSABuildStrategyCenter
-"Tech building containing critical USA upgrades. \n Allows to set one of the following battle plans: \n \n Bombardment (+20% dmg) \n Search and Destroy (+10% attack and +15% sight range) \n Hold the Line (+15% damage reduction) \n \n 1500hp \n \n Power Required: 2"
+"Tech building containing critical USA upgrades. \n Allows to set one of the following battle plans: \n \n Bombardment(+20% dmg) \n Search and Destroy(+10/15% attack/sight range) \n Hold the Line(+15% damage reduction) \n \n 1500hp \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipUSABuildDetentionCamp
@@ -7399,7 +7399,7 @@ CONTROLBAR:Demo_ToolTipGLABUildDemoTrap
 END
 
 CONTROLBAR:Chem_ToolTipGLABUildDemoTrap
-"Stealthy explosive device \n \n 100 hp \n 40 trigger radius \n 350(140) dmg in 20(50) radius \n Leaves Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n"
+"Stealthy explosive device \n \n 100 hp \n 40 trigger radius \n 350(140) dmg in 20(50) radius \n Leaves Medium Beta(Gamma) Field - 15(18.75) dmg/s, 24s, 85(90) radius \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBarracks
@@ -7475,7 +7475,7 @@ CONTROLBAR:ToolTipGLABuildStingerSite
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildStingerSite
-"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n When destroyed leaves 500 hp GLA Hole \n"
+"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dmg/s, 6s, 8(8.5) radius \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildStingerSite
@@ -7547,11 +7547,19 @@ CONTROLBAR:ToolTipChinaBuildHacker
 END
 
 CONTROLBAR:ToolTipUSABUildChinook
-"Transport helicopter. Collects supplies. Works with Rangers to perform Combat Drop attack"
+"Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400 hp \n 8 transport slots \n Can be upgraded with Countermeasures Flares"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABUildChinook
+"Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n Equipped with a Point Defense Laser vs small missiles \n \n 400 hp \n 8 transport slots \n 0.5s PDL reload"
+END
+
+CONTROLBAR:AirF_ToolTipUSABUildChinook
+"Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 420 hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
 END
 
 CONTROLBAR:ToolTipChinaBuildSupplyTruck
-"Gathers supplies"
+"Gathers supplies \n \n 300 hp"
 END
 
 CONTROLBAR:ToolTipUSABuildPaladin
@@ -7559,19 +7567,39 @@ CONTROLBAR:ToolTipUSABuildPaladin
 END
 
 CONTROLBAR:ToolTipUSABuildRaptor
-"Can engage ground or air targets \n \n Strong vs. aircraft, tanks, light vehicles \n Weak vs. missile-armed infantry, anti-air defenses"
+"USA Fighter Jet \n Can engage ground and air targets \n \n 160 hp \n 100x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABuildRaptor
+"USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with a Point Defense Laser vs small missiles \n \n 160 hp \n 100x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time \n 0.5s PDL reload"
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"Super-sonic attack makes Aurora immune to enemy fire. After super-sonic attack, Aurora speed is reduced to 50% \n \n Strong vs. buildings \n Weak vs. fighters, anti-air units"
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABuildAurora
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50%  \n \n Equipped with a Point Defense Laser vs small missiles \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"Stealthed while moving \n \n Strong vs. enemy base defenses \n Weak vs. enemy fighters"
+"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
+"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
-"Fires missiles and cannon. Re-arms in the air \n \n Strong vs. tanks, light vehicles, infantry \n Weak vs. missile-armed infantry, anti-air defenses"
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABuildComanche
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n Equipped with a Point Defense Laser vs small missiles \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range \n 0.5s PDL reload"
+END
+
+CONTROLBAR:AirF_ToolTipUSABuildComanche
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be ugraded to become Stealthed \n \n 200 (240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildMissileDefender
@@ -7607,7 +7635,11 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"Creates a fire-storm in large groups \n \n Strong vs. tanks, light vehicles \n Weak vs. missile armed infantry, anti-air defenses"
+"Chinese Fighter Jet. \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n 140(160) hp (MiG Armor) \n 80(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildMIG
+"Chinese Fighter Jet. \n Equipped with 4 Radioactive Missiles \n Can be upgraded to carry 2 Tactical Nuke Missiles \n \n 140(160) hp (MiG Armor) \n 100(35) dmg in 5(20) radius \n 4 radioactive missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n Leaves Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius"
 END
 
 CONTROLBAR:ToolTipChinaBuildBlackLotus
@@ -7659,7 +7691,7 @@ CONTROLBAR:Demo_ToolTipGLABuildRPGTrooper
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildRPGTrooper
-"Anti vehicle/aircraft infantry \n \n 110 hp \n 40 dmg over 1.1s \n 175 attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius"
+"Anti vehicle/aircraft infantry \n \n 110 hp \n 40 dmg over 1.1s \n 175 attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dmg/s, 6s, 8(8.5) radius"
 END
 
 CONTROLBAR:ToolTipGLABuildAngryMob
@@ -7723,7 +7755,7 @@ CONTROLBAR:ToolTipUSASciencePathFinder
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
-"Stealthed while moving \n \n Build at: Air Field"
+"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
@@ -7943,7 +7975,7 @@ CONTROLBAR:StunBulletsMode
 END
 
 UPGRADE:AircraftArmor
-"Aircraft Armor"
+"MiG Armor"
 END
 
 MAP:USA03Open
@@ -7951,7 +7983,7 @@ MAP:USA03Open
 END
 
 CONTROLBAR:TooltipChinaUpgradeAircraftArmor
-"+25% MiG health"
+"\n +20 MiG health \n Improves Armor against Anti-Air damage"
 END
 
 CONTROLBAR:ToolTipSwitchToRangerMachineGun
@@ -11827,11 +11859,11 @@ CONTROLBAR:UpgradeChinaFusionReactors
 END
 
 CONTROLBAR:ChinaUpgradeHelixNapalmBomb
-"Enables this Helix to drop napalm bombs"
+"Enables Helixes to drop napalm bombs \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
 END
 
 CONTROLBAR:ChinaUpgradeHelixNukeBomb
-"Enables this Helix to drop nuke bombs"
+"Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dmg/s, 30s, 50 radius"
 END
 
 CONTROLBAR:UpgradeHelixNapalmBomb
@@ -13803,11 +13835,11 @@ CONTROLBAR:TooltipUSAUpgradeChemicalSuits
 END
 
 CONTROLBAR:TooltipUSAUpgradeBunkerBusters
-"Stealth Fighter missiles damage garrisoned troops"
+"Upgrades Stealth Fighter missiles. \n Creates secondary explosion that deals additional damage \n \n +200% additional dmg per missile \n Kills garrisoned infantry \n Forces vehicles out of tunnels and damages them"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCountermeasures
-"All aircraft capable of evading 50% of missiles fired at them"
+"All aircraft gain ability to shoot Flares evading 30% of missiles fired at them. \n \n MiG, Helix, Chinook - enables Flares (except Laser) \n Comanche - enables Flares (except Laser) and improves Armor \n All other planes/jets - enables Flares and improves Armor"
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon
@@ -13907,11 +13939,11 @@ CONTROLBAR:DropNukeBomb
 END
 
 CONTROLBAR:ToolTipDropNukeBomb
-"Drops a tactical nuke on the target area"
+"Drop small nuke bomb \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dmg/s, 30s, 50 radius"
 END
 
 CONTROLBAR:ToolTipDropNapalmBomb
-"Strong against most ground targets \n Weak against flame vehicles"
+"Drop napalm bomb on target location \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
 END
 
 CONTROLBAR:ToolTipChinaNukeWarhead
@@ -13983,11 +14015,11 @@ CONTROLBAR:ToolTipUSABuildAvenger
 END
 
 CONTROLBAR:ToolTipUSABuildKingRaptor
-"Can engage ground or air targets. Equipped with a Point Defense Laser \n Larger Payload. Detects Stealth \n \n Strong vs. aircraft, tanks, light vehicles \n Weak vs. missile-armed infantry, anti-air defenses"
+"Upgraded USA Fighter Jet. \n Can engage ground and air targets. \n Detects Stealth (250 range) \n \n 200(240) hp (due to VETERAN) \n 100x6 dmg over 0.375s \n 350 attack range \n 6s airfield reload time"
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"Super-sonic attack makes Aurora immune to enemy fire while dropping a small Fuel-Air Bomb. After super-sonic attack, Aurora speed is reduced to 50% \n \n Strong vs. buildings \n Weak vs. fighters, anti-air units"
+"Super-sonic Strategic Bomber. Thermobaric Bomb. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 605+500 explosion dmg \n Total of 1105/500/100 dmg in 30/50/70 radius \n 350 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -14015,7 +14047,7 @@ CONTROLBAR:ToolTipUSABuildPointDefenseDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildHelix
-"Heavy lift transport \n upgrades with base defense structures and Napalm Bomb \n \n Strong vs. tanks, light vehicles \n Weak vs. missile armed infantry, anti-air defenses"
+"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Napalm Bomb \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 CONTROLBAR:ToolTipChinaBuildListeningOutpost
@@ -24655,7 +24687,7 @@ TOOLTIP:Community
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildHelix
-"Heavy lift transport \n upgrades with base defense structures and Nuke Bomb \n \n Strong vs. tanks, light vehicles \n Weak vs. missile armed infantry, anti-air defenses"
+"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Nuke Bomb \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 MAP:CHI01xListeningPostHint01
@@ -24671,7 +24703,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n \n Power Required: 3
+"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
@@ -24843,7 +24875,7 @@ OBJECT:Ox
 END
 
 CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig
-"Upgrades Mig to fire a small nuke"
+"Upgrades MiG with 2 Tactical Nuke Missiles \n \n 240(60) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time"
 END
 
 CONTROLBAR:UpgradeChinaTacticalNukeMig
@@ -24879,7 +24911,7 @@ CONTROLBAR:Infa_ConstructChinaInfantryHacker
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHacker
-"Provides secondary income \n Camouflaged (2.5s delay) if not moving or taking damage \n Can disable enemy buildings and vehicles \n Can hack into the internet to steal money \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
+"Provides secondary income \n Camouflaged (2.5s delay) if not moving and not taking damage \n Can disable enemy buildings and vehicles \n Can hack into the internet to steal money \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
 END
 
 CONTROLBAR:Infa_ConstructChinaInfantryBlackLotus
@@ -24899,7 +24931,7 @@ CONTROLBAR:Infa_ConstructChinaVehicleHelix
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHelix
-"Heavy lift assault transport \n upgrades with base defense structures and Napalm Bomb \n \n Strong vs. tanks, light vehicles \n Weak vs. missile armed infantry, anti-air defenses"
+"Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n Can be modified with either Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
 END
 
 OBJECT:Infa_Helix
@@ -24930,8 +24962,8 @@ CONTROLBAR:AirF_ConstructAmericaVehicleChinook
 "Comba&t Chinook"
 END
 
-CONTROLBAR:AirF_ToolTipUSABUildChinook
-"Assault Transport helicopter. Collects supplies. Works with Rangers to perform Combat Drop attack"
+CONTROLBAR:AirF_ToolTipUSABUildChinookCombat
+"Assault Transport helicopter. \n Infantry can attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 420 hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
 END
 
 CONTROLBAR:SuicideAttack
@@ -25003,7 +25035,7 @@ CONTROLBAR:Chem_ConstructGLAInfantryTerrorist
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTerrorist
-"Suicide soldier, leaves a field of toxin \n \n 120 hp \n 500(200) dmg in 15(45) radius \n Leaves Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius"
+"Suicide soldier, leaves a field of toxin \n \n 120 hp \n 500(200) dmg in 15(45) radius \n Leaves Small Beta(Gamma) Field - 5(6.25) dmg/s, 6s, 8(8.5) radius"
 END
 
 CONTROLBAR:Chem_ConstructGLATunnelNetwork
@@ -25023,7 +25055,7 @@ CONTROLBAR:UpgradeStealthComanche
 END
 
 CONTROLBAR:ToolTipAirFUpgradeComancheStealth
-"Comanches become stealth"
+"Comanches become stealth \n Reveals itself when attacking or taking damage  \n \n 2s stealth delay "
 END
 
 OBJECT:Entrance
@@ -25399,7 +25431,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"Super-sonic attack makes Aurora immune to enemy fire. After super-sonic attack, Aurora speed is reduced to 50% \n \n Strong vs. buildings \n Weak vs. fighters, anti-air units"
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, Aurora speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
@@ -25515,7 +25547,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"Stealthed while moving \n Equipped with a Point Defense Laser \n \n Strong vs. enemy base defenses \n Weak vs. enemy fighters"
+"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
 END
 
 GUI:RetaliationTitle
@@ -25755,7 +25787,7 @@ MAP:Defcon6
 END
 
 CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles
-"Raptor and Stealth Fighter missiles do +12% more damage"
+"\n King Raptor - +25% damage \n Stealth Fighter - +25% damage, missiles locked on target \n Comanche - +25% missile damage(not rocket pods)"
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb
