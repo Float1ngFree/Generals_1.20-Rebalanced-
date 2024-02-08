@@ -4587,7 +4587,7 @@ CONTROLBAR:FireAntiTankMissiles
 END
 
 CONTROLBAR:FireRocketPods
-"Fire &Rockets"
+"Fire &Rocket Pods"
 END
 
 CONTROLBAR:FireNapalmMissile
@@ -7059,11 +7059,11 @@ CONTROLBAR:TooltipUSAUpgradeTOW
 END
 
 CONTROLBAR:USAUpgradeRocketPods
-"Enables Comanches to fire rocket barrage \n \n 14 rockets spread semi-randomly in 50 radius \n 37.5(12.5) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time"
+"Enables Comanches to fire rocket barrage \n \n 16 rockets spread semi-randomly in 50 radius \n 36(12) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time"
 END
 
 CONTROLBAR:TooltipUSAUpgradeLaserMissiles
-"\n Raptor - +25% damage \n Stealth Fighter - +25% damage, missiles locked on target \n Comanche - +25% missile damage(not rocket pods)"
+"\n Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods)"
 END
 
 CONTROLBAR:TooltipChinaUpgradeMines
@@ -7223,7 +7223,7 @@ CONTROLBAR:ToolTipUSAFireAntiTankMissiles
 END
 
 CONTROLBAR:ToolTipUSAFireRocketPods
-"Fire a barrage of rockets at the target area"
+"Fire a barrage of rockets at the target area \n \n 16 rockets spread semi-randomly in 50 radius \n 36(12) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time"
 END
 
 CONTROLBAR:ToolTipGLAFireScorpionRocket
@@ -7363,7 +7363,7 @@ CONTROLBAR:ToolTipUSABuildWarFactory
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(400) ground(air) attack range \n 150 request assist radius \n \n Power Required: 3"
+"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(400) ground(air) attack range \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildAirField
@@ -7387,7 +7387,7 @@ CONTROLBAR:ToolTipUSABuildSupplyDropZone
 END
 
 CONTROLBAR:ToolTipGLABuildCommandCenter
-"Commands special weapons. Trains Workers \n \n 5000 hp \n Strong Structure Armor \n When destroyed leaves 500 hp GLA Hole"
+"Commands special weapons. Trains Workers \n \n 5000 hp \n Strong Structure Armor  \n \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABUildDemoTrap
@@ -7403,15 +7403,15 @@ CONTROLBAR:Chem_ToolTipGLABUildDemoTrap
 END
 
 CONTROLBAR:ToolTipGLABuildBarracks
-"Trains GLA soldiers \n \n 1000 hp \n When destroyed leaves 500 hp GLA Hole"
+"Trains GLA soldiers \n \n 1000 hp  \n \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABuildSupplyStash
-"Collects supplies. Trains Workers \n \n 2000 hp \n When destroyed leaves 500 hp GLA Hole"
+"Collects supplies. Trains Workers \n \n 2000 hp  \n \n When destroyed leaves 500 hp GLA Hole"
 END
 
 CONTROLBAR:ToolTipGLABuildArmsDealer
-"Builds GLA vehicles \n \n 2000 hp \n When destroyed leaves 500 hp GLA Hole \n"
+"Builds GLA vehicles \n \n 2000 hp  \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildCommandCenter
@@ -7447,7 +7447,7 @@ CONTROLBAR:ToolTipChinaBuildAirField
 END
 
 CONTROLBAR:ToolTipChinaBuildGattlingCannon
-"Powerful anti-air/infantry base defense \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(350) ground(air) attack range \n \n Power Required: 3"
+"Powerful anti-air/infantry base defense \n Pair of two gattling guns \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(350) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher
@@ -7459,27 +7459,27 @@ CONTROLBAR:ToolTipChinaBuildSpeakerTower
 END
 
 CONTROLBAR:ToolTipGLABuildTunnelNetwork
-"Base defense and underground tunnel. \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 15 dmg over 0.25s \n 175 attack range \n When destroyed leaves 500 hp GLA Hole \n"
+"Base defense and underground tunnel. \n Detects stealth units nearby \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 15 dmg over 0.25s \n 175 attack range \n 150 stealth detection radius \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildPalace
-"Holds important GLA technologies. \n Can be garrisoned by GLA troops \n \n 3000 hp \n 5 fire slots \n When destroyed leaves 500 hp GLA Hole \n"
+"Holds important GLA technologies. \n Can be garrisoned by GLA troops \n \n 3000 hp \n 5 fire slots  \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBlackMarket
-"Secondary income \n Holds important GLA technologies. \n Provides free supplies to the GLA player \n \n 1000 hp \n +$20 every 2s \n When destroyed leaves 500 hp GLA Hole \n"
+"Secondary income \n Holds important GLA technologies. \n Provides free supplies to the GLA player \n \n 1000 hp \n +$20 every 2s  \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildStingerSite
-"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n When destroyed leaves 500 hp GLA Hole \n"
+"Anti-air and anti-tank base defense \n Contains 3 soldiers \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n 200 stealth detection radius(per soldier) \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildStingerSite
-"Anti-air and anti-tank base defense \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dmg/s, 6s, 8(8.5) radius \n When destroyed leaves 500 hp GLA Hole \n"
+"Anti-air and anti-tank base defense \n Contains 3 soldiers \n \n 1000 hp \n 28x3(30x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n Leaves Small Beta(Gamma) Field - 5(6.25) dmg/s, 6s, 8(8.5) radius \n 200 stealth detection radius(per soldier) \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildStingerSite
-"Anti-air and anti-tank base defense \n \n 1000 hp \n 30x3(33x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n When destroyed leaves 500 hp GLA Hole \n"
+"Anti-air and anti-tank base defense \n Contains 3 soldiers \n \n 1000 hp \n 30x3(33x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n 200 stealth detection radius(per soldier) \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildScudStorm
@@ -7575,31 +7575,31 @@ CONTROLBAR:Lazr_ToolTipUSABuildRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildAurora
-"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50%  \n \n Equipped with a Point Defense Laser vs small missiles \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50%  \n \n Equipped with a Point Defense Laser vs small missiles \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
+"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
-"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n 0.5s PDL reload \n"
+"Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range \n 8s airfield reload time  \n 20 scatter radius \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
-"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range"
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildComanche
-"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n Equipped with a Point Defense Laser vs small missiles \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range \n 0.5s PDL reload"
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n Equipped with a Point Defense Laser vs small missiles \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range \n 0.5s PDL reload"
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildComanche
-"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be ugraded to become Stealthed \n \n 200 (240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200(250) gun(missile) attack range"
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be upgraded to become Stealthed \n \n 200 (240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildMissileDefender
@@ -7755,15 +7755,15 @@ CONTROLBAR:ToolTipUSASciencePathFinder
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
-"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
+"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range  \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
-"Spy Drones are camouflaged against enemy sight and radar and reveal enemy positions \n \n Deploy from: Command Center"
+"Ability to deploy stealth surveillance drone that reveals the area and stealth units \n \n 1:30 reload time \n 250 vision radius \n Detects Stealth units \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSAScienceParaDrop
-"Required Level: 2 Star \n \n Drop a group of USA infantry from the air \n \n Rank 1: 3 Rangers, 2 Missile Defenders \n Rank 2: 6 Rangers, 4 Missile Defenders \n Rank 3: 10 Rangers, 8 Missile Defenders, 2 Pathfinders \n \n Deploy from: Command Center"
+"Required Rank: 2 Star \n \n Drop a group of USA infantry from the air \n \n Rank 1: 3 Rangers, 2 Missile Defenders \n Rank 2: 6 Rangers, 4 Missile Defenders \n Rank 3: 10 Rangers, 8 Missile Defenders, 2 Pathfinders \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSAScienceA10Strike
@@ -7819,7 +7819,7 @@ CONTROLBAR:ToolTipGLAScienceRebelAmbush
 END
 
 CONTROLBAR:Slth_ToolTipGLAScienceRebelAmbush
-"Required Level: 2 Star \n \n Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers, 1 Hijacker \n Rank 3: 6 Rebels, 4 RPG Troopers, 1 Hijacker, 1 Saboteur \n \n Deploy from: Command Center"
+"Required Rank: 2 Star \n \n Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers, 1 Hijacker \n Rank 3: 6 Rebels, 4 RPG Troopers, 1 Hijacker, 1 Saboteur \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:Demo_ToolTipGLAScienceRebelAmbush
@@ -13835,7 +13835,7 @@ CONTROLBAR:TooltipUSAUpgradeChemicalSuits
 END
 
 CONTROLBAR:TooltipUSAUpgradeBunkerBusters
-"Upgrades Stealth Fighter missiles. \n Creates secondary explosion that deals additional damage \n \n +200% additional dmg per missile \n Kills garrisoned infantry \n Forces vehicles out of tunnels and damages them"
+"Upgrades Stealth Fighter missiles. \n Creates secondary explosion that deals additional damage \n \n +200 additional dmg per missile \n Kills garrisoned infantry \n Forces vehicles out of tunnels and damages them"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCountermeasures
@@ -13983,7 +13983,7 @@ CONTROLBAR:ToolTipFakeGLABuilding
 END
 
 CONTROLBAR:ToolTipChinaBuildInternetCenter
-"Can contain Hackers to earn money faster: \n \n 8 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Can be upgraded to spy on opponents: \n \n Satellite Hack I - reveals Supply and Command centers \n Satellite Hack II -  briefly reveals all enemy units/buildings \n \n 2500 hp \n \n Power Required: 2"
+"Can contain Hackers to earn money faster: \n \n 8 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Can be upgraded to spy on opponents: \n \n Satellite Hack I - reveals Supply and Command centers \n Satellite Hack II -  briefly reveals all enemy units/buildings \n \n 2500 hp \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipAmericaICBMLauncher
@@ -14015,11 +14015,11 @@ CONTROLBAR:ToolTipUSABuildAvenger
 END
 
 CONTROLBAR:ToolTipUSABuildKingRaptor
-"Upgraded USA Fighter Jet. \n Can engage ground and air targets. \n Detects Stealth (250 range) \n \n 200(240) hp (due to VETERAN) \n 100x6 dmg over 0.375s \n 350 attack range \n 6s airfield reload time"
+"Upgraded USA Fighter Jet. \n Can engage ground and air targets. \n Detects Stealth (250 range) \n \n 200(240) hp (due to VETERAN) \n 100x6 dmg over 0.385s \n 350 attack range \n 6s airfield reload time"
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"Super-sonic Strategic Bomber. Thermobaric Bomb. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 605+500 explosion dmg \n Total of 1105/500/100 dmg in 30/50/70 radius \n 350 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"Super-sonic Strategic Bomber. Thermobaric Bomb. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 720(180)+(580)[100] dmg in 30(50)[70] radius \n Total of 1300/760/100 dmg in 30/50/70 radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -14115,7 +14115,7 @@ CONTROLBAR:ToolTipSelectBattleships
 END
 
 CONTROLBAR:ToolTipChinaScienceTankParadrop
-"Required Level: 2 Star \n \n Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n Deploy from: Command Center"
+"Required Rank: 2 Star \n \n Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceInfantryParadrop
@@ -24703,7 +24703,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n \n Power Required: 3"
+"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
@@ -24939,7 +24939,7 @@ OBJECT:Infa_Helix
 END
 
 CONTROLBAR:Infa_ToolTipChinaScienceInfantryParadrop
-"Required Level: 2 Star \n \n Drop a group of Mini-Gunners and Tank Hunters from the air \n \n Rank 1: 3 Mini-Gunners, 2 Tank Hunters \n Rank 2: 6 Mini-Gunners, 4 Tank Hunters \n Rank 3: 12 Mini-Gunners, 8 Tank Hunters \n \n Deploy from: Command Center"
+"Required Rank: 2 Star \n \n Drop a group of Mini-Gunners and Tank Hunters from the air \n \n Rank 1: 3 Mini-Gunners, 2 Tank Hunters \n Rank 2: 6 Mini-Gunners, 4 Tank Hunters \n Rank 3: 12 Mini-Gunners, 8 Tank Hunters \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:UpgradeSuicideBomb
@@ -25047,7 +25047,7 @@ OBJECT:Chem_TunnelNetwork
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork
-"Fires a stream of toxin. \n Base defense and underground tunnel. \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 12(15) dmg over 0.08s \n 155 attack range \n When destroyed leaves 500 hp GLA Hole \n"
+"Fires a stream of toxin. \n Base defense and underground tunnel. \n Detects stealth units nearby \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 12(15) dmg over 0.08s \n 155 attack range \n 150 stealth detection radius \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:UpgradeStealthComanche
@@ -25083,7 +25083,7 @@ DIALOGEVENT:01_AllCheerSoundSubtitle
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Turrets \n \n 40x3 instant dmg over 2.5s \n 225(350) ground(air) attack range \n 150 request assist radius \n \n Power Required: 5"
+"Ground and air defense. \n Can relay position of enemy to nearby Turrets \n \n 40x3 instant dmg over 2.5s \n 225(350) ground(air) attack range \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 5"
 END
 
 CONTROLBAR:Lazr_ConstructAmericaPatriotBattery
@@ -25431,7 +25431,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, Aurora speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450x1 bomb dmg (bonus to structures) \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, Aurora speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
@@ -25547,7 +25547,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 100x2 dmg over 0.4s \n 320 attack range \n 8s airfield reload time \n"
+"Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120x2 dmg over 0.455s \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 GUI:RetaliationTitle
@@ -25787,7 +25787,7 @@ MAP:Defcon6
 END
 
 CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles
-"\n King Raptor - +25% damage \n Stealth Fighter - +25% damage, missiles locked on target \n Comanche - +25% missile damage(not rocket pods)"
+"\n King Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods)"
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb
