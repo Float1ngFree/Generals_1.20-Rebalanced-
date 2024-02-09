@@ -7019,7 +7019,7 @@ CONTROLBAR:TooltipSell
 END
 
 CONTROLBAR:TooltipNukeReactorOverCharge
-"Damage the reactor to create 50% more power"
+"Damage the reactor to create 50% more power \n \n Deals 3% dmg/s to itself \n Stops when hp drops below 10% \n"
 END
 
 CONTROLBAR:TooltipCancelUpgrade
@@ -7035,7 +7035,7 @@ CONTROLBAR:TooltipUSAUpgradeDroneARmor
 END
 
 CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods
-"Reactor provides 100% more power"
+"\n +20% hp \n +100% additional power"
 END
 
 CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades
@@ -7343,7 +7343,7 @@ CONTROLBAR:ToolTipUSABuildCommandCenter
 END
 
 CONTROLBAR:ToolTipUSABuildPowerPlant
-"Provides power for USA bases \n \n 800 hp \n \n Power Supplied: 5"
+"Provides power for USA bases \n \n 800(1000) hp \n \n Power Supplied: 5"
 END
 
 CONTROLBAR:ToolTipUSABuildBarracks
@@ -7555,7 +7555,7 @@ CONTROLBAR:Lazr_ToolTipUSABUildChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinook
-"Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 420 hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
+"Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 350(420) hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
 END
 
 CONTROLBAR:ToolTipChinaBuildSupplyTruck
@@ -7599,7 +7599,7 @@ CONTROLBAR:Lazr_ToolTipUSABuildComanche
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildComanche
-"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be upgraded to become Stealthed \n \n 200 (240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
+"Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be upgraded to become Stealthed \n \n 200(240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildMissileDefender
@@ -14047,7 +14047,7 @@ CONTROLBAR:ToolTipUSABuildPointDefenseDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildHelix
-"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Napalm Bomb \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
+"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Napalm Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 CONTROLBAR:ToolTipChinaBuildListeningOutpost
@@ -24687,7 +24687,7 @@ TOOLTIP:Community
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildHelix
-"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Nuke Bomb \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
+"Heavy transport Helicopter, equipped with 20mm gun \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Nuke Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 MAP:CHI01xListeningPostHint01
@@ -24931,7 +24931,7 @@ CONTROLBAR:Infa_ConstructChinaVehicleHelix
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHelix
-"Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n Can be modified with either Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 400 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
+"Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n Can be modified with either Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 480 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
 END
 
 OBJECT:Infa_Helix
@@ -24963,7 +24963,7 @@ CONTROLBAR:AirF_ConstructAmericaVehicleChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinookCombat
-"Assault Transport helicopter. \n Infantry can attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 420 hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
+"Assault Transport helicopter. \n Infantry can attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
 END
 
 CONTROLBAR:SuicideAttack
@@ -24979,7 +24979,7 @@ CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks
 END
 
 CONTROLBAR:Boss_ToolTipUSABuildPowerPlant
-"Provides power for bases \n \n 800 hp \n \n Power Supplied: 5"
+"Provides power for bases \n \n 800(1000) hp \n \n Power Supplied: 5"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildListeningOutpost
@@ -25067,7 +25067,7 @@ CONTROLBAR:Boss_TooltipChinaUpgradeNationalism
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant
-"Provides power for USA bases \n \n 800 hp \n \n Power Supplied: 8"
+"Provides power for USA bases \n \n 800(1000) hp \n \n Power Supplied: 8"
 END
 
 GUI:DoubleClickAttackMove
@@ -25543,7 +25543,7 @@ CREDITS:NACustomerQualityControl
 END
 
 CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
-"Reactor provides 300% more power"
+"\n +20% hp \n +300% additional power"
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
