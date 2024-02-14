@@ -7363,7 +7363,7 @@ CONTROLBAR:ToolTipUSABuildWarFactory
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(400) ground(air) attack range \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 3"
+"Ground and air defense \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(425) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildAirField
@@ -24703,7 +24703,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Patriots \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 250(375) ground(air) attack range \n Disables vehicles in 10 radius \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 3"
+"Ground and air defense \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
@@ -25083,7 +25083,7 @@ DIALOGEVENT:01_AllCheerSoundSubtitle
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery
-"Ground and air defense. \n Can relay position of enemy to nearby Turrets \n \n 40x3 instant dmg over 2.5s \n 225(350) ground(air) attack range \n 150 request assist radius \n 200 stealth detection radius \n \n Power Required: 5"
+"Ground and air defense \n \n 40x3 instant dmg over 2.5s \n 225(375) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 5"
 END
 
 CONTROLBAR:Lazr_ConstructAmericaPatriotBattery
@@ -25360,6 +25360,10 @@ END
 
 CONTROLBAR:Nuke_TooltipCarpetBomb
 "Nuke a target area \n \n Countdown Timer: 3:00"
+END
+
+CONTROLBAR:AirF_TooltipCarpetBomb
+"Carpet Bomb target area \n \n Countdown Timer: 3:30"
 END
 
 GUI:FastForwardInstructions
@@ -25791,6 +25795,29 @@ CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb
-"Allows you to call in a B2 Stealth Bomber to carpet bomb an area \n \n Deploy from: Strategy Center"
+"Allows you to call in a B2 Bomber to carpet bomb an area \n \n 3:30 reload time \n 1000 hp \n Drops 10 bombs in a line \n 300 dmg/bomb in 50 radius \n \n Deploy from: Strategy Center"
 END
 
+SCIENCE:USAAvenger
+"Avenger"
+END
+
+CONTROLBAR:AirF_ToolTipUSAScienceAvenger
+"Add description when editing unit itself"
+END
+
+SCIENCE:USATomahawk
+"Tomahawk"
+END
+
+CONTROLBAR:ToolTipUSATomahawk
+"Add description when editing unit itself"
+END
+
+SCIENCE:ChinaInfernoCannon
+"Inferno Cannon"
+END
+
+CONTROLBAR:ToolTipChinaInfernoCannon
+"Add description when editing unit itself"
+END
