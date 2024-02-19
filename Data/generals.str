@@ -7447,7 +7447,7 @@ CONTROLBAR:ToolTipChinaBuildAirField
 END
 
 CONTROLBAR:ToolTipChinaBuildGattlingCannon
-"Powerful anti-air/infantry base defense \n Pair of two gattling guns \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(350) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
+"Powerful anti-air/infantry base defense \n Pair of two gattling guns \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(400) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher
@@ -7635,7 +7635,7 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"Chinese Fighter Jet. \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n 140(160) hp (MiG Armor) \n 80(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+"Chinese Fighter Jet. \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n 140(160) hp (MiG Armor) \n 90(20) dmg in 6(20) radius \n Black Napalm - 105(25) dmg in 7.5(25) radius \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildMIG
