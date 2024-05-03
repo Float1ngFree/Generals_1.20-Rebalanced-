@@ -4003,7 +4003,11 @@ CONTROLBAR:TempDescription
 END
 
 CONTROLBAR:CleanupAreaDescription
-"Automatically cleans up bio toxins and radiation in area surrounding target location"
+"Automatically cleans toxins and radiation in surrounding target area \n Multiple streams stack(clean proportionally faster) \n \n Deals 1000 dmg/s to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.05s/0.1s/0.2s/0.1s \n Medium - 0.5s/1s/2s/1.25s \n Large - 4s/8s/16s \n AnthraxBomb & Nuke - 10s/12s/16s/20s"
+END
+
+CONTROLBAR:CleanupAreaDescriptionTractor
+"Clean up toxins and radiation in target area \n Multiple streams stack(clean proportionally faster) \n \n Will continue to spray until ordered to stop! \n \n Deals 750 dmg/s to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.06s/0.13s/0.26s/0.13s \n Medium - 0.66s/1.33s/2.66s/1.66s \n Large - 5.33s/10.66s/21.33s \n AnthraxBomb & Nuke - 13.33s/16s/21.33s/26.66s"
 END
 
 CONTROLBAR:ConstructAmericaCommandCenter
@@ -6994,7 +6998,7 @@ CONTROLBAR:TooltipDemoTrapDetonate
 "Explode demo trap"
 END
 
-CONTROLBAR:TooltipMissileDefenderLaser
+CONTROLBAR:TooltipMissileDefenderLaserLock
 "Laser-lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range"
 END
 
@@ -7071,15 +7075,15 @@ CONTROLBAR:TooltipChinaUpgradeMines
 END
 
 CONTROLBAR:TooltipUpgradeChinaOverlordGattlingCannon
-"\n Build a Gattling Cannon on this Overlord \n \n 20s build time"
+"\n Build a Gattling Cannon on this Overlord \n \n Powerful anti-air/infantry defense \n Pair of two gattling guns \n Can be upgraded with Chain Guns(+25% dmg) \n \n 10(5 air) dmg every 0.25/0.125/0.083s \n 225(400) ground(air) attack range \n 200 stealth detection radius \n \n 20s build time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaOverlordPropagandaTower
-"\n Build a Propaganda Tower on this Overlord \n \n 10s build time"
+"\n Build a Propaganda Tower on this Overlord \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 150 effect radius \n \n 10s build time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaOverlordBattleBunker
-"\n Build a Bunker on this Overlord. Bunker can be occupied by your soldiers"
+"not used"
 END
 
 CONTROLBAR:TooltipChinaUpgradeRadar
@@ -7087,27 +7091,27 @@ CONTROLBAR:TooltipChinaUpgradeRadar
 END
 
 CONTROLBAR:TooltipChinaUpgradeNationalism
-"+25% to Horde bonus for Red Guard, Tank Hunter and Battlemaster"
+"\n Improves Horde bonus for Red Guard, Tank Hunter and Battlemaster: \n \n +20% additional Rate Of Fire \n \n Total bonus: \n +20% Damage \n +45% Rate Of Fire \n \n 40s upgrade time"
 END
 
 CONTROLBAR:TooltipChinaUpgradeBlackNapalm
-"+25% damage to all flame weapons"
+"\n +25% damage to all flame weapons \n +25% damage to Firestorm(480->600) \n +25% damage radius for Napalm Missiles, Bombs and Shells \n \n 45s upgrade time"
 END
 
 CONTROLBAR:TooltipChinaUpgradeChainGuns
-"+25% damage to all gattling weapons"
+"\n +25% damage to all Gattling Tank and Cannons \n Also applies to Helix and Overlord build-ons \n \n 45s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaSubliminal
-"+25% to Speaker Tower bonuses"
+"\n Increases Speaker Tower propaganda effect: \n \n +50% Healing/Repair rate \n +15% additional Damage \n \n Total bonus: \n +15% Damage \n +25% Rate Of Fire \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaUraniumShells
-"+25% shot damage on Battlemaster and Overlord"
+"\n +25%(20% for Nuke General) Damage for Battlemaster and Overlord shells \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaNuclearTanks
-"Improves Overlord and Battlemaster speed"
+"\n +25% Overlord and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaStunBullets
@@ -7303,7 +7307,7 @@ CONTROLBAR:ToolTipChinaDragonTankFire
 END
 
 CONTROLBAR:TooltipFireWall
-"Lay down an arc of fire on targeted area"
+"Continuously lay down an arc of flame \n Zone out enemy or destroy buildings \n \n Can be upgraded by Black Napalm(+25% Damage) \n \n 25 attack range \n Creates a 160 radius 120 degree arc of flame \n Releases flame streams every 0.04s \n Streams propagate forward dealing 4(5) dmg in 10 radius every 0.25s \n Damage stacks"
 END
 
 CONTROLBAR:ToolTipPickUpPrisoner
@@ -7419,7 +7423,7 @@ CONTROLBAR:ToolTipChinaBuildCommandCenter
 END
 
 CONTROLBAR:ToolTipChinaBuildPowerPlant
-"\n Chinese power plant. \n Can be overloaded to provide +50% power \n \n 1500 hp \n \n Power Supplied: 10"
+"\n Chinese power plant \n Explodes when destroyed \n \n Can be overloaded to provide +50% power \n \n 1500 hp \n \n Death Explosion: \n 400(100) dmg in 50(75) radius \n \n Power Supplied: 10"
 END
 
 CONTROLBAR:ToolTipChinaBuildBarracks
@@ -7439,7 +7443,7 @@ CONTROLBAR:ToolTipChinaBuildBunker
 END
 
 CONTROLBAR:ToolTipChinaBuildPropagandaCenter
-"\n Can contain Hackers to earn money faster: \n \n 4 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Builds important Chinese technologies. \n \n 1500 hp \n 200 radius Propaganda Tower effect \n \n Power Required: 2"
+"\n Can contain Hackers to earn money faster: \n \n 4 Hacker slots \n -25% Internet Hack time (2s->1.5s) \n \n Builds important Chinese technologies. \n \n 1500 hp \n 200 radius Speaker Tower effect \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipChinaBuildAirField
@@ -7447,15 +7451,15 @@ CONTROLBAR:ToolTipChinaBuildAirField
 END
 
 CONTROLBAR:ToolTipChinaBuildGattlingCannon
-"\n Powerful anti-air/infantry base defense \n Pair of two gattling guns \n \n 1000 hp \n 10(12 air) dmg over 0.4/0.2/0.13s \n 225(400) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Powerful anti-air/infantry base defense \n Pair of two gattling guns \n \n Can be upgraded with Chain Guns(+25% dmg) \n \n 1000 hp \n 10(5 air) dmg every 0.25/0.125/0.083s \n 225(400) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipChinaBuildNuclearMissileLauncher
-"\n Launches a nuclear missile. \n Builds important Chinese upgrades \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 10"
+"\n Launches a nuclear missile \n Builds important Chinese upgrades \n Explodes when destroyed \n \n 4000 hp \n Strong Structure Armor \n \n Death Explosion: \n 400(100) dmg in 50(75) radius \n \n Power Required: 10"
 END
 
 CONTROLBAR:ToolTipChinaBuildSpeakerTower
-"\n Heals your forces and increases firing speed \n Effect can be upgraded by (Subliminal Messaging) \n \n 150 effect radius \n 2(3)% heal/repair \n +25% Rate of Fire \n (+15% Damage) \n \n Power Required: 1"
+"\n Heals your forces and increases damage output \n Effect can be upgraded by (Subliminal Messaging) \n \n 150 effect radius \n 2(3)% hp/s heal/repair \n +25% Rate of Fire \n (+15% Damage) \n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipGLABuildTunnelNetwork
@@ -7519,11 +7523,15 @@ CONTROLBAR:ToolTipGLABuildRadarVan
 END
 
 CONTROLBAR:ToolTipChinaBuildOverlord
-"Strong vs. vehicles, buildings \n Weak vs. rocket-armed infantry, aircraft"
+"\n Super-Heavy Chinese tank \n \n Can be modified with Gattling Cannon or Speaker Tower \n Can be upgraded with Uranium Shells and Nuclear Drive(+25% speed) \n \n 1100 hp \n 2x80(100) dmg in 0.4s every 2.1s \n 175 attack range \n"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildOverlord
+"\n Nuclear upgraded Super-Heavy Chinese tank \n 66(33)% faster than regular(upgraded) Overlord \n Shells leave small radiation field \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be modified with Gattling Cannon or Speaker Tower \n Can be upgraded with Uranium Shells and Isotope Stability \n \n 1100 hp \n 2x80(96) dmg in 0.4s every 2.1s \n 175 attack range \n Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildGattlingTank
-"Strong vs. infantry, aircraft \n Weak vs. tanks"
+"\n Chinese Anti-Air tank \n Can shoot down Cruise Missiles \n \n Continuous attack increases Rate Of Fire \n Can be upgraded with Chain Guns(+25% dmg) \n \n 300 hp \n 12(10 air) dmg every 0.285/0.1875/0.125s \n 155(350) ground(air) attack range"
 END
 
 CONTROLBAR:ToolTipGLABuildRebel
@@ -7539,7 +7547,7 @@ CONTROLBAR:Demo_ToolTipGLABuildRebel
 END
 
 CONTROLBAR:ToolTipChinaBuildRedguard
-"\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus when in groups of 5 or more \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildHacker
@@ -7623,7 +7631,7 @@ CONTROLBAR:ToolTipUSABuildHumvee
 END
 
 CONTROLBAR:ToolTipUSABuildMedic
-"\n Infantry transport vehicle \n Heals vehicles and soldiers within 100 range \n Cleans up radiation and toxins \n If destroyed, passengers will escape with 50% hp \n \n Can be equipped with Scout or Hellfire Drone \n \n 240 hp \n 3 transport slots \n 100 hazard cleanup range \n Infantry - heals 5 hp every 2s \n Vehicles - repairs 7 hp every 2s"
+"\n Infantry transport vehicle \n Heals vehicles and soldiers within 100 range \n Cleans up radiation and toxins \n If destroyed, passengers will escape with 50% hp \n \n Can be equipped with Scout or Hellfire Drone \n \n 240 hp \n Well protected vs toxin(1%) & radiation(5%) \n 3 transport slots \n 100 hazard cleanup range \n Infantry - heals 5 hp every 2s \n Vehicles - repairs 7 hp every 2s"
 END
 
 CONTROLBAR:ToolTipUSABuildScoutDrone
@@ -7635,11 +7643,11 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet. \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n 140(160) hp (MiG Armor) \n 90(20) dmg in 6(20) radius \n Black Napalm - 105(25) dmg in 7.5(25) radius \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 90(20) dmg in 6(20) radius \n Black Napalm - 105(25) dmg in 7.5(25) radius \n +40(50) napalm(Black) dmg in 20(25) radius over 2.5s \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet. \n Equipped with 4 Radioactive Missiles \n Can be upgraded to carry 2 Tactical Nuke Missiles \n \n 140(160) hp (MiG Armor) \n 100(35) dmg in 5(20) radius \n 4 radioactive missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n Leaves Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius"
+"\n Chinese Fighter Jet \n Equipped with 4 Radioactive Missiles \n Can be upgraded with MiG Armor and Tactical Nuke Missiles \n \n 140(160) hp (MiG Armor) \n 100(35) dmg in 5(20) radius \n 4 radioactive missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius \n \n Tactical Nuke Missiles(Nuke Silo): \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time"
 END
 
 CONTROLBAR:ToolTipChinaBuildBlackLotus
@@ -7647,27 +7655,31 @@ CONTROLBAR:ToolTipChinaBuildBlackLotus
 END
 
 CONTROLBAR:ToolTipChinaBuildTankHunter
-"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus when in groups of 5 or more \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildTankHunter
-"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Nationalism(Patriotism) bonus when in groups of 5 or more \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n Horde Bonus: +45% Rate of Fire, +20(35)% Damage"
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Nationalism(Patriotism) bonus in groups of 5+ \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
-"Creates a fire-storm in large groups \n \n Strong vs. base defenses, infantry \n Weak vs. tanks, aircraft"
+"\n Chinese self propelled artillery \n Can switch between Regular/Napalm shells \n \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range \n 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range \n 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
-"Strong vs. buildings, infantry \n Weak vs. tanks, aircraft"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildNukeLauncher
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be upgraded with Neutron Shells and Isotope Stability \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildTroopCrawler
-"Transport. Comes with 8 Red Guard. Detects stealth units \n \n Strong vs. infantry, buildings \n Weak vs. tanks, aircraft"
+"\n Chinese Armored Personal Carrier \n Comes with 8 Red Guards \n Infantry CANNOT attack from inside(needs to exit) \n Detects stealth units within 200 radius \n \n 240 hp \n 8 infantry transport slots \n Attack orders infantry to exit and engage the target \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
 END
 
 CONTROLBAR:ToolTipChinaBuildDragonTank
-"Can burn soldiers out of buildings. Can create a wall of flame \n \n Strong vs. infantry, buildings \n Weak vs. tanks, aircraft"
+"\n Chinese Flamethrower tank \n Can burn infantry out of neutral buildings \n Can create Flame Wall \n \n Can clean radiation and toxins! \n Can be upgraded with (Black Napalm) \n \n 280 hp \n Immune to Fire damage \n Well protected vs toxin(10%) & radiation(5%) \n 10(12.5) flame dmg every 0.04s \n 75 attack range \n \n Flame Wall: \n 25 attack range \n Creates a 160 radius 120 degree arc of flame \n Releases flame streams every 0.04s \n Streams propagate forward dealing 4(5) dmg in 10 radius every 0.25s \n Damage stacks"
 END
 
 CONTROLBAR:ToolTipGLABuildTerrorist
@@ -7719,7 +7731,15 @@ CONTROLBAR:ToolTipGLABuildToxinTruck
 END
 
 CONTROLBAR:ToolTipChinaBuildBattlemaster
-"Gains Horde bonus when in groups of 5 or more \n \n Strong vs. tanks, buildings \n Weak vs. infantry, aircraft"
+"\n Base Chinese tank \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Uranium Shells and Nuclear Drive(+25% speed) \n \n 400 hp \n 56(70) dmg (Uranium Shells) every 2s \n 165 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildBattlemaster
+"\n Nuclear upgraded Chinese tank \n 60(28)% faster than regular(upgraded) Battlemaster \n Shells leave small radiation field \n Explodes when destroyed(removed by Isotope Stability) \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Uranium Shells and Isotope Stability \n \n 400 hp \n 55(66) dmg (Uranium Shells) every 2s \n 165 attack range \n Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+END
+
+CONTROLBAR:Tank_ToolTipChinaBuildBattlemaster
+"\n Base Chinese tank \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Autoloader, Uranium Shells and Nuclear Drive(+25% speed) \n \n 400(480) hp (due to VETERAN) \n 56(70) dmg (Uranium Shells) every 2s OR \n 3x37(46.25) within 1.25s every 1.75s with Autoloader \n 165 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipGLABuildMarauder
@@ -7775,7 +7795,7 @@ CONTROLBAR:ToolTipUSAScienceDaisyCutter
 END
 
 CONTROLBAR:ToolTipChinaScienceNukeCannon
-"Nuke Cannons lob small tactical nukes great distances \n \n Build at: War Factory \n Requires: Propaganda Center"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n \n Build at: War Factory \n Requires: Propaganda Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceRedGuardTraining
@@ -7999,7 +8019,7 @@ CONTROLBAR:ToolTipSwitchToRebelMachineGun
 END
 
 CONTROLBAR:ToolTipSwitchToUSAFlashBang
-"Use Flash-Bang grenades \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range \n Kills 1 enemy soldier in civilian buildings"
+"Switch to use Flash-Bang grenades \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range \n Kills 1 enemy soldier in civilian buildings"
 END
 
 CONTROLBAR:ToolTipSwitchToChinaStunBullets
@@ -12143,7 +12163,7 @@ UPGRADE:UpgradeChinaIsotopeStability
 END
 
 CONTROLBAR:TooltipUpgradeChinaIsotopeStability
-"Prevents most collateral radiation from harming friendly units when vehicles are destroyed"
+"\n Nuclear Reactors, Battlemasters, Overlords and Nuke Cannons no longer explode or leave radiation fields when destroyed \n \n Prevents friendly damage"
 END
 
 OBJECT:SecretResearchLab
@@ -13848,11 +13868,11 @@ CONTROLBAR:TooltipUSAUpgradeCountermeasures
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon
-"\n Build a Gattling Cannon on this Helix \n \n 20s build time"
+"\n Build a Gattling Cannon on this Helix \n \n Pair of two gattling guns \n Can NOT attack air targets! \n Can be upgraded with Chain Guns(+25% dmg) \n \n 10 dmg every 0.25/0.125/0.083s \n 225 ground attack range \n 200 stealth detection radius \n \n 20s build time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower
-"\n Build a Propaganda Tower on this Helix \n \n 10s build time"
+"\n Build a Propaganda Tower on this Helix \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 150 effect radius \n \n 10s build time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker
@@ -13868,7 +13888,7 @@ CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo
 END
 
 CONTROLBAR:TooltipChinaUpgradeFanaticism
-"Additional +25% to Horde bonus"
+"\n Improves Nationalism bonus for Mini-Gunners and Tank Hunters: \n \n +15% additional Damage \n \n Total bonus: \n +35% Damage \n +45% Rate Of Fire \n \n 40s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaWGUraniumShells
@@ -13876,11 +13896,11 @@ CONTROLBAR:TooltipUpgradeChinaWGUraniumShells
 END
 
 CONTROLBAR:TooltipUpgradeChinaTankAutoLoader
-"Battlemaster receives an increased rate of fire"
+"\n Increases Battlemaster Rate Of Fire: \n \n Replaces single shot(56 dmg every 2s) with 3x37 within 1.25s every 1.75s \n ~32% dps increase \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
-"Upgrades Nuke Cannon to fire Neutron Shells \n Neutron Shells will kill infantry in vehicles"
+"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n 70 effect radius \n Kills all units inside tunnels \n Kills vehicle pilots and passengers \n Kills infantry, including inside ANY building"
 END
 
 CONTROLBAR:ToolTipUpgradeChinaEMPMines
@@ -13888,7 +13908,7 @@ CONTROLBAR:ToolTipUpgradeChinaEMPMines
 END
 
 CONTROLBAR:TooltipUpgradeChinaFusionReactors
-"Improves Emperor and Battlemaster speed"
+"\n +25% Emperor and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dmg/s, 7.5s, 15 radius \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipDetonateFakebuilding
@@ -13952,11 +13972,11 @@ CONTROLBAR:ToolTipDropNapalmBomb
 END
 
 CONTROLBAR:ToolTipChinaNukeWarhead
-"Load the Nuclear Shells"
+"Switch to Nuclear Shells \n \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius"
 END
 
 CONTROLBAR:ToolTipChinaNeutronWarhead
-"Load the Neutron Shells"
+"Switch to fire Neutron Shells \n \n 70 effect radius \n Kills all units inside tunnels \n Kills vehicle pilots and passengers \n Kills infantry, including inside ANY building"
 END
 
 CONTROLBAR:ToolTipFireBattleship
@@ -13976,7 +13996,7 @@ CONTROLBAR:ToolTipGLAFireRebelBoobyTrapAttack
 END
 
 CONTROLBAR:ToolTipUSABuildFireBase
-"\n Ground defense. \n Garrisonable by 4 infantry units \n \n 1000 hp \n 4 open fire slots \n 90(18) dmg in 10(25) radius over 3s \n 275 attack range \n Garrisoned units die with building \n"
+"\n Ground defense. \n Garrisonable by 4 infantry units \n \n 1000 hp \n 4 open fire ports \n 90(18) dmg in 10(25) radius over 3s \n 275 attack range \n Garrisoned units die with building \n"
 END
 
 CONTROLBAR:ToolTipUSABuildArtilleryPlatform
@@ -14012,7 +14032,7 @@ CONTROLBAR:ToolTipChinaBuildPropagandaTrooper
 END
 
 CONTROLBAR:ToolTipChinaBuildMiniGunner
-"\n Upgraded Chinese gun infantry \n Can attack air units \n Gains Nationalism(Patriotism) bonus when in groups of 5 or more \n \n 130(156) hp (due to VETERAN) \n 9(5) ground(air) dmg over 0.5/0.25/0.16s \n 135(225) ground(air) attack range \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
+"\n Upgraded Chinese gun infantry \n Can attack air units \n Gains Nationalism(Patriotism) bonus in groups of 5+ \n \n 130(156) hp (due to VETERAN) \n 9(5) ground(air) dmg over 0.5/0.25/0.16s \n 135(225) ground(air) attack range \n \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
 END
 
 CONTROLBAR:ToolTipUSABuildAvenger
@@ -14036,7 +14056,7 @@ CONTROLBAR:ToolTipGLABuildSniper
 END
 
 CONTROLBAR:ToolTipUSABuildMicrowave
-"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Damages nearby infantry when beam is not activated \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 10 dmg every 0.25s in 100 radius(around tank) \n 200(125) disable(clear) building range"
+"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Damages nearby infantry when beam isn't activated \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 10 dmg every 0.25s in 100 radius(around tank) \n 200(125) disable(clear) building range"
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
@@ -14052,15 +14072,15 @@ CONTROLBAR:ToolTipUSABuildPointDefenseDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildHelix
-"\n Heavy transport Helicopter, equipped with 20mm gun \n \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Napalm Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
+"\n Heavy transport Helicopter, equipped with 20mm gun \n \n Can be modified with either Gattling Cannon, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Napalm Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 CONTROLBAR:ToolTipChinaBuildListeningOutpost
-"Transport. Detects stealth units \n \n Weak vs. tanks, aircraft"
+"\n Reconnaissance & Infantry Transport vehicle \n Stealthed(2s delay) while not moving/attacking \n \n Comes with 2 Tank Hunters \n Infantry CAN attack from inside! \n Detects stealth units within 300 radius \n \n 240 hp \n 2 infantry fire ports"
 END
 
 CONTROLBAR:ToolTipChinaBuildECM
-"Strong vs. tanks, vehicles \n Weak vs. infantry, aircraft"
+"\n Electronic Countermeasures tank \n \n Can disable vehicle with focused beam \n Deflects incoming missiles when not using disabling beam \n \n 300 hp \n 150 missile deflection radius \n 200 vehicle disabler range \n Will not deflect missiles while disabling vehicles \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBattleBus
@@ -14080,7 +14100,7 @@ CONTROLBAR:ToolTipChinaScienceTankHunterTraining
 END
 
 CONTROLBAR:ToolTipChinaScienceBattlemasterTraining
-"All Battlemasters will be built as elite"
+"\n All Battlemasters will be built as elite(vet 2) \n \n +10% Rate Of Fire, Damage and HP \n Will repair itself (5hp/s) if no dmg taken in 5s"
 END
 
 CONTROLBAR:ToolTipChinaScienceOverlordTraining
@@ -14120,7 +14140,7 @@ CONTROLBAR:ToolTipSelectBattleships
 END
 
 CONTROLBAR:ToolTipChinaScienceTankParadrop
-"Required Rank: 2 Star \n \n Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n Deploy from: Command Center"
+"Required Rank: 2 Star \n \n Drop Battlemasters from the air \n \n Rank 1: 1 Battlemaster \n Rank 2: 2 Battlemasters \n Rank 3: 4 Battlemasters \n \n 4:00 reload time \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceInfantryParadrop
@@ -24692,7 +24712,7 @@ TOOLTIP:Community
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildHelix
-"\n Heavy transport Helicopter, equipped with 20mm gun \n \n Can be modified with either Gattling Gun, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Nuke Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
+"\n Heavy transport Helicopter, equipped with 20mm gun \n \n Can be modified with either Gattling Cannon, Bunker or Speaker Tower \n Can be upgraded with Countermeasures and Nuke Bomb \n \n 400(480) hp (with bunker) \n 6 gun dmg every 0.1s \n 135 attack range \n 5 transport slots (Bunker allows to fire)"
 END
 
 MAP:CHI01xListeningPostHint01
@@ -24936,7 +24956,7 @@ CONTROLBAR:Infa_ConstructChinaVehicleHelix
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHelix
-"\n Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n \n Can be modified with either Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 480 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
+"\n Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n \n Can be modified with Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 480 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
 END
 
 OBJECT:Infa_Helix
@@ -24968,7 +24988,7 @@ CONTROLBAR:AirF_ConstructAmericaVehicleChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinookCombat
-"\n Assault Transport helicopter. \n Infantry can attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
+"\n Assault Transport helicopter. \n Infantry CAN attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
 END
 
 CONTROLBAR:SuicideAttack
@@ -24980,7 +25000,7 @@ CONTROLBAR:ToolTipGLASuicideAttack
 END
 
 CONTROLBAR:Tank_TooltipUpgradeChinaNuclearTanks
-"+25% Emperor and Battlemaster speed"
+"not used"
 END
 
 CONTROLBAR:Boss_ToolTipUSABuildPowerPlant
@@ -24996,11 +25016,11 @@ CONTROLBAR:Nuke_ConstructChinaVehicleListeningOutpost
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildTroopCrawler
-"\n Assault Transport. Comes with 8 Mini-Gunners. Detects stealth units \n \n Strong vs. infantry, buildings \n Weak vs. tanks, aircraft"
+"\n Assault Chinese Armored Personal Carrier \n Comes with 8 Mini-Gunners \n Infantry CAN attack from inside! \n Detects stealth units within 200 radius \n \n 360 hp \n 8 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildListeningOutpost
-"\n Transport. Holds 8 infantry units. Detects stealth units \n \n Strong vs. infantry, buildings \n Weak vs. tanks, aircraft"
+"\n Assault Infantry Transport vehicle \n Stealthed(2s delay) while not moving/attacking \n \n Comes with 3 Tank Hunters \n Infantry CAN attack from inside! \n Detects stealth units within 300 radius \n \n 300 hp \n 6 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
 END
 
 CONTROLBAR:Infa_ConstructChinaBunker
@@ -25052,7 +25072,7 @@ OBJECT:Chem_TunnelNetwork
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTunnelNetwork
-"\n Fires a stream of toxin. \n Base defense and underground tunnel. \n Detects stealth units nearby \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 12(15) dmg over 0.08s \n 155 attack range \n 150 stealth detection radius \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Fires a stream of toxin. \n Base defense and underground tunnel. \n Detects stealth units nearby \n Units can enter the Tunnel Network and exit at any other Tunnel \n \n 1000 hp \n 12(15) dmg every 0.08s \n 155 attack range \n 150 stealth detection radius \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:UpgradeStealthComanche
@@ -25108,7 +25128,7 @@ CONTROLBAR:Lazr_ToolTipUSABuildCrusader
 END
 
 CONTROLBAR:ToolTipChinaBuildEmperor
-"Strong vs. vehicles, buildings \n Weak vs. rockets, aircraft"
+"\n Upgraded Super-Heavy Chinese tank \n Comes with built-in Speaker Tower \n \n Can be modified with Gattling Cannon \n Can be upgraded with Subliminal Messaging, Uranium Shells and Nuclear Drive(+25% speed) \n \n 1100(1320) hp (due to VETERAN) \n 2x76(95) dmg in 0.3s every 2.2s \n 175 attack range \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n"
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceSpectreGunship
@@ -25172,7 +25192,7 @@ MAP:MD_CHI03-Event-Built-SpeakerTower-01
 END
 
 CONTROLBAR:Tank_TooltipUpgradeChinaUraniumShells
-"+25% shot damage on Battlemaster and Emperor"
+" +25% Damage for Battlemaster and Emperor shells  \n \n 60s upgrade time"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo
@@ -25300,7 +25320,7 @@ TOOLTIP:FireWallPort
 END
 
 CONTROLBAR:Tank_TooltipUpgradeChinaOverlordGattlingCannon
-"Build a Gattling Cannon on this Emperor"
+"\n Build a Gattling Cannon on this Emperor \n \n Powerful anti-air/infantry defense \n Pair of two gattling guns \n Can be upgraded with Chain Guns(+25% dmg) \n \n 10(5 air) dmg every 0.25/0.125/0.083s \n 225(400) ground(air) attack range \n 200 stealth detection radius \n \n 20s build time"
 END
 
 OBJECT:Tank_Overlord
@@ -25356,7 +25376,7 @@ OBJECT:Demo_DemoTrap
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant
-"\n Advanced Nuclear Reactor. \n Can be overloaded to provide 50% more power \n \n 1500 hp \n \n Power Supplied: 18"
+"\n Advanced Nuclear Reactor \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be overloaded to provide 50% more power \n Can be upgraded with Isotope Stability \n \n Death Explosion(removed by Isotope Stability): \n 400(100) dmg in 50(75) radius \n \n 1500 hp \n \n Power Supplied: 18"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb
@@ -25808,7 +25828,7 @@ SCIENCE:USAAvenger
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceAvenger
-"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x10 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range"
+"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x10 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range \n \n Build at: War Factory"
 END
 
 SCIENCE:USATomahawk
@@ -25816,7 +25836,7 @@ SCIENCE:USATomahawk
 END
 
 CONTROLBAR:ToolTipUSATomahawk
-"\n Long range Cruise missile launcher \n Cruise missile does NOT follow the target! \n \n Can be equipped with Scout or Hellfire Drone \n \n 180 hp \n 400(80) dmg in 15(37.5) radius \n 425 attack range \n 25 scatter radius \n 10s reload time \n"
+"\n Long range Cruise missile launcher \n Cruise missile does NOT follow the target! \n \n Can be equipped with Scout or Hellfire Drone \n \n 180 hp \n 400(80) dmg in 15(37.5) radius \n 425 attack range \n 25 scatter radius \n 10s reload time \n \n Build at: War Factory \n Requires: Strategy Center"
 END
 
 SCIENCE:ChinaInfernoCannon
@@ -25824,5 +25844,5 @@ SCIENCE:ChinaInfernoCannon
 END
 
 CONTROLBAR:ToolTipChinaInfernoCannon
-"\n Add description when editing unit itself"
+"\n Chinese self propelled artillery \n Can switch between Regular/Napalm shells \n \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n \n Build at: War Factory"
 END
