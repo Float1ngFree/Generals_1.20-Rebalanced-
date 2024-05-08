@@ -7175,7 +7175,7 @@ CONTROLBAR:ToolTipGLAUpgradeAPBullets
 END
 
 CONTROLBAR:ToolTipGLAUpgradeJunkRepair
-"\n All GLA vehicles will auto-repair when not taking damage \n \n 2 hp/s repair \n 4s start repair delay \n \n 60s upgrade time "
+"\n All GLA vehicles will auto-repair when not taking damage \n \n 2 hp/s repair \n 4s start repair delay \n \n 50s upgrade time "
 END
 
 CONTROLBAR:ToolTipGLAUpgradeCamouflage
@@ -7651,15 +7651,15 @@ CONTROLBAR:ToolTipChinaBuildHacker
 END
 
 CONTROLBAR:ToolTipUSABUildChinook
-"\n Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400 hp \n 8 transport slots \n Can be upgraded with Countermeasures Flares"
+"\n Transport helicopter \n Collects supplies \n Improved armor \n Works with Rangers to perform Combat Drop attack \n \n Can be upgraded with Countermeasures(flares only) \n \n 400 hp \n 8 transport slots"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABUildChinook
-"\n Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n Equipped with a Point Defense Laser vs small missiles \n \n 400 hp \n 8 transport slots \n 0.5s PDL reload"
+"\n Transport helicopter \n Collects supplies \n Improved armor \n Works with Rangers to perform Combat Drop attack \n \n Equipped with a Point Defense Laser vs small missiles \n \n 400 hp \n 8 transport slots \n 0.5s PDL reload"
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinook
-"\n Transport helicopter. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 350(420) hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
+"\n Transport helicopter \n Collects supplies \n Improved armor \n Works with Rangers to perform Combat Drop attack \n \n 350(420) hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
 END
 
 CONTROLBAR:ToolTipChinaBuildSupplyTruck
@@ -7671,39 +7671,39 @@ CONTROLBAR:ToolTipUSABuildPaladin
 END
 
 CONTROLBAR:ToolTipUSABuildRaptor
-"\n USA Fighter Jet \n Can engage ground and air targets \n \n 160 hp \n 100x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time"
+"\n USA Fighter Jet \n Can engage ground and air targets \n Can be upgraded with Countermeasures and Laser Missiles \n \n 160 hp \n 100(125)x4 dmg(Laser Missiles) over 0.375s \n 350 attack range \n 8s airfield reload time"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildRaptor
-"\n USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with a Point Defense Laser vs small missiles \n \n 160 hp \n 100x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time \n 0.5s PDL reload"
+"\n USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with a Point Defense Laser vs small missiles \n Can be upgraded with Countermeasures \n \n 160 hp \n 100(125)x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time \n 0.5s PDL reload"
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50%  \n \n Equipped with a Point Defense Laser vs small missiles \n \n 80 hp \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
+"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range \n 8s airfield reload time  \n 20 scatter radius \n 0.5s PDL reload \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
-"\n Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
+"\n Assault Helicopter \n Fires missiles and cannon, re-arms in the air \n \n Can be upgraded with Countermeasures, Rocket Pods and Laser Missiles \n \n 220 hp \n 6 gun dmg every 0.1s \n 44(55)x4 missile dmg over 1.5s every 15s \n 200 gun and missile attack range"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildComanche
-"\n Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n \n Equipped with a Point Defense Laser vs small missiles \n \n 220 hp \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range \n 0.5s PDL reload"
+"\n Assault Helicopter \n Fires missiles and cannon, re-arms in the air \n Can be equipped with Rocket Pods \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures(armor only) and Rocket Pods \n \n 220 hp \n 6 gun dmg every 0.1s \n 44(55)x4 missile dmg over 1.5s every 15s \n 200 gun and missile attack range \n 0.5s PDL reload"
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildComanche
-"\n Assault Helicopter. \n Fires missiles and cannon. Re-arms in the air \n Can be equipped with Rocket Pods. \n Cab be upgraded to become Stealthed \n \n 200(240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44x4 missile dmg over 1.5s (15s reload) \n 200 gun and missile attack range"
+"\n Assault Helicopter \n Fires missiles and cannon, re-arms in the air \n \n Can be upgraded with Rocket Pods, Laser Missiles and Stealth \n \n 200(240) hp (due to VETERAN) \n 6 gun dmg every 0.1s \n 44(55)x4 missile dmg over 1.5s every 15s \n 200 gun and missile attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildMissileDefender
@@ -7911,7 +7911,7 @@ CONTROLBAR:ToolTipUSASciencePathFinder
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120x2 dmg over 0.455s \n 320 attack range  \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
@@ -8291,7 +8291,7 @@ MESSAGE:BattlePlanSearchAndDestroyInitiated
 END
 
 OBJECT:TechOilRefinery
-"Oil Refinery -- Capture to reduce the cost of vehicles"
+"Oil Refinery -- Capture for -10% vehicles & -5% buildings cost reduction"
 END
 
 OBJECT:SupplyDock
@@ -14008,7 +14008,7 @@ CONTROLBAR:TooltipUSAUpgradeBunkerBusters
 END
 
 CONTROLBAR:TooltipUSAUpgradeCountermeasures
-"\n All aircraft gain ability to shoot Flares evading 30% of missiles fired at them. \n \n \n MiG, Helix, Chinook - enables Flares (except Laser) \n \n Comanche - enables Flares (except Laser) and improves Armor \n \n All other planes/jets - enables Flares and improves Armor \n \n 40s upgrade time"
+"\n All aircraft gain ability to shoot Flares evading 30% of missiles fired at them. \n \n \n MiG, Helix, Chinook - enables Flares(except Laser) \n \n Comanche - enables Flares(except Laser) and improves Armor \n \n All other planes/jets - enables Flares and improves Armor \n \n 40s upgrade time"
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon
@@ -14192,11 +14192,11 @@ CONTROLBAR:ToolTipUSABuildAvenger
 END
 
 CONTROLBAR:ToolTipUSABuildKingRaptor
-"\n Upgraded USA Fighter Jet. \n Can engage ground and air targets. \n Detects Stealth (250 range) \n \n 200(240) hp (due to VETERAN) \n 100x6 dmg over 0.385s \n 350 attack range \n 6s airfield reload time"
+"\n Upgraded USA Fighter Jet \n Can engage ground and air target \n Detects Stealth (250 range) \n \n Can be upgraded with Laser Missiles \n \n 200(240) hp (due to VETERAN) \n 100(125)x6 dmg(Laser Missiles) over 0.385s \n 350 attack range \n 6s airfield reload time"
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"\n Super-sonic Strategic Bomber. Thermobaric Bomb. \n Immune to enemy fire while attacking. \n After super-sonic attack, speed is reduced to 50% \n \n 80 hp \n 720(180)+(535)[100] dmg in 30(45)[60] radius \n Total of 1255/715/100 dmg in 30/45/60 radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 720(180)+(535)[100] dmg in 30(45)[60] radius \n Total of 1255/715/100 dmg in 30/45/60 radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -25140,7 +25140,7 @@ CONTROLBAR:AirF_ConstructAmericaVehicleChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinookCombat
-"\n Assault Transport helicopter. \n Infantry CAN attack through fire ports. \n Collects supplies. \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
+"\n Assault Transport helicopter \n Infantry CAN attack through fire ports \n Collects supplies \n Improved Armor \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
 END
 
 CONTROLBAR:SuicideAttack
@@ -25276,7 +25276,7 @@ OBJECT:Lazr_Tank
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildCrusader
-"\n Laser upgraded USA tank \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 75 dmg every 2.1s \n 170 attack range"
+"\n Laser upgraded USA tank \n Consumes power but ISN'T disabled by Low Power! \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 75 dmg every 2.1s \n 170 attack range\n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildEmperor
@@ -25612,7 +25612,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber. \n Immune to enemy fire while attacking. \n After super-sonic attack, Aurora speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450x1 bomb dmg (bonus to structures) \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
@@ -25728,7 +25728,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"\n Stealthed(2s delay) Bomber. \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n Can be upgraded with Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120x2 dmg over 0.455s \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
 END
 
 GUI:RetaliationTitle
