@@ -7131,7 +7131,7 @@ CONTROLBAR:TooltipGLAUpgradeBioBomb
 END
 
 CONTROLBAR:Chem_TooltipGLAUpgradeBioBomb
-"\n Bomb Truck explosion will leave Toxin Beta Field \n \n Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n \n 5s upgrade time"
+"\n Upgrades Bomb Truck Bio explosion to leave larger and deadlier Beta(Gamma) toxin field \n \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n \n 5s upgrade time"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeHEBomb
@@ -7879,7 +7879,7 @@ CONTROLBAR:ToolTipGLABuildBombTruck
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildBombTruck
-"\n Suicide Bomb Truck \n \n Can Disguise as any vehicle, friend or foe! \n Can be upgraded with Bio Bomb, Junk Repair and Anthrax Gamma \n \n 240 hp \n Base explosion: \n 1000(200) dmg in 40(60) radius \n \n Bio Bomb (adds Beta field): \n Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n"
+"\n Suicide Bomb Truck with Bio Bomb \n \n Can Disguise as any vehicle, friend or foe! \n Can be upgraded with Big Bio Bomb, Junk Repair and Anthrax Gamma \n \n 240 hp \n Base explosion: \n 1000(200) dmg in 40(60) radius \n Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n \n Big Bio Bomb: \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildBombTruck
