@@ -7687,11 +7687,11 @@ CONTROLBAR:Lazr_ToolTipUSABuildAurora
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
@@ -7911,7 +7911,7 @@ CONTROLBAR:ToolTipUSASciencePathFinder
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
@@ -25728,7 +25728,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n Bunker Busters: adds 200 dmg secondary explosion \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n"
+"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
 END
 
 GUI:RetaliationTitle
