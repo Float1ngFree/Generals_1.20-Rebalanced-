@@ -4626,6 +4626,10 @@ CONTROLBAR:CashHack
 "&Cash Hack"
 END
 
+CONTROLBAR:SatelliteHackTwo
+"&Satellite Hack II"
+END
+
 CONTROLBAR:Ambush
 "&Ambush"
 END
@@ -6958,6 +6962,10 @@ CONTROLBAR:TooltipFireSuperWeaponCashHack
 "Steal money from enemy supply centers \n \n Countdown Timer: 4:00"
 END
 
+CONTROLBAR:TooltipFireSatelliteHackTwo
+"Temporary reveal positions of all enemy units \n 20(30)s duration(+10s 2nd InternetCenter) \n \n Countdown Timer: 4:00"
+END
+
 CONTROLBAR:TooltipFireSpySatScan
 "Reveal target area. Spot stealth units \n \n 300 vision radius \n 13s vision duration \n \n Countdown Timer: 1:00"
 END
@@ -6987,7 +6995,7 @@ CONTROLBAR:TooltipFireAnthraxBomb
 END
 
 CONTROLBAR:TooltipCIAIntelligence
-"Reveal all enemy forces \n \n Duration: 30s (+10s per each captured Strategy Center) \n \n Countdown Timer: 5:00"
+"Reveal positions of all enemy forces \n \n 30s duration(+10s per each captured Strategy Center) \n \n Countdown Timer: 5:00"
 END
 
 CONTROLBAR:TooltipDemoTrapProxy
@@ -7171,7 +7179,7 @@ CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAPBullets
-"\n +25% Damage for: \n - Rebel \n - Tunnel Network(non Tox) \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n 60s upgrade time "
+"\n +25% Damage for: \n - Rebel \n - Tunnel Network \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n 60s upgrade time "
 END
 
 CONTROLBAR:ToolTipGLAUpgradeJunkRepair
@@ -7387,7 +7395,7 @@ CONTROLBAR:ToolTipUSABuildWarFactory
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 1000 hp \n 30x4 dmg over 2.75s \n 250(425) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Ground and air defense \n \n 1000 hp \n 30x4 dmg over 0.75s every 2s \n 250(425) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildAirField
@@ -7646,8 +7654,16 @@ CONTROLBAR:ToolTipChinaBuildRedguard
 "\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
+CONTROLBAR:Nuke_ToolTipChinaBuildRedguard
+"\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+END
+
 CONTROLBAR:ToolTipChinaBuildHacker
 "\n Provides secondary income \n Can disable enemy buildings \n Can hack into the internet to steal money \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildHacker
+"\n Provides secondary income \n Can disable enemy buildings \n Can hack into the internet to steal money \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 100 hp \n +$5/6/8/10 every 2s (1.5s if from Internet or Propaganda Center) \n"
 END
 
 CONTROLBAR:ToolTipUSABUildChinook
@@ -7750,12 +7766,20 @@ CONTROLBAR:ToolTipChinaBuildBlackLotus
 "\n Hero unit. Camouflaged (2.5s delay) \n Captures enemy buildings, steals cash from enemy supply centers and disables enemy vehicles (reveals herself) \n \n 200 hp \n \n Build Limit: 1"
 END
 
+CONTROLBAR:Nuke_ToolTipChinaBuildBlackLotus
+"\n Hero unit. Camouflaged (2.5s delay) \n Captures enemy buildings, steals cash from enemy supply centers and disables enemy vehicles (reveals herself) \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 200 hp \n \n Build Limit: 1"
+END
+
 CONTROLBAR:ToolTipChinaBuildTankHunter
 "\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildTankHunter
 "\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Nationalism(Patriotism) bonus in groups of 5+ \n \n 110(133) hp (due to VETERAN) \n 37.5 dmg over 1.2s \n 175 attack range \n \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
+END
+
+CONTROLBAR:Nuke_ToolTipChinaBuildTankHunter
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
@@ -9439,7 +9463,7 @@ TOOLTIP:EmoteText
 END
 
 CONTROLBAR:ToolTipChinaScienceCashHack
-"Steal money from enemy supply centers. You cannot steal more money than the enemy has \n \n Rank 1: $1000 \n Rank 2: $2000 \n Rank 3: $4000 \n \n Deploy from: Command Center"
+"Steal money from enemy supply centers \n Cannot steal more money than the enemy has \n \n Rank 1: $1000 \n Rank 2: $2000 \n Rank 3: $4000 \n \n Deploy from: Internet Center"
 END
 
 GUI:TRAINING
@@ -12591,11 +12615,11 @@ HELP:InternetCenter-02
 END
 
 HELP:SatelliteHack1-01
-"HINT: \n Satellite Hack 1 reveals all enemy Command Centers"
+"HINT: \n Satellite Hack 1 reveals all enemy Command and Supply Centers"
 END
 
 HELP:SatelliteHack2-01
-"HINT: \n Satellite Hack 2 reveals all that enemy units can see"
+"HINT: \n Satellite Hack 2 allows to temporally reveal all enemy units"
 END
 
 HELP:EMPMines-01
@@ -14020,15 +14044,19 @@ CONTROLBAR:TooltipUpgradeChinaHelixPropagandaTower
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixBattleBunker
-"\n Build a Bunker on this Helix. Bunkers can be occupied by troops. Troops can fire out of bunkers \n \n 15s build time"
+"\n Build a Bunker on this Helix \n Increases Helix hp \n Enables infantry to attack through fire ports \n \n +80 hp (20%) \n \n 15s build time"
+END
+
+CONTROLBAR:Infa_TooltipUpgradeChinaHelixBattleBunker
+"\n Build a Bunker on this Helix \n Enables infantry to attack through fire ports \n \n 20s build time"
 END
 
 CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne
-"Enable the Satellite Hack ability to reveal the command centers of opponents"
+"\n Enables Internet Center to spy on enemy Command and Supply Centers \n \n Permanently reveals positions of enemy Command & Supply Centers \n \n Will try to reveal newly build Centers(not guaranteed) \n \n 20s upgrade time"
 END
 
 CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo
-"Enable the Satellite Hack ability to intermittently reveal territory of all opponents"
+"\n Provides a Satellite Hack Two active ability \n Satellite Hack I will continue to be active \n \n Satellite Hack II ability: \n Temporary reveals positions of all enemy units \n 20(30)s duration(+10s 2nd InternetCenter) \n 4:00 reload time \n \n 30s upgrade time"
 END
 
 CONTROLBAR:TooltipChinaUpgradeFanaticism
@@ -14044,7 +14072,7 @@ CONTROLBAR:TooltipUpgradeChinaTankAutoLoader
 END
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
-"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building"
+"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building \n \n 60s upgrade time"
 END
 
 CONTROLBAR:ToolTipUpgradeChinaEMPMines
@@ -24884,7 +24912,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 1000 hp \n 15x4(30x4) ground(air) dmg over 2.3s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Ground and air defense \n \n 1000 hp \n 15(27)x4 ground(air) dmg over 0.375s every 2s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
@@ -25260,7 +25288,7 @@ DIALOGEVENT:01_AllCheerSoundSubtitle
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 40x3 instant dmg over 2.5s \n 225(375) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 5"
+"\n Ground and air defense \n \n 44x3 instant dmg over 0.5s every 2.25s \n 225(375) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 5"
 END
 
 CONTROLBAR:Lazr_ConstructAmericaPatriotBattery
@@ -25352,7 +25380,7 @@ CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo
 END
 
 CONTROLBAR:Chem_ToolTipGLAUpgradeAPBullets
-"+25% damage bullet firing units"
+"\n +25% Damage for: \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n 60s upgrade time "
 END
 
 GUI:BioFeatures_USA
@@ -25396,7 +25424,7 @@ GUI:BioFeatures_Pos6
 END
 
 GUI:BioFeatures_Pos7
-"No Battlemaster/Overlord tanks \n \n All Infantry start as veterans \n Assault Troop Crawler \n Assault Helix/Outpost \n Fortified Bunkers \n Mini-Gunner \n Black Lotus hacks faster \n Hackers hack faster \n Mini-Gunner Paradrop \n Patriotism"
+"No Battlemaster/Overlord tanks \n \n All Infantry start as veterans \n Assault Helix/Outpost/Crawler \n Fortified Bunkers \n Mini-Gunner \n Black Lotus hacks faster \n Hackers hack faster \n Mini-Gunner Paradrop \n Patriotism"
 END
 
 GUI:BioFeatures_Pos8
