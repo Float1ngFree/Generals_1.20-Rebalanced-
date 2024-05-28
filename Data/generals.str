@@ -2255,7 +2255,11 @@ GUI:SpecialAbilityDetonateCharges
 END
 
 GUI:SuperweaponParticleUplinkCannon
-"Particle Uplink Cannon"
+"Particle Cannon"
+END
+
+GUI:Lazr_SuperweaponParticleUplinkCannon
+"Laser Particle Cannon"
 END
 
 GUI:PatchAvailable
@@ -4050,6 +4054,10 @@ CONTROLBAR:ConstructAmericaParticleCannonUplink
 "&Particle Cannon"
 END
 
+CONTROLBAR:Lazr_ConstructAmericaParticleCannonUplink
+"Laser &Particle Cannon"
+END
+
 CONTROLBAR:ConstructAmericaStrategyCenter
 "Strateg&y Center"
 END
@@ -4200,6 +4208,10 @@ END
 
 CONTROLBAR:ConstructAmericaJetStealthFighter
 "Stealth &Fighter"
+END
+
+CONTROLBAR:SupW_ConstructAmericaJetStealthFighter
+"EMP Stealth &Fighter"
 END
 
 CONTROLBAR:ConstructAmericaVehicleStarlifter
@@ -4772,6 +4784,10 @@ END
 
 CONTROLBAR:FireParticleUplinkCannon
 "&Particle Cannon"
+END
+
+CONTROLBAR:Lazr_FireParticleUplinkCannon
+"Laser &Particle Cannon"
 END
 
 CONTROLBAR:Options
@@ -5626,6 +5642,10 @@ OBJECT:ParticleCannon
 "Particle Cannon"
 END
 
+OBJECT:Lazr_ParticleCannon
+"Laser Particle Cannon"
+END
+
 OBJECT:OakTree
 "Tree"
 END
@@ -5952,6 +5972,10 @@ END
 
 OBJECT:StealthFighter
 "Stealth Fighter"
+END
+
+OBJECT:SupW_StealthFighter
+"EMP Stealth Fighter"
 END
 
 OBJECT:StingerSite
@@ -6927,7 +6951,15 @@ CONTROLBAR:TooltipDaisyCutter
 END
 
 CONTROLBAR:TooltipFireParticleUplinkCannon
-"Strong vs. Buildings \n \n Countdown Timer: 4:00"
+"Fire & guide particle beam \n Double left-click for increased speed \n \n 10s beam duration \n 400 beam dps \n Leaves fire trail - 60 dps, 4s duration \n \n Countdown Timer: 4:00"
+END
+
+CONTROLBAR:SupW_TooltipFireParticleUplinkCannon
+"Fire & guide particle beam \n Double left-click for increased speed \n \n Super Weapon General: \n 30s faster countdown timer \n 12.5% less beam damage \n \n 10s beam duration \n 350 beam dps \n Leaves fire trail - 60 dps, 4s duration \n \n Countdown Timer: 3:30"
+END
+
+CONTROLBAR:Lazr_TooltipFireParticleUplinkCannon
+"Fire & guide laser particle beam \n Double left-click for increased speed \n \n Laser General: \n +20% beam damage \n \n 10s beam duration \n 480 beam dps \n Leaves fire trail - 60 dps, 4s duration \n \n Countdown Timer: 4:00"
 END
 
 CONTROLBAR:TooltipParaDrop
@@ -7406,6 +7438,14 @@ CONTROLBAR:ToolTipUSABuildParticleCannon
 "\n Fires a particle beam anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 10"
 END
 
+CONTROLBAR:SupW_ToolTipUSABuildParticleCannon
+"\n Fires a particle beam anywhere on the map \n \n 30s faster countdown timer \n 12.5% less beam damage \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 10"
+END
+
+CONTROLBAR:Lazr_ToolTipUSABuildParticleCannon
+"\n Fires a particle beam anywhere on the map \n \n +20% increased beam damage \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 12"
+END
+
 CONTROLBAR:ToolTipUSABuildStrategyCenter
 "\n Tech building containing critical USA upgrades \n Provides Intelligence Ability \n Allows to set one of the following battle plans: \n \n Bombardment(+20% dmg) \n Search and Destroy(+10/15% attack/sight range) \n Hold the Line(+15% damage reduction) \n \n Produces following upgrades: \n - Chemical Suits \n - Advanced Training \n - Drone Armor \n - Supply Lines \n - Bunker Busters \n - MOAB \n - Composite Armor \n \n 1500(3000) hp(Hold the Line) \n \n Power Required: 2"
 END
@@ -7695,19 +7735,23 @@ CONTROLBAR:Lazr_ToolTipUSABuildRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+END
+
+CONTROLBAR:SupW_ToolTipUSABuildStealthFighter
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 140(175)x2 dmg(Laser Missiles) over 0.455s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
@@ -11615,7 +11659,7 @@ GUI:SuperweaponGPSScrambler
 END
 
 GUI:SupW_SuperweaponParticleUplinkCannon
-"Particle Uplink Cannon"
+"Particle Cannon"
 END
 
 GUI:SuperweaponTankParadrop
@@ -12196,6 +12240,10 @@ END
 
 CONTROLBAR:FireParticleUplinkCannonShortcut
 "Particle Cannon"
+END
+
+CONTROLBAR:Lazr_FireParticleUplinkCannonShortcut
+"Laser Particle Cannon"
 END
 
 UPGRADE:AmericaSentryDroneGun
@@ -13955,7 +14003,7 @@ GC_CHINABOSS:Resources
 END
 
 CONTROLBAR:TooltipMOAB
-"Call in B2 Bomber to deliver Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs \n \n 1000 hp \n 3000(2000) dmg in 75(150) radius \n \n Countdown Timer: 6:00"
+"Call in B2 Bomber to deliver Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipLeafletDrop
@@ -14016,7 +14064,7 @@ CONTROLBAR:TooltipUSAUpgradeSupplyLines
 END
 
 CONTROLBAR:TooltipUSAUpgradeMOAB
-"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Deals more damage in larger radius & without delay \n Delivered by faster B2 Bomber \n \n 1000 hp \n 3000(2000) dmg in 75(150) radius  \n \n 60s upgrade time"
+"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Deals more damage in larger radius & without delay \n Delivered by faster B2 Bomber \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius  \n \n 60s upgrade time"
 END
 
 CONTROLBAR:TooltipBecomeRealBuilding
@@ -14224,7 +14272,7 @@ CONTROLBAR:ToolTipUSABuildKingRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 720(180)+(535)[100] dmg in 30(45)[60] radius \n Total of 1255/715/100 dmg in 30/45/60 radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(250) dmg in 40(60) radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -14240,7 +14288,7 @@ CONTROLBAR:ToolTipUSABuildMicrowave
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
-"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 240(300) hp (Drone Armor) \n 5 dmg every 0.1s \n 150 attack range \n 250 stealth detection radius"
+"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 240(300) hp (Drone Armor) \n 4.5 dmg every 0.1s \n 150 attack range \n 250 stealth detection radius"
 END
 
 CONTROLBAR:ToolTipUSABuildHellfireDrone
@@ -25408,7 +25456,7 @@ GUI:BioFeatures_Pos2
 END
 
 GUI:BioFeatures_Pos3
-"No Crusader/Paladin tanks \n Regular vehicles cost more \n \n Aurora Alpha \n EMP Patriot System \n Advanced Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
+"No Crusader/Paladin tanks \n Regular vehicles cost more \n \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
 END
 
 GUI:BioFeatures_Pos4
@@ -25416,7 +25464,7 @@ GUI:BioFeatures_Pos4
 END
 
 GUI:BioFeatures_Pos5
-"Tomahawk requires promotion \n No Paladin Tank \n Aircraft cost more \n \n Aircraft Point Defence Lasers \n Laser Defense Turret \n Laser Crusader \n Avengers cost less \n Advanced Cold Fusion Reactors \n Laser Lock upgraded \n Laser Missiles upgraded"
+"Tomahawk requires promotion \n No Paladin Tank \n Aircraft cost more \n \n Aircraft Point Defence Lasers \n Laser Crusader & Defense Turret \n Laser Particle Cannon \n Avengers cost less \n Advanced Cold Fusion Reactors \n Laser Lock upgraded \n Laser Missiles upgraded"
 END
 
 GUI:BioFeatures_Pos6
@@ -25640,7 +25688,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Immune to enemy fire while attacking \n After super-sonic attack speed is reduced to 50% \n \n 100(120) hp (due to VETERAN) \n 450(90)x1 bomb dmg in 20(30 radius) \n 175-250% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n 100(120) hp (due to VETERAN) \n 500(90)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
@@ -25756,7 +25804,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion"
 END
 
 GUI:RetaliationTitle
