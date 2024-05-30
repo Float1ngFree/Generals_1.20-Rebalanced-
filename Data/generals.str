@@ -14288,7 +14288,7 @@ CONTROLBAR:ToolTipUSABuildMicrowave
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
-"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 240(300) hp (Drone Armor) \n 4.5 dmg every 0.1s \n 150 attack range \n 250 stealth detection radius"
+"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 240(300) hp (Drone Armor) \n 4.5 dmg every 0.125s \n 145 attack range \n 250 stealth detection radius"
 END
 
 CONTROLBAR:ToolTipUSABuildHellfireDrone
