@@ -7003,7 +7003,7 @@ CONTROLBAR:TooltipFireSpySatScan
 END
 
 CONTROLBAR:TooltipFireSpyDrone
-"Deploy stealth surveillance drone \n \n 250 vision radius \n Detects Stealth units \n \n Countdown Timer: 1:30"
+"Deploy stealth surveillance drone \n \n Can be upgraded with Drone Armor \n \n 200(250) hp (Drone Armor) \n 250 vision radius \n Detects Stealth units \n \n Countdown Timer: 1:30"
 END
 
 CONTROLBAR:TooltipFireRadarVanScan
@@ -7791,7 +7791,7 @@ CONTROLBAR:ToolTipUSABuildMedic
 END
 
 CONTROLBAR:ToolTipUSABuildScoutDrone
-"\n Build airborne drone that hovers over the vehicle \n Extends sight range and reveals stealth enemies \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 100(125) hp (Drone Armor) \n 500 shroud clearing radius \n 150 stealth detection radius"
+"\n Build airborne drone that hovers over the vehicle \n Extends sight range and reveals stealth enemies \n \n Can be upgraded with Drone Armor \n \n 100(125) hp (Drone Armor) \n 500 shroud clearing radius \n 150 stealth detection radius"
 END
 
 CONTROLBAR:ToolTipUSABuildBattleDrone
@@ -7983,7 +7983,7 @@ CONTROLBAR:ToolTipUSAScienceStealthFighter
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
-"\n Ability to deploy stealth surveillance drone that reveals the area and stealth units \n \n 1:30 reload time \n 250 vision radius \n Detects Stealth units \n \n Deploy from: Command Center"
+"\n Ability to deploy stealth surveillance drone that reveals the area and stealth units \n \n Can be upgraded with Drone Armor \n \n 1:30 reload time \n 200(250) hp (Drone Armor) \n 250 vision radius \n Detects Stealth units \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSAScienceParaDrop
@@ -14292,11 +14292,11 @@ CONTROLBAR:ToolTipUSABuildMicrowave
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
-"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 240(300) hp (Drone Armor) \n 4.5 dmg every 0.125s \n 145 attack range \n 250 stealth detection radius"
+"\n Ground Drone, equipped with small gun \n Camouflaged (2s delay) while not moving \n Detects stealth units \n \n Can be upgraded with Drone Armor \n \n 240(300) hp (Drone Armor) \n 4.5 dmg every 0.125s \n 145 attack range \n 250 stealth detection radius"
 END
 
 CONTROLBAR:ToolTipUSABuildHellfireDrone
-"\n Build airborne drone that hovers over the vehicle \n Fires a Hellfire Missile \n \n Can be upgraded with Drone Armor (+25% hp) \n \n 100(125) hp (Drone Armor) \n 150 engagement range(fly toward target) \n 40 dmg every 2s \n 50 missile attack range"
+"\n Build airborne drone that hovers over the vehicle \n Fires a Hellfire Missile \n \n Can be upgraded with Drone Armor \n \n 100(125) hp (Drone Armor) \n 150 engagement range(fly toward target) \n 40 dmg every 2s \n 50 missile attack range"
 END
 
 CONTROLBAR:ToolTipUSABuildPointDefenseDrone
