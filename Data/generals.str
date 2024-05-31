@@ -7075,27 +7075,27 @@ CONTROLBAR:TooltipCancelUpgrade
 END
 
 CONTROLBAR:TooltipUSAUpgradeAdvancedTraining
-"\n +100% experience gain for units (veterancy) \n \n Does NOT affect General's promotion experience gain \n \n 60s upgrade time"
+"\n +100% experience gain for units (veterancy) \n \n Does NOT affect General's promotion experience gain \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeDroneARmor
-"\n +25% hp for Spy, Scout, Hellfire & Sentry Drones \n \n 40s upgrade time"
+"\n +25% hp for Spy, Scout, Hellfire & Sentry Drones \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods
-"\n +25% hp \n +100% additional power \n \n 30s upgrade time"
+"\n +25% hp \n +100% additional power \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeFlashBangGrenades
-"\n Enables Ranger's Flash-Bang switch weapon. \n Deals area damage to enemy infantry. \n Kills 1 enemy soldier in civilian buildings. \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range \n \n 30s upgrade time"
+"\n Enables Ranger's Flash-Bang switch weapon. \n Deals area damage to enemy infantry. \n Kills 1 enemy soldier in civilian buildings. \n \n 35(10) dmg in 7.5(30) radius over 3s \n 175 attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeMissileDefenderLaserLock
-"\n Allows Missile Defenders to lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range \n \n 30s upgrade time"
+"\n Allows Missile Defenders to lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCompositeArmor
-"\n +20% hp for USA Tanks \n \n 60s upgrade time"
+"\n +20% hp for USA Tanks \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCruiseMissile
@@ -7103,15 +7103,15 @@ CONTROLBAR:TooltipUSAUpgradeCruiseMissile
 END
 
 CONTROLBAR:TooltipUSAUpgradeTOW
-"\n Equips Humvees with a TOW missile launchers \n Can fire at ground or air targets \n \n Homing missile \n 40 dmg in 7.5 radius every 3s \n 150(320) ground(air) attack range \n \n 30s upgrade time"
+"\n Equips Humvees with a TOW missile launchers \n Can fire at ground or air targets \n \n Homing missile \n 40 dmg in 7.5 radius every 3s \n 150(320) ground(air) attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:USAUpgradeRocketPods
-"\n Enables Comanches to fire rocket barrage \n \n 16 rockets spread semi-randomly in 50 radius \n 36(12) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time \n \n 30s upgrade time"
+"\n Enables Comanches to fire rocket barrage \n \n 16 rockets spread semi-randomly in 50 radius \n 36(12) dmg/rocket in 5(30) radius over 2.6s \n 200 attack range \n 30s reload time \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeLaserMissiles
-"\n Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods) \n \n 40s upgrade time"
+"\n Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods) \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeMines
@@ -7135,27 +7135,27 @@ CONTROLBAR:TooltipChinaUpgradeRadar
 END
 
 CONTROLBAR:TooltipChinaUpgradeNationalism
-"\n Improves Horde bonus for Red Guard, Tank Hunter and Battlemaster: \n \n +20% additional Rate Of Fire \n \n Total bonus: \n +20% Damage \n +45% Rate Of Fire \n \n 40s upgrade time"
+"\n Improves Horde bonus for Red Guard, Tank Hunter and Battlemaster: \n \n +20% additional Rate Of Fire \n \n Total bonus: \n +20% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeBlackNapalm
-"\n +25% damage to all flame weapons \n +25% damage to Firestorm(480->600) \n +25% damage radius for Napalm Missiles, Bombs and Shells \n \n 45s upgrade time"
+"\n +25% damage to all flame weapons \n +12.5(25%) Napalm Missile primary(secondary) damage \n +25% damage to Firestorm(480->600) \n +25% damage radius for Napalm Missiles, Bombs and Shells \n \n Upgrade time: 45s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeChainGuns
-"\n +25% damage to all Gattling Tank and Cannons \n Also applies to Helix and Overlord build-ons \n \n 45s upgrade time"
+"\n +25% damage to all Gattling Tank and Cannons \n Also applies to Helix and Overlord build-ons \n \n Upgrade time: 45s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaSubliminal
-"\n Increases Speaker Tower propaganda effect: \n \n +50% Healing/Repair rate \n +15% additional Damage \n \n Total bonus: \n +15% Damage \n +25% Rate Of Fire \n \n 60s upgrade time"
+"\n Increases Speaker Tower propaganda effect: \n \n +50% Healing/Repair rate \n +15% additional Damage \n \n Total bonus: \n +15% Damage \n +25% Rate Of Fire \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaUraniumShells
-"\n +25%(20% for Nuke General) Damage for Battlemaster and Overlord shells \n \n 60s upgrade time"
+"\n +25%(20% for Nuke General) Damage for Battlemaster and Overlord shells \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaNuclearTanks
-"\n +25% Overlord and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n 60s upgrade time"
+"\n +25% Overlord and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaStunBullets
@@ -7167,59 +7167,59 @@ CONTROLBAR:TooltipDisguiseAsVehicle
 END
 
 CONTROLBAR:TooltipGLAUpgradeBioBomb
-"\n Bomb Truck explosion will leave Toxin Field \n \n Medium Toxin(Beta) Field - 12(15) dps, 24s, 80(85) radius \n \n 5s upgrade time"
+"\n Bomb Truck explosion will leave Toxin Field \n \n Medium Toxin(Beta) Field - 12(15) dps, 24s, 80(85) radius \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:Chem_TooltipGLAUpgradeBioBomb
-"\n Upgrades Bomb Truck Bio explosion to leave larger and deadlier Beta(Gamma) toxin field \n \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n \n 5s upgrade time"
+"\n Upgrades Bomb Truck Bio explosion to leave larger and deadlier Beta(Gamma) toxin field \n \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeHEBomb
-"\n Increase the explosion damage and radius \n \n 2000(300) dmg in 50(75) radius \n \n 5s upgrade time"
+"\n Increase the explosion damage and radius \n \n 2000(300) dmg in 50(75) radius \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:Demo_ToolTipGLAUpgradeHEBomb
-"\n Increase the explosion damage and radius \n \n 2400(400) dmg in 50(75) radius \n \n 5s upgrade time"
+"\n Increase the explosion damage and radius \n \n 2400(400) dmg in 50(75) radius \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeRadarVanScan
-"\n Enables Radar Van to scan the map \n Reveals stealth units \n \n 30s reload time \n 150 vision radius \n 10s vision duration \n Independent timer for each Radar Van \n \n 20s upgrade time "
+"\n Enables Radar Van to scan the map \n Reveals stealth units \n \n 30s reload time \n 150 vision radius \n 10s vision duration \n Independent timer for each Radar Van \n \n Upgrade time: 20s "
 END
 
 CONTROLBAR:ToolTipGLAUpgradeScorpionRocket
-"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n \n 100(50) dmg in 10(20) radius every 15s \n 160 attack range \n \n 30s upgrade time "
+"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n \n 100(50) dmg in 10(20) radius every 15s \n 160 attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:Chem_ToolTipGLAUpgradeScorpionRocket
-"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n Deals 10% less dmg but leaves small toxin field \n \n 90(45) dmg in 10(20) radius every 15s \n 160 attack range \n Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n \n 30s upgrade time "
+"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n Deals 10% less dmg but leaves small toxin field \n \n 90(45) dmg in 10(20) radius every 15s \n 160 attack range \n Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:Demo_ToolTipGLAUpgradeScorpionRocket
-"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n Deals 10% more dmg than regular scorpion rocket \n \n 110(55) dmg in 10(20) radius every 15s \n 160 attack range \n \n 30s upgrade time "
+"\n Adds turret-mounted rocket for Scorpion tanks \n \n Rocket DOESN'T follow the target! \n Deals 10% more dmg than regular scorpion rocket \n \n 110(55) dmg in 10(20) radius every 15s \n 160 attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAPRockets
-"\n +25% Damage to missiles of: \n \n - RPG Trooper \n - Stinger Site (ground) \n - Scorpion Rocket \n - Rocket Buggy \n \n 60s upgrade time "
+"\n +25% Damage to missiles of: \n \n - RPG Trooper \n - Stinger Site (ground) \n - Scorpion Rocket \n - Rocket Buggy \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeToxinShells
-"\n Scorpion, Marauder and Technical Cannon(scrap #1) shells leave small poison field \n \n Small Toxin(Beta)[Gamma] fields: \n 4(5)[6.25] dps \n 6s duration(for all) \n 7.5(8)[8.5] damage radius \n \n 30s upgrade time "
+"\n Scorpion, Marauder and Technical Cannon(scrap #1) shells leave small poison field \n \n Small Toxin(Beta)[Gamma] fields: \n 4(5)[6.25] dps \n 6s duration(for all) \n 7.5(8)[8.5] damage radius \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta
-"\n Replaces regular green Toxins with blue Beta Toxin \n \n +25% Damage to all toxin attacks & fields \n Slightly increases radius of toxin fields \n \n 40s upgrade time "
+"\n Replaces regular green Toxins with blue Beta Toxin \n \n +25% Damage to all toxin attacks & fields \n Slightly increases radius of toxin fields \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAPBullets
-"\n +25% Damage for: \n - Rebel \n - Tunnel Network \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n 60s upgrade time "
+"\n +25% Damage for: \n - Rebel \n - Tunnel Network \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeJunkRepair
-"\n All GLA vehicles will auto-repair when not taking damage \n \n 2 hp/s repair \n 4s start repair delay \n \n 50s upgrade time "
+"\n All GLA vehicles will auto-repair when not taking damage \n \n 2 hp/s repair \n 4s start repair delay \n \n Upgrade time: 50s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeCamouflage
-"\n Rebels and RPG Troopers become stealthed: \n \n Rebels - when not shooting (2.5s delay) \n RPG Troopers - while not moving (2.5s delay) \n \n 40s upgrade time "
+"\n Rebels and RPG Troopers become stealthed: \n \n Rebels - when not shooting (2.5s delay) \n RPG Troopers - while not moving (2.5s delay) \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeTranqDarts
@@ -7227,7 +7227,7 @@ CONTROLBAR:ToolTipGLAUpgradeTranqDarts
 END
 
 CONTROLBAR:ToolTipGLAUpgradeArmTheMob
-"\n Arm all Angry Mobs with AK-47s \n \n Replaces Guns with AK47s for more range and damage: \n 10 ->20 dmg every 0.25s \n 100 ->120 attack range \n \n 30s upgrade time "
+"\n Arm all Angry Mobs with AK-47s \n \n Replaces Guns with AK47s for more range and damage: \n 10 ->20 dmg every 0.25s \n 100 ->120 attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -7379,7 +7379,7 @@ CONTROLBAR:ToolTipReturnToPrison
 END
 
 CONTROLBAR:ToolTipChinaFireTankHunterTNTAttack
-"Place a TNT explosive charge on a target object \n \n 10s timer \n 400(200) dmg in 0(30) radius \n Primary dmg hits unit it's placed on \n (Secondary) dmg hits area and buildings"
+"Place a TNT explosive charge on a target object \n \n 10s timer \n 360(240) dmg in 0(30) radius \n Primary dmg hits vehicle it's placed on \n (Secondary) dmg hits area and buildings \n \n Reload time: 10s"
 END
 
 CONTROLBAR:ToolTipUSAFireBurtonKnifeAttack
@@ -7799,11 +7799,11 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 90(20) dmg in 6(20) radius \n Black Napalm - 105(25) dmg in 7.5(25) radius \n +40(50) napalm(Black) dmg in 20(25) radius over 2.5s \n 4 napalm missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 89(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n +56(70) napalm(Black) dmg in 24(30) radius over 2.5s \n 4 napalm missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet \n Equipped with 4 Radioactive Missiles \n Can be upgraded with MiG Armor and Tactical Nuke Missiles \n \n 140(160) hp (MiG Armor) \n 100(35) dmg in 5(20) radius \n 4 radioactive missiles over 0.399s \n 335 attack range \n 8s airfield reload time \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Tactical Nuke Missiles(Nuke Silo): \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time"
+"\n Chinese Fighter Jet \n Equipped with 4 Radioactive Missiles \n Can be upgraded with MiG Armor and Tactical Nuke Missiles \n \n 140(160) hp (MiG Armor) \n 100(35) dmg in 5(20) radius \n 4 radioactive missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Tactical Nuke Missiles(Nuke Silo): \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time"
 END
 
 CONTROLBAR:ToolTipChinaBuildBlackLotus
@@ -7827,7 +7827,7 @@ CONTROLBAR:Nuke_ToolTipChinaBuildTankHunter
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
@@ -7992,6 +7992,10 @@ END
 
 CONTROLBAR:ToolTipUSAScienceA10Strike
 "A10 Thunderbolts destroy buildings, vehicles, and infantry \n \n Rank 1: 1 A10 Thunderbolt \n Rank 2: 2 A10 Thunderbolts \n Rank 3: 3 A10 Thunderbolts \n \n Deploy from: Command Center"
+END
+
+CONTROLBAR:AirF_ToolTipUSAScienceA10Strike
+"Required Rank: 2 Star \n \n A10 Thunderbolts destroy buildings, vehicles, and infantry \n \n Rank 1: 1 A10 Thunderbolt \n Rank 2: 2 A10 Thunderbolts \n Rank 3: 3 A10 Thunderbolts \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSAScienceDaisyCutter
@@ -8207,7 +8211,7 @@ MAP:USA03Open
 END
 
 CONTROLBAR:TooltipChinaUpgradeAircraftArmor
-"\n +20 MiG health \n Improves Armor against Anti-Air damage \n \n 40s upgrade time"
+"\n +20 MiG health \n Improves Armor against Anti-Air damage \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ToolTipSwitchToRangerMachineGun
@@ -8599,15 +8603,15 @@ CONTROLBAR:TooltipDetonateBombTruck
 END
 
 CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding
-"\n Enables Rangers to capture enemy and tech buildings \n \n 30s upgrade time"
+"\n Enables Rangers to capture enemy and tech buildings \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipChinaUpgradeRedGuardCaptureBuilding
-"\n Enables Red Guards to capture enemy and tech buildings \n \n 30s upgrade time"
+"\n Enables Red Guards to capture enemy and tech buildings \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeRebelCaptureBuilding
-"\n Enables Rebels to capture enemy and tech buildings \n \n 30s upgrade time"
+"\n Enables Rebels to capture enemy and tech buildings \n \n Upgrade time: 30s"
 END
 
 GUI:Loading
@@ -12083,11 +12087,11 @@ CONTROLBAR:UpgradeChinaFusionReactors
 END
 
 CONTROLBAR:ChinaUpgradeHelixNapalmBomb
-"\n Enables Helixes to drop napalm bombs \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n \n 40s upgrade time"
+"\n Enables Helixes to drop napalm bombs \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ChinaUpgradeHelixNukeBomb
-"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n 40s upgrade time"
+"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:UpgradeHelixNapalmBomb
@@ -14060,11 +14064,11 @@ CONTROLBAR:TooltipGLAUpgradeQuadCannonSnipe
 END
 
 CONTROLBAR:TooltipUSAUpgradeSupplyLines
-"\n +10% income from Supply Centers, Supply Drop Zones and Oil Derricks \n \n 30s upgrade time"
+"\n +10% income from Supply Centers, Supply Drop Zones and Oil Derricks \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeMOAB
-"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Deals more damage in larger radius & without delay \n Delivered by faster B2 Bomber \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius  \n \n 60s upgrade time"
+"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Deals more damage in larger radius & without delay \n Delivered by faster B2 Bomber \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius  \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipBecomeRealBuilding
@@ -14072,15 +14076,15 @@ CONTROLBAR:TooltipBecomeRealBuilding
 END
 
 CONTROLBAR:TooltipUSAUpgradeChemicalSuits
-"\n Equip Infantry with better chemical and radiation protection \n \n 4 times less dmg from Toxins, Radiation and Microwave \n \n 40s upgrade time"
+"\n Equip Infantry with better chemical and radiation protection \n \n 4 times less dmg from Toxins, Radiation and Microwave \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeBunkerBusters
-"\n Upgrades Stealth Fighter missiles \n Creates secondary explosion that deals additional damage \n \n +200 additional dmg per missile \n Kills infantry in tunnels \n Forces vehicles out of tunnels and damages them \n \n 60s upgrade time"
+"\n Upgrades Stealth Fighter missiles \n Creates secondary explosion that deals additional damage \n \n +200 additional dmg per missile \n Kills infantry in tunnels \n Forces vehicles out of tunnels and damages them \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCountermeasures
-"\n All aircraft gain ability to shoot Flares evading 30% of missiles fired at them. \n \n \n MiG, Helix, Chinook - enables Flares(except Laser) \n \n Comanche - enables Flares(except Laser) and improves Armor \n \n All other planes/jets - enables Flares and improves Armor \n \n 40s upgrade time"
+"\n All aircraft gain ability to shoot Flares evading 30% of missiles fired at them. \n \n \n MiG, Helix, Chinook - enables Flares(except Laser) \n \n Comanche - enables Flares(except Laser) and improves Armor \n \n All other planes/jets - enables Flares and improves Armor \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaHelixGattlingCannon
@@ -14100,15 +14104,15 @@ CONTROLBAR:Infa_TooltipUpgradeChinaHelixBattleBunker
 END
 
 CONTROLBAR:TooltipChinaUpgradeSatelliteHackOne
-"\n Enables Internet Center to spy on enemy Command and Supply Centers \n \n Permanently reveals positions of enemy Command & Supply Centers \n \n Will try to reveal newly build Centers(not guaranteed) \n \n 20s upgrade time"
+"\n Enables Internet Center to spy on enemy Command and Supply Centers \n \n Permanently reveals positions of enemy Command & Supply Centers \n \n Will try to reveal newly build Centers(not guaranteed) \n \n Upgrade time: 20s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo
-"\n Provides a Satellite Hack Two active ability \n Satellite Hack I will continue to be active \n \n Satellite Hack II ability: \n Temporary reveals positions of all enemy units \n 20(30)s duration(+10s 2nd InternetCenter) \n 4:00 reload time \n \n 30s upgrade time"
+"\n Provides a Satellite Hack Two active ability \n Satellite Hack I will continue to be active \n \n Satellite Hack II ability: \n Temporary reveals positions of all enemy units \n 20(30)s duration(+10s 2nd InternetCenter) \n 4:00 reload time \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeFanaticism
-"\n Improves Nationalism bonus for Mini-Gunners and Tank Hunters: \n \n +15% additional Damage \n \n Total bonus: \n +35% Damage \n +45% Rate Of Fire \n \n 40s upgrade time"
+"\n Improves Nationalism bonus for Mini-Gunners and Tank Hunters: \n \n +15% additional Damage \n \n Total bonus: \n +35% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaWGUraniumShells
@@ -14116,11 +14120,11 @@ CONTROLBAR:TooltipUpgradeChinaWGUraniumShells
 END
 
 CONTROLBAR:TooltipUpgradeChinaTankAutoLoader
-"\n Increases Battlemaster Rate Of Fire: \n \n Replaces single shot(56 dmg every 2s) with 3x37 within 1.25s every 1.75s \n ~32% dps increase \n \n 60s upgrade time"
+"\n Increases Battlemaster Rate Of Fire: \n \n Replaces single shot(56 dmg every 2s) with 3x37 within 1.25s every 1.75s \n ~32% dps increase \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
-"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building \n \n 60s upgrade time"
+"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipUpgradeChinaEMPMines
@@ -14128,7 +14132,7 @@ CONTROLBAR:ToolTipUpgradeChinaEMPMines
 END
 
 CONTROLBAR:TooltipUpgradeChinaFusionReactors
-"\n +25% Emperor and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n 60s upgrade time"
+"\n +25% Emperor and Battlemaster speed \n Affected tanks will explode when destroyed and leave small radiation field \n \n Death Explosion: \n 25(10) dmg in 40(60) radius \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipDetonateFakebuilding
@@ -14148,27 +14152,27 @@ CONTROLBAR:Demo_ToolTipGLAUpgradeHETrap
 END
 
 CONTROLBAR:ToolTipGLACamoNetting
-"\n This structure gains camouflage \n \n 2.5s stealth delay if not attacking or taking damage \n \n 5s upgrade time"
+"\n This structure gains camouflage \n \n 2.5s stealth delay if not attacking or taking damage \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:ToolTipGLARadarVanCamoNetting
-"\n This Radar Van becomes Stealth when not moving and not taking damage (2s delay) \n \n 5s upgrade time"
+"\n This Radar Van becomes Stealth when not moving and not taking damage (2s delay) \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeFortifiedStructure
-"\n Buildings gain additional armor protection from attacks \n \n ~20-33% better armor vs most damage types \n \n 40s upgrade time"
+"\n Buildings gain additional armor protection from attacks \n \n ~20-33% better armor vs most damage types \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeBoobyTrap
-"\n Enables Rebels to place booby traps on buildings and neutral units \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max \n \n 30s upgrade time"
+"\n Enables Rebels to place booby traps on buildings and neutral units \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeWorkerShoes
-"\n Give Workers the new shoes they've been asking for! \n \n +10% additional supply collection \n +20% speed \n \n 10s upgrade time"
+"\n Give Workers the new shoes they've been asking for! \n \n +10% additional supply collection \n +20% speed \n \n Upgrade time: 10s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAnthraxGamma
-"\n Replaces blue Beta Toxins with pink Gamma Toxin \n \n +25% Damage to all toxin attacks & fields \n Slightly increases radius of toxin fields \n \n 60s upgrade time "
+"\n Replaces blue Beta Toxins with pink Gamma Toxin \n \n +25% Damage to all toxin attacks & fields \n Slightly increases radius of toxin fields \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipSaboteur
@@ -14220,7 +14224,7 @@ CONTROLBAR:ToolTipECMDisableVehicle
 END
 
 CONTROLBAR:ToolTipGLAFireRebelBoobyTrapAttack
-"Place a booby trap on building or neutral unit \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max"
+"Place a booby trap on building or neutral unit \n \n 200(50) dmg in 5(15) radius \n 7.5s reload time \n 100 simultaneous traps max \n \n Reload time: 7.5s"
 END
 
 CONTROLBAR:ToolTipUSABuildFireBase
@@ -24992,7 +24996,7 @@ UPGRADE:IsotopeStability
 END
 
 CONTROLBAR:Infa_ToolTipChinaUpgradeRedGuardCaptureBuilding
-"\n Enables Mini-Gunners to capture enemy and tech buildings \n \n 30s upgrade time"
+"\n Enables Mini-Gunners to capture enemy and tech buildings \n \n Upgrade time: 30s"
 END
 
 OBJECT:Lazr_PatriotBattery
@@ -25132,7 +25136,7 @@ OBJECT:Ox
 END
 
 CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig
-"\n Upgrades MiG with 2 Tactical Nuke Missiles \n \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time \n \n 60s upgrade time"
+"\n Upgrades MiG with 2 Tactical Nuke Missiles \n \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 10s airfield reload time \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:UpgradeChinaTacticalNukeMig
@@ -25200,7 +25204,7 @@ CONTROLBAR:UpgradeSuicideBomb
 END
 
 CONTROLBAR:ToolTipGLAUpgradeSuicideBomb
-"\n Allows all units and base defenses to use Demolitions Ability \n Increases damage of Terrorist on a Bike \n \n Demolitions Ability: \n Ability to manually suicide a unit dealing explosion damage \n Will also trigger a 1/5 power explosion if killed \n \n Does NOT damage allies! \n \n Suicide explosion: \n 500(300) dmg in 18(50) radius \n \n Killed explosion(20%): \n 100(60) dmg in 18(50) radius \n \n 40s upgrade time"
+"\n Allows all units and base defenses to use Demolitions Ability \n Increases damage of Terrorist on a Bike \n \n Demolitions Ability: \n Ability to manually suicide a unit dealing explosion damage \n Will also trigger a 1/5 power explosion if killed \n \n Does NOT damage allies! \n \n Suicide explosion: \n 500(300) dmg in 18(50) radius \n \n Killed explosion(20%): \n 100(60) dmg in 18(50) radius \n \n Upgrade time: 40s"
 END
 
 OBJECT:MiniGunner
@@ -25308,7 +25312,7 @@ CONTROLBAR:UpgradeStealthComanche
 END
 
 CONTROLBAR:ToolTipAirFUpgradeComancheStealth
-"\n Comanches become stealth \n Reveals itself when attacking or taking damage  \n \n 2s stealth delay \n \n 40s upgrade time"
+"\n Comanches become stealth \n Reveals itself when attacking or taking damage  \n \n 2s stealth delay \n \n Upgrade time: 40s"
 END
 
 OBJECT:Entrance
@@ -25420,15 +25424,15 @@ MAP:MD_CHI03-Event-Built-SpeakerTower-01
 END
 
 CONTROLBAR:Tank_TooltipUpgradeChinaUraniumShells
-" +25% Damage for Battlemaster and Emperor shells  \n \n 60s upgrade time"
+" +25% Damage for Battlemaster and Emperor shells  \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeBuggyAmmo
-"\n +4 Buggy rockets (6 ->10 total) \n \n ~66% additional damage per volley \n \n 30s upgrade time"
+"\n +4 Buggy rockets (6 ->10 total) \n \n ~66% additional damage per volley \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:Chem_ToolTipGLAUpgradeAPBullets
-"\n +25% Damage for: \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n 60s upgrade time "
+"\n +25% Damage for: \n - Technical \n - Quad Cannon \n - Jarmen Kell \n \n Upgrade time: 60s"
 END
 
 GUI:BioFeatures_USA
@@ -25800,7 +25804,7 @@ CREDITS:NACustomerQualityControl
 END
 
 CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
-"\n +25% hp \n +200% additional power \n \n 30s upgrade time"
+"\n +25% hp \n +200% additional power \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
@@ -26044,7 +26048,7 @@ MAP:Defcon6
 END
 
 CONTROLBAR:AirF_TooltipUSAUpgradeLaserMissiles
-"\n King Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods) \n \n 40s upgrade time"
+"\n King Raptor - +25% damage \n Stealth Fighter - +25% missile damage \n Comanche - +25% missile damage(not rocket pods) \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceCarpetBomb
