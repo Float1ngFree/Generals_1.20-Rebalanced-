@@ -7079,7 +7079,7 @@ CONTROLBAR:TooltipUSAUpgradeAdvancedTraining
 END
 
 CONTROLBAR:TooltipUSAUpgradeDroneARmor
-"\n +25% hp for Spy, Scout, Hellfire & Sentry Drones \n \n Upgrade time: 40s"
+"\n +25% hp for Spy, Scout, Hellfire & Sentry Drones \n \n Improves Aerial Drones' armor vs Anti-Air \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeAdvancedControlRods
