@@ -7799,7 +7799,7 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 89(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n +56(70) napalm(Black) dmg in 24(30) radius over 2.5s \n 4 napalm missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
+"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 89(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n +56(70) napalm(Black) dmg in 20(25) radius over 2.5s \n 4 napalm missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildMIG
@@ -7827,7 +7827,7 @@ CONTROLBAR:Nuke_ToolTipChinaBuildTankHunter
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +56(70) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
@@ -10323,15 +10323,15 @@ GUI:AcceptSm
 END
 
 GUI:EasyCaps
-"EASY"
+"EASY (150% hp)"
 END
 
 GUI:MediumDifficultyCaps
-"MEDIUM"
+"MEDIUM (100% hp)"
 END
 
 GUI:HardCaps
-"HARD"
+"HARD (80% hp)"
 END
 
 TOOLTIP:AdvanceOptionsAccept
