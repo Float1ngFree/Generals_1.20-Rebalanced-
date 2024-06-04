@@ -6947,7 +6947,7 @@ MAP:USA05Temp
 END
 
 CONTROLBAR:TooltipDaisyCutter
-"Deploy B52 that drops Fuel Air Bomb \n \n 1000 hp \n ~2s detonation delay \n 2000 dmg in 100 radius \n \n Countdown Timer: 6:00"
+"Deploy B52 that drops Fuel Air Bomb \n \n 1000 hp \n ~2s detonation delay \n 2000(200) dmg in 100(125) radius \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipFireParticleUplinkCannon
@@ -6980,6 +6980,10 @@ END
 
 CONTROLBAR:TooltipFireNukeMissile
 "Fire Nuclear Missile \n \n Damage dealt by 6 blasts \n The closer to epicenter - the more damage(blasts) taken \n Can destroy GLA Buildings with Holes \n \n Total damage within given radius: \n - 8001 dmg in 30 radius (red dot) \n - 7920-5600 dmg in 31-60 radius \n - 4894-4480 dmg in 61-120 radius \n - 3387-3050 dmg in 121-150 radius \n - 2135-1700 dmg in 151-180 radius \n - 1042-520 dmg in 181-210 radius \n - 167-80 dmg in 211-240 radius \n \n Countdown Timer: 6:00"
+END
+
+CONTROLBAR:TooltipFireBallisticMissile
+"Fire Ballistic Missile \n \n Can destroy GLA Buildings with Holes in 25 radius \n \n Total damage: \n 2001/1500/750/250 dmg in 25/50/75/100 radius \n \n Countdown Timer: 3:30"
 END
 
 CONTROLBAR:TooltipFireSCUDStorm
@@ -7443,7 +7447,7 @@ CONTROLBAR:SupW_ToolTipUSABuildParticleCannon
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildParticleCannon
-"\n Fires a particle beam anywhere on the map \n \n +20% increased beam damage \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 12"
+"\n Fires a particle beam anywhere on the map \n \n +20% increased beam damage \n \n 4000 hp \n Strong Structure Armor \n \n Power Required: 13"
 END
 
 CONTROLBAR:ToolTipUSABuildStrategyCenter
@@ -7452,6 +7456,10 @@ END
 
 CONTROLBAR:Air_ToolTipUSABuildStrategyCenter
 "\n Tech building containing critical USA upgrades \n Provides Intelligence Ability \n Allows to set one of the following battle plans: \n \n Bombardment(+20% dmg) \n Search and Destroy(+10/15% attack/sight range) \n Hold the Line(+15% damage reduction) \n \n Produces following upgrades: \n - Chemical Suits \n - Advanced Training \n - Drone Armor \n - Supply Lines \n - Bunker Busters \n - MOAB \n \n 1500(3000) hp(Hold the Line) \n \n Power Required: 2"
+END
+
+CONTROLBAR:SupW_ToolTipUSABuildStrategyCenter
+"\n Tech building containing critical USA upgrades \n Provides Intelligence Ability \n Allows to set one of the following battle plans: \n \n Bombardment(+20% dmg) \n Search and Destroy(+10/15% attack/sight range) \n Hold the Line(+15% damage reduction) \n \n Produces following upgrades: \n - Chemical Suits \n - Advanced Training \n - Drone Armor \n - Supply Lines \n - MOAB \n \n 1500(3000) hp(Hold the Line) \n \n Power Required: 2"
 END
 
 CONTROLBAR:ToolTipUSABuildDetentionCamp
@@ -7747,7 +7755,7 @@ CONTROLBAR:ToolTipUSABuildStealthFighter
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 140(175)x2 dmg(Laser Missiles) over 0.455s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.455s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
@@ -7999,7 +8007,7 @@ CONTROLBAR:AirF_ToolTipUSAScienceA10Strike
 END
 
 CONTROLBAR:ToolTipUSAScienceDaisyCutter
-"\n Call in B52 that drops Fuel Air Bomb \n \n 6:00 reload time \n 1000 hp \n ~2s detonation delay \n 2000 dmg in 100 radius \n \n Deploy from: Command Center"
+"\n Call in B52 that drops Fuel Air Bomb \n \n 6:00 reload time \n 1000 hp \n ~2s detonation delay \n 2000(200) dmg in 100(125) radius \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceNukeCannon
@@ -11678,6 +11686,10 @@ GUI:SupW_SuperweaponNeutronMissile
 "ICBM"
 END
 
+GUI:SupW_CruiseMissile
+"Ballistic Missile"
+END
+
 INI:FactionAmericaSuperWeaponGeneral
 "USA Super Weapon General"
 END
@@ -11990,6 +12002,10 @@ CONTROLBAR:ConstructAmericaICBMLauncher
 "&ICBM"
 END
 
+CONTROLBAR:ConstructAmericaBallisticMissileSilo
+"Ballis&tic Missile Silo"
+END
+
 CONTROLBAR:ConstructChinaVehicleListeningOutpost
 "Li&stening Outpost"
 END
@@ -12170,8 +12186,16 @@ CONTROLBAR:ICBM
 "&ICBM"
 END
 
+CONTROLBAR:BallisticMissile
+"&Ballistic Missile"
+END
+
 CONTROLBAR:ICBMShortcut
 "ICBM"
+END
+
+CONTROLBAR:BallisticMissileShortcut
+"Ballistic Missile"
 END
 
 CONTROLBAR:ScudStormShortcut
@@ -14007,7 +14031,7 @@ GC_CHINABOSS:Resources
 END
 
 CONTROLBAR:TooltipMOAB
-"Call in B2 Bomber to deliver Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius \n \n Countdown Timer: 6:00"
+"Call in B2 Bomber to deliver Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs \n \n Can destroy GLA Buildings with Holes in 75 radius \n \n 1000 hp \n Total damage: \n 3001/2001/1501/500 dmg in 50/75/100/150 radius \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipLeafletDrop
@@ -14068,7 +14092,7 @@ CONTROLBAR:TooltipUSAUpgradeSupplyLines
 END
 
 CONTROLBAR:TooltipUSAUpgradeMOAB
-"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Deals more damage in larger radius & without delay \n Delivered by faster B2 Bomber \n \n 1000 hp \n 3000(2000) dmg in 50(150) radius  \n \n Upgrade time: 60s"
+"\n Upgrade Fuel Air Bomb into Massive Ordnance Air Blast, a.k.a. Mother Of All Bombs: \n \n Delivered by faster B2 Bomber \n Deals more damage in larger radius & without delay \n Can destroy GLA Buildings with Holes in 75 radius \n \n 1000 hp \n Total damage: \n 3001/2001/1501/500 dmg in 50/75/100/150 radius \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipBecomeRealBuilding
@@ -14244,7 +14268,11 @@ CONTROLBAR:ToolTipChinaBuildInternetCenter
 END
 
 CONTROLBAR:ToolTipAmericaICBMLauncher
-"Launches an Intercontinental Ballistic Missile \n Power Required: 10"
+"\n Launches an Intercontinental Ballistic Missile \n \n Power Required: 10"
+END
+
+CONTROLBAR:ToolTipAmericaBuildBallisticMissileSilo
+"\n Launches Ballistic Missile \n \n 3000 hp \n Strong Structure Armor \n \n Build Limit: 2 \n Power Required: 8 \n"
 END
 
 CONTROLBAR:ToolTipAmericaBuildTomahawkStorm
@@ -25127,8 +25155,12 @@ OBJECT:FuelAirBomb
 "Fuel Air Bomb"
 END
 
-OBJECT:CruiseMissile
-"Cruise Missile"
+OBJECT:BallisticMissile
+"Ballistic Missile"
+END
+
+OBJECT:BallisticMissileSilo
+"Ballistic Missile Silo"
 END
 
 OBJECT:Ox
@@ -25460,7 +25492,7 @@ GUI:BioFeatures_Pos2
 END
 
 GUI:BioFeatures_Pos3
-"No Crusader/Paladin tanks \n Regular vehicles cost more \n \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
+"No Crusader/Paladin tanks \n Regular infantry/vehicles cost more \n \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Control Rods \n Particle Cannon cost less \n Ballistic Missile Silo \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
 END
 
 GUI:BioFeatures_Pos4
@@ -26077,4 +26109,12 @@ END
 
 CONTROLBAR:ToolTipChinaInfernoCannon
 "\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
+END
+
+SCIENCE:BallisticMissile
+"Ballistic Missile"
+END
+
+CONTROLBAR:ToolTipUSABallisticMissileSilo
+"\n Launches Ballistic Missile \n \n 3:30 countdown time \n Can destroy GLA Buildings with Holes in 25 raius \n \n Total damage: \n 2001/1500/750/250 dmg in 25/50/75/100 radius \n \n 3000 hp \n Strong Structure Armor \n \n Build Limit: 2 \n Power Required: 8 \n"
 END
