@@ -12107,7 +12107,7 @@ CONTROLBAR:ChinaUpgradeHelixNapalmBomb
 END
 
 CONTROLBAR:ChinaUpgradeHelixNukeBomb
-"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n Upgrade time: 40s"
+"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:UpgradeHelixNapalmBomb
@@ -14212,7 +14212,7 @@ CONTROLBAR:DropNukeBomb
 END
 
 CONTROLBAR:ToolTipDropNukeBomb
-"Drop small nuke bomb \n \n 360(90) dmg in 50(65) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius"
+"Drop small nuke bomb \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius"
 END
 
 CONTROLBAR:ToolTipDropNapalmBomb
@@ -14296,15 +14296,15 @@ CONTROLBAR:ToolTipChinaBuildMiniGunner
 END
 
 CONTROLBAR:ToolTipUSABuildAvenger
-"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x10 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range \n"
+"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x9 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range \n"
 END
 
 CONTROLBAR:ToolTipUSABuildKingRaptor
-"\n Upgraded USA Fighter Jet \n Can engage ground and air target \n Detects Stealth (250 range) \n \n Can be upgraded with Laser Missiles \n \n 200(240) hp (due to VETERAN) \n 100(125)x6 dmg(Laser Missiles) over 0.385s \n 350 attack range \n 6s airfield reload time"
+"\n Upgraded USA Fighter Jet \n Can engage ground and air target \n Detects Stealth (250 range) \n \n Can be upgraded with Laser Missiles \n \n 180(216) hp (due to VETERAN) \n 100(125)x6 dmg(Laser Missiles) over 0.385s \n 350 attack range \n 6s airfield reload time"
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(250) dmg in 40(60) radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(200) dmg in 35(55) radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -25476,11 +25476,11 @@ GUI:BioFeatures_GLA
 END
 
 GUI:BioFeatures_China
-"Strength in numbers & raw power \n Advanced propaganda \n Internet/Building/Vehicle Hacks \n Nuclear weapons/technology \n Napalm Weapons \n Minefields \n \n All base Chinese units/buildings/upgrades \n Base unit/building/upgrade prices"
+"Strength in numbers & raw power \n Advanced propaganda \n Internet/Building/Vehicle Hacks \n Nuclear technology/weapons \n Napalm Weapons \n Minefields \n \n All base Chinese units/buildings/upgrades \n Base unit/building/upgrade prices"
 END
 
 GUI:BioFeatures_Pos0
-"No Crusader/Paladin tanks \n Vehicles cost more \n Avenger requires promotion \n \n Countermeasures & +25% jet hp \n All jets/helicopters start VETERAN \n King Raptor for cost of Raptor \n Combat Chinooks \n Stealth Comanche upgrade \n Spectre Gunship at a lower rank \n Starts with Stealth Fighter \n B2 Carpet Bomber"
+"No Crusader/Paladin tanks \n Vehicles/infantry cost more \n Avenger requires promotion \n \n Countermeasures & +12.5% jet hp \n All jets/helicopters start VETERAN \n King Raptor for cost of Raptor \n Combat Chinooks \n Stealth Comanche upgrade \n Spectre Gunship at a lower rank \n Starts with Stealth Fighter \n B2 Carpet Bomber"
 END
 
 GUI:BioFeatures_Pos1
@@ -25492,7 +25492,7 @@ GUI:BioFeatures_Pos2
 END
 
 GUI:BioFeatures_Pos3
-"No Crusader/Paladin tanks \n Regular infantry/vehicles cost more \n \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Control Rods \n Particle Cannon cost less \n Ballistic Missile Silo \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
+"No Crusader/Paladin tanks \n Regular infantry/vehicles cost more \n \n Ballistic Missile Silo \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Control Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
 END
 
 GUI:BioFeatures_Pos4
@@ -25500,7 +25500,7 @@ GUI:BioFeatures_Pos4
 END
 
 GUI:BioFeatures_Pos5
-"Tomahawk requires promotion \n No Paladin Tank \n Aircraft cost more \n \n Aircraft Point Defence Lasers \n Laser Crusader & Defense Turret \n Laser Particle Cannon \n Avengers cost less \n Advanced Cold Fusion Reactors \n Laser Lock upgraded \n Laser Missiles upgraded"
+"Tomahawk requires promotion \n No Paladin Tank \n Aircraft/infantry cost more \n \n Aircraft Point Defence Lasers \n Laser Crusader & Defense Turret \n Laser Particle Cannon \n Avengers cost less \n Advanced Cold Fusion Reactors \n Laser Lock upgraded \n Laser Missiles upgraded"
 END
 
 GUI:BioFeatures_Pos6
@@ -25724,7 +25724,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n 100(120) hp (due to VETERAN) \n 500(90)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n 90(108) hp (due to VETERAN) \n 500(90)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
@@ -25840,7 +25840,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 150(180) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion"
+"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 135(162) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion"
 END
 
 GUI:RetaliationTitle
@@ -26092,7 +26092,7 @@ SCIENCE:USAAvenger
 END
 
 CONTROLBAR:AirF_ToolTipUSAScienceAvenger
-"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x10 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range \n"
+"\n Advanced Anti-Air and Anti-Missile vehicle \n Can designate ground targets to increase dps \n 2 Laser cannons vs Aircraft & Cruise Missiles \n 2 Point Defense Lasers vs small missiles \n \n Can be equipped with Scout or Hellfire Drone \n \n 300 hp \n 2x9 dmg every 0.2s vs air \n 300 air attack range \n 2x0.5s PDL reload \n \n Target Designator: \n +20% Rate of Fire, +10% Damage & Range \n 190 designator range \n"
 END
 
 SCIENCE:USATomahawk
