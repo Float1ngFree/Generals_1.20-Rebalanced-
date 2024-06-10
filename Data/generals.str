@@ -7431,7 +7431,7 @@ CONTROLBAR:ToolTipUSABuildWarFactory
 END
 
 CONTROLBAR:ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 1000 hp \n 30x4 dmg over 0.75s every 2s \n 250(425) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Ground and air defense \n \n 1000 hp \n 30x4 dmg over 0.6s every 2s \n 250(425) ground(air) attack range \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 CONTROLBAR:ToolTipUSABuildAirField
@@ -24992,7 +24992,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 1000 hp \n 15(27)x4 ground(air) dmg over 0.375s every 2s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Ground and air defense \n \n 1000 hp \n 15(27)x4 ground(air) dmg over 0.3s every 2.1s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
