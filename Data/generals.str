@@ -7755,7 +7755,7 @@ CONTROLBAR:ToolTipUSABuildStealthFighter
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.455s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.4s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
