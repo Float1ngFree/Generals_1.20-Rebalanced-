@@ -7751,15 +7751,15 @@ CONTROLBAR:Lazr_ToolTipUSABuildAurora
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg(Laser Missiles) over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n 120 hp \n 100(125)x2 dmg(Laser Missiles) over 0.4s \n 160-250% damage to buildings \n 320 attack range \n 10s airfield reload time \n \n Bunker Busters: \n 200 dmg secondary explosion after 0.267s delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels \n"
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.4s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.334s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 8s airfield reload time \n 20 scatter radius \n 0.5s PDL reload \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures and Bunker Busters(Strategy Center) \n \n 120 hp \n 100(125)x2 dmg over 0.4s \n 160-250% damage to buildings \n 320 attack range \n 10s airfield reload time \n 0.5s PDL reload \n \n Bunker Busters: \n 200 dmg secondary explosion after 0.267s delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels \n"
 END
 
 CONTROLBAR:ToolTipUSABuildComanche
@@ -7987,7 +7987,7 @@ CONTROLBAR:ToolTipUSASciencePathFinder
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion \n"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Countermeasures, Laser Missiles and Bunker Busters(Strategy Center) \n \n Laser General - equipped with a Point Defense Laser \n \n 120 hp \n 100(125)x2 dmg over 0.4s \n 160-250% damage to buildings \n 320 attack range \n 10s airfield reload time \n \n Bunker Busters: \n 200 dmg secondary explosion after 0.267s delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpyDrone
@@ -14104,7 +14104,7 @@ CONTROLBAR:TooltipUSAUpgradeChemicalSuits
 END
 
 CONTROLBAR:TooltipUSAUpgradeBunkerBusters
-"\n Upgrades Stealth Fighter missiles \n Creates secondary explosion that deals additional damage \n \n +200 additional dmg per missile \n Kills infantry in tunnels \n Forces vehicles out of tunnels and damages them \n \n Upgrade time: 60s"
+"\n Upgrades Stealth Fighter missiles \n Creates secondary explosion that deals additional damage \n \n +200 additional dmg per missile \n 0.267s secondary explosion delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:TooltipUSAUpgradeCountermeasures
@@ -25840,7 +25840,7 @@ CONTROLBAR:SupW_TooltipUSAUpgradeAdvancedControlRods
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildStealthFighter
-"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles(do not follow) \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 135(162) hp (due to VETERAN) \n 120(150)x2 dmg over 0.455s \n 150-250% damage to buildings \n 320 attack range \n 20 scatter radius \n 8s airfield reload time \n \n Bunker Busters: adds 200 dmg secondary explosion"
+"\n Stealthed(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Special Air-To-Surface missiles \n \n Can be upgraded with Laser Missiles and Bunker Busters(Strategy Center) \n \n 135(162) hp (due to VETERAN) \n 100(125)x2 dmg over 0.4s \n 160-250% damage to buildings \n 320 attack range \n 10s airfield reload time \n \n Bunker Busters: \n 200 dmg secondary explosion after 0.267s delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels"
 END
 
 GUI:RetaliationTitle
