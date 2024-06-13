@@ -7743,11 +7743,11 @@ CONTROLBAR:Lazr_ToolTipUSABuildRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
@@ -14304,7 +14304,7 @@ CONTROLBAR:ToolTipUSABuildKingRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(200) dmg in 35(55) radius \n 330 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(200) dmg in 35(55) radius \n 320 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -25724,7 +25724,7 @@ CONTROLBAR:Chem_TooltipFireRebelAmbush
 END
 
 CONTROLBAR:AirF_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n 90(108) hp (due to VETERAN) \n 500(90)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 330 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n 90(108) hp (due to VETERAN) \n 500(90)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLAScienceRebelAmbush
