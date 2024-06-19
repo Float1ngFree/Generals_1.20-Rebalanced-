@@ -7839,11 +7839,11 @@ CONTROLBAR:ToolTipChinaBuildInfernoCannon
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildNukeLauncher
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be upgraded with Neutron Shells and Isotope Stability \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be upgraded with Neutron Shells and Isotope Stability \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildTroopCrawler
@@ -8011,7 +8011,7 @@ CONTROLBAR:ToolTipUSAScienceDaisyCutter
 END
 
 CONTROLBAR:ToolTipChinaScienceNukeCannon
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell (70 effect radius): \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n \n Build at: War Factory \n Requires: Propaganda Center"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n \n Build at: War Factory \n Requires: Propaganda Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceRedGuardTraining
@@ -14148,7 +14148,7 @@ CONTROLBAR:TooltipUpgradeChinaTankAutoLoader
 END
 
 CONTROLBAR:TooltipUpgradeChinaNeutronShells
-"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building \n \n Upgrade time: 60s"
+"\n Enables Nuke Cannon switch to fire Neutron Shells \n \n - 240(80) dmg in 20(40) radius every 10s \n - 350 attack range \n - 35 scatter radius \n \n 60 radius effect: \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:ToolTipUpgradeChinaEMPMines
@@ -14232,7 +14232,7 @@ CONTROLBAR:ToolTipChinaNukeWarhead
 END
 
 CONTROLBAR:ToolTipChinaNeutronWarhead
-"Switch to fire Neutron Shells \n \n - 70 effect radius \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building"
+"Switch to fire Neutron Shells \n \n - 240(80) dmg in 20(40) radius every 10s \n - 350 attack range \n - 35 scatter radius \n \n 60 radius effect: \n - Kills all units inside tunnels \n - Kills vehicle pilots and passengers \n - Kills infantry, including inside ANY building"
 END
 
 CONTROLBAR:ToolTipFireBattleship
