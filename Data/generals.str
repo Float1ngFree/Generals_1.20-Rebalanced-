@@ -7071,7 +7071,7 @@ CONTROLBAR:TooltipSell
 END
 
 CONTROLBAR:TooltipNukeReactorOverCharge
-"Damage the reactor to create 50% more power \n \n Deals 3% dps to itself \n Stops when hp drops below 10% \n"
+"Continuously damage the reactor to create 50% more power \n \n Deals 3% dps to itself \n Stops when hp drops below 10% \n"
 END
 
 CONTROLBAR:TooltipCancelUpgrade
