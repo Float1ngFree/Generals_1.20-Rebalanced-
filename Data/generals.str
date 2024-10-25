@@ -14320,7 +14320,7 @@ CONTROLBAR:ToolTipGLABuildSniper
 END
 
 CONTROLBAR:ToolTipUSABuildMicrowave
-"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Damages nearby infantry when beam isn't activated \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 10 dmg every 0.25s in 100 radius(around tank) \n 200(125) disable(clear) building range"
+"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Damages nearby infantry when beam isn't activated \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 50 SUBDUAL_BUILDING dmg every 0.1s \n 200(125) disable(clear) building range \n \n 10 dmg every 0.25s in 100 radius(around tank) \n Will not deal radial damage while disabling building"
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
@@ -14344,7 +14344,7 @@ CONTROLBAR:ToolTipChinaBuildListeningOutpost
 END
 
 CONTROLBAR:ToolTipChinaBuildECM
-"\n Electronic Countermeasures tank \n \n Can disable vehicle with focused beam \n Deflects incoming missiles when not using disabling beam \n \n 300 hp \n 150 missile deflection radius \n 200 vehicle disabler range \n Will not deflect missiles while disabling vehicles \n"
+"\n Electronic Countermeasures tank \n \n Can disable vehicle with focused beam \n Deflects incoming missiles when not using disabling beam \n \n 300 hp \n \n 24 SUBDUAL_VEHICLE dmg every 0.1s \n 200 vehicle disabler range \n \n 150 missile deflection radius \n Will not deflect missiles while disabling vehicles \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBattleBus
