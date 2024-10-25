@@ -4202,16 +4202,16 @@ CONTROLBAR:ConstructAmericaJetRaptor
 "Rap&tor"
 END
 
+CONTROLBAR:SupW_ConstructAmericaJetRaptor
+"EMP Rap&tor"
+END
+
 CONTROLBAR:ConstructAmericaJetAurora
 "Aurora &Bomber"
 END
 
 CONTROLBAR:ConstructAmericaJetStealthFighter
 "Stealth &Fighter"
-END
-
-CONTROLBAR:SupW_ConstructAmericaJetStealthFighter
-"EMP Stealth &Fighter"
 END
 
 CONTROLBAR:ConstructAmericaVehicleStarlifter
@@ -5770,6 +5770,10 @@ OBJECT:Raptor
 "Raptor"
 END
 
+OBJECT:SupW_Raptor
+"EMP Raptor"
+END
+
 OBJECT:RaptorPilot
 "Pilot"
 END
@@ -5972,10 +5976,6 @@ END
 
 OBJECT:StealthFighter
 "Stealth Fighter"
-END
-
-OBJECT:SupW_StealthFighter
-"EMP Stealth Fighter"
 END
 
 OBJECT:StingerSite
@@ -7738,16 +7738,20 @@ CONTROLBAR:ToolTipUSABuildRaptor
 "\n USA Fighter Jet \n Can engage ground and air targets \n Can be upgraded with Countermeasures and Laser Missiles \n \n 160 hp \n 100(125)x4 dmg(Laser Missiles) over 0.375s \n 350 attack range \n 8s airfield reload time"
 END
 
+CONTROLBAR:SupW_ToolTipUSABuildRaptor
+"\n Enhanced USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with 4 lesser EMP missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 160 hp \n 90(112.5)x4 dmg(Laser Missiles) over 0.375s \n 350 attack range \n 8s airfield reload time \n \n Lesser EMP Effect: \n Similar to Microwave/ECM Tank \n 500/750 SUBDUAL dmg in 10 radius per missile \n Does NOT affect Aircraft/Helicopters"
+END
+
 CONTROLBAR:Lazr_ToolTipUSABuildRaptor
-"\n USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with a Point Defense Laser vs small missiles \n Can be upgraded with Countermeasures \n \n 160 hp \n 100(125)x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time \n 0.5s PDL reload"
+"\n Advanced USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 160 hp \n 100(125)x4 dmg over 0.375s \n 350 attack range \n 8s airfield reload time \n 0.5s PDL reload"
 END
 
 CONTROLBAR:ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildAurora
-"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30 radius) \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
+"\n Super-sonic Strategic Bomber \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Equipped with a Point Defense Laser vs small missiles \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 500(100)x1 bomb dmg in 20(30) radius \n 175-220% damage to buildings \n 320 attack range \n 25 scatter radius \n 8s airfield reload time \n 0.5s PDL reload \n"
 END
 
 CONTROLBAR:ToolTipUSABuildStealthFighter
@@ -7755,7 +7759,7 @@ CONTROLBAR:ToolTipUSABuildStealthFighter
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildStealthFighter
-"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two EMP Air-To-Surface missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 144(180)x2 dmg(Laser Missiles) over 0.334s \n 335 attack range \n 8s airfield reload time \n \n Disables buildings/vehicles in 10 radius for 10s"
+"\n Stealth(2s delay) Bomber \n Reveals itself when attacks or takes damage \n \n Two Bunker Buster missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 120 hp \n 100(125)x2 dmg(Laser Missiles) over 0.4s \n 160-250% damage to buildings \n 320 attack range \n 10s airfield reload time \n \n Bunker Busters: \n 200 dmg secondary explosion after 0.267s delay \n Kills infantry in buildings and tunnels \n Forces vehicles out of tunnels \n "
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildStealthFighter
@@ -24992,7 +24996,7 @@ CONTROLBAR:SupW_ConstructAmericaPatriotBattery
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildPatriotBattery
-"\n Ground and air defense \n \n 1000 hp \n 15(27)x4 ground(air) dmg over 0.3s every 2.1s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
+"\n Enhanced Ground and air defense \n \n 1000 hp \n 15(27)x4 ground(air) dmg over 0.3s every 2.1s \n 275(400) ground(air) attack range \n Disables vehicles in 10 radius \n 200 stealth detection radius \n \n Power Required: 3"
 END
 
 MAP:USA03xBurtonSurvive
@@ -25480,7 +25484,7 @@ GUI:BioFeatures_China
 END
 
 GUI:BioFeatures_Pos0
-"No Crusader/Paladin tanks \n Vehicles/infantry cost more \n Avenger requires promotion \n \n Countermeasures & +12.5% jet hp \n All jets/helicopters start VETERAN \n King Raptor for cost of Raptor \n Combat Chinooks \n Stealth Comanche upgrade \n Spectre Gunship at a lower rank \n Starts with Stealth Fighter \n B2 Carpet Bomber"
+"No Crusader/Paladin tanks \n Vehicles/infantry cost more \n Avenger requires promotion \n \n Countermeasures & +12.5% jet hp \n All jets/helicopters start VETERAN \n King Raptor \n Combat Chinooks \n Stealth Comanche upgrade \n Spectre Gunship at a lower rank \n Starts with Stealth Fighter \n B2 Carpet Bomber"
 END
 
 GUI:BioFeatures_Pos1
@@ -25492,7 +25496,7 @@ GUI:BioFeatures_Pos2
 END
 
 GUI:BioFeatures_Pos3
-"No Crusader/Paladin tanks \n Regular infantry/vehicles cost more \n \n Ballistic Missile Silo \n Aurora Alpha \n EMP Stealth Fightler & Patriot \n Advanced Control Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB upgraded"
+"No Crusader/Paladin tanks \n Regular infantry/vehicles cost more \n \n Ballistic Missile Silo \n Aurora Alpha \n EMP Raptor & Patriot Battery \n Advanced Control Rods \n Particle Cannon cost less \n Special units cost less \n Spectre Gunship at a lower rank \n MOAB & Bunker Busters upgraded"
 END
 
 GUI:BioFeatures_Pos4
