@@ -25172,7 +25172,7 @@ OBJECT:Ox
 END
 
 CONTROLBAR:TooltipUpgradeChinaTacticalNukeMig
-"\n Upgrades MiG with 2 Tactical Nuke Missiles \n \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 12s airfield reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n Upgrade time: 60s"
+"\n Upgrades MiG with 2 Tactical Nuke Missiles \n \n 280(70) dmg in 30(50) radius \n 2 missiles over 0.3s \n 12s airfield reload time \n Leaves Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Upgrade time: 60s"
 END
 
 CONTROLBAR:UpgradeChinaTacticalNukeMig
