@@ -7607,7 +7607,7 @@ CONTROLBAR:Chem_ToolTipGLABuildStingerSite
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildStingerSite
-"\n Anti-air and anti-tank base defense \n Contains 3 missile soldiers \n Slightly stronger(10%) missile damage \n \n Can be upgraded with AP Rockets(+25% Damage) and Demolitions Ability \n \n 1000 hp \n 30x3(33x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n 200 stealth detection radius(per soldier) \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Anti-air and anti-tank base defense \n Contains 3 missile soldiers \n Slightly stronger(10%) missile damage \n \n Can be upgraded with AP Rockets(+25% Damage) and Demolitions Ability \n \n 1000 hp \n 30x3(32x3) ground(air) dmg over 2s \n 225(400) ground(air) attack range \n 200 stealth detection radius(per soldier) \n \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Slth_ToolTipGLABuildStingerSite
