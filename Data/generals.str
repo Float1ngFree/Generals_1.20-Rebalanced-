@@ -7739,7 +7739,7 @@ CONTROLBAR:ToolTipUSABuildRaptor
 END
 
 CONTROLBAR:SupW_ToolTipUSABuildRaptor
-"\n Enhanced USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with 4 lesser EMP missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 160 hp \n 90(112.5)x4 dmg(Laser Missiles) over 0.375s \n 350 attack range \n 8s airfield reload time \n \n Lesser EMP Effect: \n Similar to Microwave/ECM Tank \n 500/750 SUBDUAL dmg in 10 radius per missile \n Does NOT affect Aircraft/Helicopters"
+"\n Enhanced USA Fighter Jet \n Can engage ground and air targets \n \n Equipped with 4 lesser EMP missiles \n \n Can be upgraded with Countermeasures and Laser Missiles \n \n 160 hp \n 90(112.5)x4 dmg(Laser Missiles) over 0.375s \n 350 attack range \n 8s airfield reload time \n \n Lesser EMP Effect: \n Similar to Microwave/ECM Tank \n 375(750)x4 SUBDUAL_VEHICLE(BUILDING) dmg in 10 radius \n Does NOT affect Aircraft/Helicopters"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildRaptor
