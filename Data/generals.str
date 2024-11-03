@@ -4007,15 +4007,15 @@ CONTROLBAR:TempDescription
 END
 
 CONTROLBAR:CleanupAreaDescription
-"Automatically cleans toxins and radiation in surrounding target area \n Multiple streams stack(clean proportionally faster) \n \n 1000 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.05s/0.1s/0.2s/0.1s \n Medium - 0.5s/1s/2s/1.25s \n Large - 4s/8s/16s \n AnthraxBomb & Nuke - 10s/12s/16s/20s"
+"Automatically cleans toxins and radiation in surrounding target area \n Multiple streams stack(clean proportionally faster) \n \n 1000 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.05s/0.1s/0.2s/0.1s \n Medium - 0.5s/1s/2s/1.25s \n Large - 4s/8s/16s/8s"
 END
 
 CONTROLBAR:CleanupAreaDescriptionDragon
-"Clean up toxins and radiation in target area \n Multiple streams stack(clean proportionally faster) \n \n Will continue to spray until ordered to stop! \n \n 750 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.06s/0.13s/0.26s/0.13s \n Medium - 0.66s/1.33s/2.66s/1.66s \n Large - 5.33s/10.66s/21.33s \n AnthraxBomb & Nuke - 13.33s/16s/21.33s/26.66s"
+"Clean up toxins and radiation in target area \n Multiple streams stack(clean proportionally faster) \n \n Will continue to spray until ordered to stop! \n \n 750 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream: \n \n Small - 0.06s/0.13s/0.26s/0.13s \n Medium - 0.66s/1.33s/2.66s/1.66s \n Large - 5.33s/10.66s/21.33s/10.66s"
 END
 
 CONTROLBAR:CleanupAreaDescriptionTractor
-"Clean up toxins and radiation in target area \n Multiple streams stack(clean proportionally faster) \n \n Will continue to spray until ordered to stop! \n \n 750 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Scrap #1: 875 dps, 110 range \n Scrap #2: 1000 dps, 120 range \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream (no scrap): \n \n Small - 0.06s/0.13s/0.26s/0.13s \n Medium - 0.66s/1.33s/2.66s/1.66s \n Large - 5.33s/10.66s/21.33s \n AnthraxBomb & Nuke - 13.33s/16s/21.33s/26.66s"
+"Clean up toxins and radiation in target area \n Multiple streams stack(clean proportionally faster) \n \n Will continue to spray until ordered to stop! \n \n 750 dps to toxin/radiation field objects \n 100 attack range, 50 radius \n \n Scrap #1: 875 dps, 110 range \n Scrap #2: 1000 dps, 120 range \n \n Time to clean Toxin/Beta/Gamma/Radiation field for single stream (no scrap): \n \n Small - 0.06s/0.13s/0.26s/0.13s \n Medium - 0.66s/1.33s/2.66s/1.66s \n Large - 5.33s/10.66s/21.33s/10.66s"
 END
 
 CONTROLBAR:ConstructAmericaCommandCenter
@@ -7843,11 +7843,11 @@ CONTROLBAR:ToolTipChinaBuildInfernoCannon
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n Leaves Medium Radiation Field - 10.66 dps, 30s, 50 radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildNukeLauncher
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be upgraded with Neutron Shells and Isotope Stability \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed(removed by Isotope Stability) \n \n Can be upgraded with Neutron Shells and Isotope Stability \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n Leaves Medium Radiation Field - 10.66 dps, 30s, 50 radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildTroopCrawler
@@ -8015,7 +8015,7 @@ CONTROLBAR:ToolTipUSAScienceDaisyCutter
 END
 
 CONTROLBAR:ToolTipChinaScienceNukeCannon
-"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n \n Build at: War Factory \n Requires: Propaganda Center"
+"\n Heavy self propelled artillery \n Fires devastating tactical nuke shells \n Explodes when destroyed \n \n Can be upgraded to fire Neutron Shells \n \n 240 hp \n 480(120) dmg in 40(60) radius every 10s \n 350 attack range \n 35 scatter radius \n Leaves Medium Radiation Field - 10.66 dps, 30s, 50 radius \n \n Neutron Shell: \n 240(80) dmg in 20(40) radius every 10s \n 60 radius effect: \n - kills all units inside tunnels \n - kills vehicle pilots and passengers \n - kills infantry, including inside ANY building \n \n Death Explosion: \n 110(70) dmg in 50(75) radius \n \n Build at: War Factory \n Requires: Propaganda Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceRedGuardTraining
@@ -12111,7 +12111,7 @@ CONTROLBAR:ChinaUpgradeHelixNapalmBomb
 END
 
 CONTROLBAR:ChinaUpgradeHelixNukeBomb
-"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius \n \n Upgrade time: 40s"
+"\n Enables Helixes to drop small nuke bombs \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 10.66 dps, 30s, 50 radius \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:UpgradeHelixNapalmBomb
@@ -14216,7 +14216,7 @@ CONTROLBAR:DropNukeBomb
 END
 
 CONTROLBAR:ToolTipDropNukeBomb
-"Drop small nuke bomb \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 13.33 dps, 30s, 50 radius"
+"Drop small nuke bomb \n \n 360(90) dmg in 50(62.5) radius \n 30s reload time \n Leaves Medium Radiation Field - 10.66 dps, 30s, 50 radius"
 END
 
 CONTROLBAR:ToolTipDropNapalmBomb
