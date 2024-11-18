@@ -6991,7 +6991,7 @@ CONTROLBAR:TooltipFireSCUDStorm
 END
 
 CONTROLBAR:TooltipFireArtilleryBarrage
-"Strong vs. Buildings, Large groups of units \n \n Countdown Timer: 5:00"
+"Call in artillery at target location \n \n Countdown Timer: 5:00"
 END
 
 CONTROLBAR:TooltipFireSuperWeaponCashHack
@@ -7027,7 +7027,7 @@ CONTROLBAR:TooltipFireRebelAmbush
 END
 
 CONTROLBAR:TooltipFireAnthraxBomb
-"Strong vs. Infantry \n \n Countdown Timer: 6:00"
+"Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 6 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipCIAIntelligence
@@ -8023,7 +8023,7 @@ CONTROLBAR:ToolTipChinaScienceRedGuardTraining
 END
 
 CONTROLBAR:ToolTipChinaScienceClusterMines
-"Cluster Mines are deployed by air \n \n Deploy from: Command Center"
+"\n Allows you to call in Heavy Bomber that deploys Cluster Mines \n \n 4:00 reload time \n 1000 hp \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceARtilleryTraining
@@ -8031,11 +8031,11 @@ CONTROLBAR:ToolTipChinaScienceARtilleryTraining
 END
 
 CONTROLBAR:ToolTipChinaScienceArtilleryBarrage
-"Call off-map artillery to strike your target \n \n Rank 1: 12 Shells \n Rank 2: 24 Shells \n Rank 3: 36 Shells \n \n Deploy from: Command Center"
+"\n Allows you to call in artillery at target location \n \n 5:00 reload time \n 105 dmg in 50 radius per Shell \n Rank 1: 12 Shells \n Rank 2: 24 Shells \n Rank 3: 36 Shells \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceEMPPulse
-"Allows you to call in a heavy bomber to drop an EMP Pulse bomb. EMP Pulse disables enemy vehicles and buildings \n \n Deploy from: Command Center"
+"\n Allows you to call in a heavy bomber to drop an EMP Pulse bomb \n EMP Pulse disables enemy vehicles and buildings \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipGLAScienceHijacker
@@ -8071,7 +8071,7 @@ CONTROLBAR:ToolTipGLAScienceCashBounty
 END
 
 CONTROLBAR:ToolTipGLAScienceAnthraxBomb
-"Anthrax is deadly against enemy troop concentrations \n \n Deploy from: Command Center"
+"\n Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 6:00 reload time \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 6 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSABuildSecurityFence
@@ -9451,7 +9451,7 @@ MAP:USA08GLABaseKIA
 END
 
 CONTROLBAR:TooltipCarpetBomb
-"Carpet Bomb target area \n \n Countdown Timer: 2:30"
+"Call in a Heavy Bomber to carpet bomb an area \n \n 1000 hp \n Drops 12 bombs in a line \n 300 dmg/bomb in 75 radius \n \n Countdown Timer: 2:30"
 END
 
 CONTROLBAR:TooltipCrateDrop
@@ -14388,7 +14388,7 @@ CONTROLBAR:ToolTipChinaScienceFrenzy
 END
 
 CONTROLBAR:ToolTipChinaScienceCarpetBomb
-"Allows you to call in a heavy bomber to carpet bomb an area \n \n Deploy from: Command Center"
+"\n Call in a Heavy Bomber to carpet bomb an area \n \n 2:30 reload time \n 1000 hp \n Drops 12 bombs in a line \n 300 dmg/bomb in 75 radius \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipScienceGPSScrambler
@@ -25648,15 +25648,15 @@ CONTROLBAR:Nuke_ToolTipChinaBuildPowerPlant
 END
 
 CONTROLBAR:Nuke_ToolTipChinaScienceCarpetBomb
-"Allows you to call in a heavy bomber to carpet bomb an area with tactical nukes \n \n Deploy from: Command Center"
+"\n Allows you to call in Heavy Bomber to carpet bomb an area with tactical nukes \n \n 3:00 reload time \n 1000 hp \n Drops 8 Nuke bombs in a line \n 500 dmg/bomb in 75 radius \n \n Deployed from: Command Center"
 END
 
 CONTROLBAR:Nuke_TooltipCarpetBomb
-"Nuke a target area \n \n Countdown Timer: 3:00"
+"Call in Nuke Bomber to carpet bomb an area \n \n 1000 hp \n Drops 8 Nuke bombs in a line \n 500 dmg/bomb in 75 radius \n \n Countdown Timer: 3:00"
 END
 
 CONTROLBAR:AirF_TooltipCarpetBomb
-"Call in a B2 Bomber to carpet bomb an area \n \n 1000 hp \n Drops 10 bombs in a line \n 300 dmg/bomb in 50 radius \n \n Deploed from: Strategy Center \n Countdown Timer: 3:30"
+"Call in a B2 Bomber to carpet bomb an area \n \n 1000 hp \n Drops 10 bombs in a line \n 300 dmg/bomb in 50 radius \n \n Deployed from: Strategy Center \n Countdown Timer: 3:30"
 END
 
 GUI:FastForwardInstructions
