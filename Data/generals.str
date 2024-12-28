@@ -7027,7 +7027,7 @@ CONTROLBAR:TooltipFireRebelAmbush
 END
 
 CONTROLBAR:TooltipFireAnthraxBomb
-"Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 6 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Countdown Timer: 6:00"
+"Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipCIAIntelligence
@@ -7047,7 +7047,7 @@ CONTROLBAR:TooltipDemoTrapDetonate
 END
 
 CONTROLBAR:TooltipMissileDefenderLaserLock
-"Laser-lock on target vehicle. \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range"
+"Laser-lock on target vehicle \n \n +25% Rate of Fire \n +33% base Damage \n 200(250) activation(break) range"
 END
 
 CONTROLBAR:TooltipBattlePlansBombardment
@@ -8071,7 +8071,7 @@ CONTROLBAR:ToolTipGLAScienceCashBounty
 END
 
 CONTROLBAR:ToolTipGLAScienceAnthraxBomb
-"\n Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 6:00 reload time \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 6 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Deploy from: Command Center"
+"\n Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 6:00 reload time \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSABuildSecurityFence
