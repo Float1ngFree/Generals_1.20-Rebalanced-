@@ -8031,7 +8031,7 @@ CONTROLBAR:ToolTipChinaScienceARtilleryTraining
 END
 
 CONTROLBAR:ToolTipChinaScienceArtilleryBarrage
-"\n Allows you to call in artillery at target location \n \n 5:00 reload time \n 105 dmg in 50 radius per Shell \n Rank 1: 12 Shells \n Rank 2: 24 Shells \n Rank 3: 36 Shells \n \n Deploy from: Command Center"
+"\n Allows you to call in artillery at target location \n \n 5:00 reload time \n 105 dmg in 50 radius per Shell \n \n Rank 1: 12 Shells \n Rank 2: 24 Shells \n Rank 3: 36 Shells \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipChinaScienceEMPPulse
