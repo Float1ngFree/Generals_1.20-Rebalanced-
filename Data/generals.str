@@ -12186,6 +12186,10 @@ CONTROLBAR:NeutronMissileShortcut
 "Nuclear Missile"
 END
 
+CONTROLBAR:SatelliteHackTwoShortcut
+"Satellite Hack II"
+END
+
 CONTROLBAR:ICBM
 "&ICBM"
 END
