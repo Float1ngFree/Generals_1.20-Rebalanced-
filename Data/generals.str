@@ -26120,5 +26120,5 @@ SCIENCE:BallisticMissile
 END
 
 CONTROLBAR:ToolTipUSABallisticMissileSilo
-"\n Launches Ballistic Missile \n \n 3:30 countdown time \n Can destroy GLA Buildings with Holes in 25 raius \n \n Total damage: \n 2001/1500/750/250 dmg in 25/50/75/100 radius \n \n 3000 hp \n Strong Structure Armor \n \n Build Limit: 2 \n Power Required: 8 \n"
+"\n Launches Ballistic Missile \n \n 3:30 countdown time \n Can destroy GLA Buildings with Holes in 25 radius \n \n Total damage: \n 2001/1500/750/250 dmg in 25/50/75/100 radius \n \n 3000 hp \n Strong Structure Armor \n \n Build Limit: 2 \n Power Required: 8 \n"
 END
