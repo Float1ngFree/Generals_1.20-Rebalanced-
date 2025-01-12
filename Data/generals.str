@@ -4970,6 +4970,10 @@ UPGRADE:BioBomb
 "Bio-Bomb"
 END
 
+UPGRADE:LargeBioBomb
+"Large Bio-Bomb"
+END
+
 UPGRADE:HighExplosiveBomb
 "High-Explosive Bomb"
 END
@@ -7223,7 +7227,7 @@ CONTROLBAR:ToolTipGLAUpgradeJunkRepair
 END
 
 CONTROLBAR:ToolTipGLAUpgradeCamouflage
-"\n Rebels and RPG Troopers become stealthed: \n \n Rebels - when not shooting (2.5s delay) \n RPG Troopers - while not moving (2.5s delay) \n \n Upgrade time: 40s"
+"\n Rebels and RPG Troopers become stealthed: \n \n Rebels - when not shooting or taking damage(2.5s delay) \n RPG Troopers - while not moving or taking damage(2.5s delay) \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeTranqDarts
@@ -7691,7 +7695,7 @@ CONTROLBAR:ToolTipGLABuildRebel
 END
 
 CONTROLBAR:Slth_ToolTipGLABuildRebel
-"\n Basic GLA rifle infantry \n Camouflaged(2.5s delay) while not attacking \n \n Can be upgraded with Bobby Trap and AP Bullets \n \n 120 hp \n 5x3 dmg over 0.9s \n 120 attack range"
+"\n Basic GLA rifle infantry \n Camouflaged(2.5s delay) while not attacking or taking damage \n \n Can be upgraded with Bobby Trap and AP Bullets \n \n 120 hp \n 5x3 dmg over 0.9s \n 120 attack range"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildRebel
@@ -7783,7 +7787,7 @@ CONTROLBAR:ToolTipUSABuildMissileDefender
 END
 
 CONTROLBAR:ToolTipUSABuildPathFinder
-"\n Infantry Sniper. \n Camouflaged while not moving (2s delay). \n Spots hidden enemies within 200 range. \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n"
+"\n Infantry Sniper \n Camouflaged while not moving or taking damage(2s delay) \n Spots hidden enemies within 200 range. \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n"
 END
 
 CONTROLBAR:ToolTipUSABuildColonelBurton
@@ -7887,7 +7891,7 @@ CONTROLBAR:ToolTipGLABuildAngryMob
 END
 
 CONTROLBAR:ToolTipGLABuildHijacker
-"\n Can capture any enemy vehicle \n Camouflaged while not moving (0.5s delay) \n \n 100 hp \n Ejects from USA vehicles \n"
+"\n Can capture any enemy vehicle \n Camouflaged(0.5s delay) while not moving or taking damage \n \n 100 hp \n Ejects from USA vehicles \n"
 END
 
 CONTROLBAR:Slth_ToolTipGLABuildHijacker
@@ -8039,7 +8043,7 @@ CONTROLBAR:ToolTipChinaScienceEMPPulse
 END
 
 CONTROLBAR:ToolTipGLAScienceHijacker
-"\n Hijackers are camouflaged and can steal enemy vehicles \n \n 100 hp \n Stealth while not moving(0.5s delay) \n Ejects from USA vehicles \n"
+"\n Hijackers are camouflaged and can steal enemy vehicles \n \n 100 hp \n Stealth(0.5s delay) while not moving or taking damage \n Ejects from USA vehicles \n"
 END
 
 CONTROLBAR:ToolTipGLAScienceSCUDLauncher
