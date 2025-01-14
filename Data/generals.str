@@ -7867,7 +7867,7 @@ CONTROLBAR:ToolTipGLABuildTerrorist
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildTerrorist
-"\n Suicide soldier \n \n 120 hp \n 670(270) dmg in 18(50) radius"
+"\n Suicide soldier \n \n 120 hp \n 667(270) dmg in 18(50) radius"
 END
 
 CONTROLBAR:ToolTipGLABuildRPGTrooper
@@ -8059,7 +8059,7 @@ CONTROLBAR:ToolTipGLAScienceTechnicalTraining
 END
 
 CONTROLBAR:ToolTipGLAScienceRebelAmbush
-"Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 5 Rebels, 3 RPG Troopers \n Rank 3: 8 Rebels, 6 RPG Troopers, 2 Hijackers \n \n Deploy from: Command Center"
+"Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 5 Rebels, 3 RPG Troopers \n Rank 3: 7 Rebels, 5 RPG Troopers, 2 Hijackers \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:Slth_ToolTipGLAScienceRebelAmbush
