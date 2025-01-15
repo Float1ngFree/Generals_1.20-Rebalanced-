@@ -4526,6 +4526,10 @@ CONTROLBAR:UpgradeGLABombTruckBioBomb
 "&BioBombs"
 END
 
+CONTROLBAR:UpgradeGLABombTruckLargeBioBomb
+"Large &Bio-Bomb"
+END
+
 CONTROLBAR:DisguiseAsVehicle
 "&Disguise as Vehicle"
 END
@@ -7031,7 +7035,7 @@ CONTROLBAR:TooltipFireRebelAmbush
 END
 
 CONTROLBAR:TooltipFireAnthraxBomb
-"Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Countdown Timer: 6:00"
+"Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 260 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 120/125/130 radius \n - 54s duration \n \n Countdown Timer: 6:00"
 END
 
 CONTROLBAR:TooltipCIAIntelligence
@@ -7179,7 +7183,7 @@ CONTROLBAR:TooltipGLAUpgradeBioBomb
 END
 
 CONTROLBAR:Chem_TooltipGLAUpgradeBioBomb
-"\n Upgrades Bomb Truck Bio explosion to leave larger and deadlier Beta(Gamma) toxin field \n \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n \n Upgrade time: 5s"
+"\n Upgrades Bomb Truck Bio explosion to leave larger and deadlier Beta(Gamma) toxin field \n \n Large Beta(Gamma) Field - 40(50) dps, 36s, 125(130) radius \n \n Upgrade time: 5s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeHEBomb
@@ -7963,7 +7967,7 @@ CONTROLBAR:ToolTipGLABuildBombTruck
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildBombTruck
-"\n Suicide Bomb Truck with Bio Bomb \n \n Can Disguise as any vehicle, friend or foe! \n Can be upgraded with Big Bio Bomb, Junk Repair and Anthrax Gamma \n \n 240 hp \n Base explosion: \n 1000(200) dmg in 40(60) radius \n Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n \n Big Bio Bomb: \n Large Beta(Gamma) Field - 40(50) dps, 36s, 145(150) radius \n"
+"\n Suicide Bomb Truck with Bio Bomb \n \n Can Disguise as any vehicle, friend or foe! \n Can be upgraded with Big Bio Bomb, Junk Repair and Anthrax Gamma \n \n 240 hp \n Base explosion: \n 1000(200) dmg in 40(60) radius \n Medium Beta(Gamma) Field - 15(18.75) dps, 24s, 85(90) radius \n \n Big Bio Bomb: \n Large Beta(Gamma) Field - 40(50) dps, 36s, 125(130) radius \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildBombTruck
@@ -8075,7 +8079,7 @@ CONTROLBAR:ToolTipGLAScienceCashBounty
 END
 
 CONTROLBAR:ToolTipGLAScienceAnthraxBomb
-"\n Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 6:00 reload time \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 280 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 140/145/150 radius \n - 54s duration \n \n Deploy from: Command Center"
+"\n Call in GLA bomber to drop Anthrax Bomb \n Contaminates large area with powerful Toxins \n \n 6:00 reload time \n 1000 hp \n 200 explosion dmg in 100 radius \n Leaves 5 Large Toxin files in 260 radius \n Fields stack and deal more dmg closer to center! \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 120/125/130 radius \n - 54s duration \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipUSABuildSecurityFence
