@@ -6995,7 +6995,11 @@ CONTROLBAR:TooltipFireBallisticMissile
 END
 
 CONTROLBAR:TooltipFireSCUDStorm
-"Strong vs. Everything \n \n Countdown Timer: 5:00"
+"Fire 9 Heavy SCUD Missiles anywhere on the map \n \n 500(187.5)x9 dmg in 50(160) radius \n Each missile leaves Large Toxin/Beta/Gamma filed \n \n Each Toxin/Beta/Gamma field: \n - 32/40/50 dps in 120/125/130 radius \n - 36s duration \n \n Countdown Timer: 5:00"
+END
+
+CONTROLBAR:Demo_TooltipFireSCUDStorm
+"Fire 9 Heavy SCUD Missiles anywhere on the map \n \n Missiles do NOT leave Toxin fields but deal +20% more damage \n \n 600(225)x9 dmg in 75(160) radius \n \n Countdown Timer: 5:00"
 END
 
 CONTROLBAR:TooltipFireArtilleryBarrage
@@ -7215,7 +7219,7 @@ CONTROLBAR:ToolTipGLAUpgradeAPRockets
 END
 
 CONTROLBAR:ToolTipGLAUpgradeToxinShells
-"\n Scorpion, Marauder and Technical Cannon(scrap #1) shells leave small poison field \n \n Small Toxin(Beta)[Gamma] fields: \n 4(5)[6.25] dps \n 6s duration(for all) \n 7.5(8)[8.5] damage radius \n \n Upgrade time: 30s"
+"\n Scorpion, Marauder and Technical Cannon(scrap #1) shells leave small poison field \n \n Small Toxin/Beta/Gamma fields: \n 4/5/6.25 dps \n 6s duration(for all) \n 7.5/8/8.5 damage radius \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeAnthraxBeta
@@ -7227,7 +7231,7 @@ CONTROLBAR:ToolTipGLAUpgradeAPBullets
 END
 
 CONTROLBAR:ToolTipGLAUpgradeJunkRepair
-"\n All GLA vehicles will auto-repair when not taking damage \n \n 2 hp/s repair \n 4s start repair delay \n \n Upgrade time: 50s"
+"\n All GLA vehicles will auto-repair when not taking damage \n \n 3 hp/s repair \n 4s start repair delay \n \n Upgrade time: 50s"
 END
 
 CONTROLBAR:ToolTipGLAUpgradeCamouflage
@@ -7239,7 +7243,7 @@ CONTROLBAR:ToolTipGLAUpgradeTranqDarts
 END
 
 CONTROLBAR:ToolTipGLAUpgradeArmTheMob
-"\n Arm all Angry Mobs with AK-47s \n \n Replaces Guns with AK47s for more range and damage: \n 10 ->20 dmg every 0.25s \n 100 ->120 attack range \n \n Upgrade time: 30s"
+"\n Arm all Angry Mobs with AK-47s \n \n Replace Pistols and Rocks with AK47s for more range and damage: \n 10 ->20 dmg every 0.25s \n 100 ->120 attack range \n \n Upgrade time: 30s"
 END
 
 CONTROLBAR:ToolTipStructureExit
@@ -7315,7 +7319,7 @@ CONTROLBAR:ToolTipGLASCUDAnthraxWarhead
 END
 
 CONTROLBAR:ToolTipGLAFireToxinTractorSlime
-"Spray the surrounding terrain with toxins \n Continuously deals damage in area around tractor and creates medium toxin field \n \n Can be improved by scavenging scrap parts \n \n Toxin(Beta)[Gamma] stats: \n \n 4(5)[6] dmg in 75(80)[85] radius around tractor \n Leaves Medium Toxin Field after stopping \n 12(15)[18.75] dps, 80(85)[90] radius \n Field duration = +10s per 1s of spraying(180s max)"
+"Spray the surrounding terrain with toxins \n Continuously deals damage in area around tractor and creates medium toxin field \n \n Can be improved by scavenging scrap parts \n \n Toxin/Beta/Gamma stats: \n \n 4/5/6 dmg in 75/80/85 radius around tractor \n Leaves Medium Toxin/Beta/Gamma Field after stopping \n 12/15/18.75 dps, 80/85/90 radius \n Field duration = +10s per 1s of spraying(180s max)"
 END
 
 CONTROLBAR:ToolTipGLARebelCaptureBuilding
@@ -7331,7 +7335,7 @@ CONTROLBAR:ToolTipGLAFireFireBomb
 END
 
 CONTROLBAR:ToolTipGLAHijackerHijack
-"Hijack target enemy vehicle \n \n Kills enemy pilot and takes his place \n Ejects from USA vehicles"
+"Hijack target enemy vehicle \n \n Kills enemy pilot and takes his place \n Ejects from USA vehicles if destroyed"
 END
 
 CONTROLBAR:ToolTipGLAFireJarmenKellVehicleSnipe
@@ -7623,7 +7627,7 @@ CONTROLBAR:Slth_ToolTipGLABuildStingerSite
 END
 
 CONTROLBAR:ToolTipGLABuildScudStorm
-"\n Launches a volley of 9 SCUD missiles anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Countdown Timer: 5:00"
+"\n Launches a volley of 9 Heavy SCUD missiles anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Countdown Timer: 5:00"
 END
 
 CONTROLBAR:ToolTipGLABuildPrison
@@ -7895,11 +7899,11 @@ CONTROLBAR:ToolTipGLABuildAngryMob
 END
 
 CONTROLBAR:ToolTipGLABuildHijacker
-"\n Can capture any enemy vehicle \n Camouflaged(0.5s delay) while not moving or taking damage \n \n 100 hp \n Ejects from USA vehicles \n"
+"\n Can capture any enemy vehicle \n Camouflaged(0.5s delay) while not moving or taking damage \n \n 100 hp \n Ejects from USA vehicles if destroyed \n"
 END
 
 CONTROLBAR:Slth_ToolTipGLABuildHijacker
-"\n Can capture any enemy vehicle \n Camouflaged (always) \n \n 100 hp \n Ejects from USA vehicles \n"
+"\n Can capture any enemy vehicle \n Camouflaged (always) \n \n 100 hp \n Ejects from USA vehicles if destroyed \n"
 END
 
 CONTROLBAR:ToolTipGLABuildJarmenKell
@@ -7935,15 +7939,15 @@ CONTROLBAR:Tank_ToolTipChinaBuildBattlemaster
 END
 
 CONTROLBAR:ToolTipGLABuildMarauder
-"\n Heavy GLA tank with fixed turret \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Toxin Shells and Junk Repair \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
+"\n Heavy GLA tank with fixed turret \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Toxin Shells and Junk Repair \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade #1, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildMarauder
-"\n Heavy GLA tank with fixed turret \n Equipped with toxin shells \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Junk Repair and Anthrax Gamma \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
+"\n Heavy GLA tank with fixed turret \n Equipped with toxin shells \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Junk Repair and Anthrax Gamma \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade #1, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildMarauder
-"\n Heavy GLA tank with fixed turret \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Junk Repair and Demolitions Ability \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
+"\n Heavy GLA tank with fixed turret \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n Can be upgraded with Junk Repair and Demolitions Ability \n \n 550 hp \n 70 dmg every 2s \n 170 attack range \n Turret DOESN'T turn! \n \n Scrap upgrades: \n #1 upgrades cannon: 85 dmg every 1.8s, 175 range \n #2 reverts upgrade #1, adds second cannon: \n - 70x2 dmg over 0.3s every 1.7s \n"
 END
 
 CONTROLBAR:ToolTipGLABuildTechnical
@@ -8047,11 +8051,11 @@ CONTROLBAR:ToolTipChinaScienceEMPPulse
 END
 
 CONTROLBAR:ToolTipGLAScienceHijacker
-"\n Hijackers are camouflaged and can steal enemy vehicles \n \n 100 hp \n Stealth(0.5s delay) while not moving or taking damage \n Ejects from USA vehicles \n"
+"\n Hijackers are camouflaged and can steal enemy vehicles \n \n 100 hp \n Stealth(0.5s delay) while not moving or taking damage \n Ejects from USA vehicles if destroyed \n"
 END
 
 CONTROLBAR:ToolTipGLAScienceSCUDLauncher
-"\n Long range Heavy Missile Launcher \n Can switch between Explosive(not Toxin General) and Bio(not Demo General) warhead \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n 180 hp \n 375 attack range, 40 scatter radius \n \n Explosive Warhead: \n 300(50) dmg in 50(80) radius every 10s \n 330(60) dmg for Demo General \n Bio Warhead: \n 225(40) dmg in 40(75) radius every 10s \n Medium Toxin(Beta)[Gamma] Field - 12(15)[18.75] dps, 24s, 80(85)[90] radius \n \n Scrap upgrades: \n #1: range 375 ->450, 30 scatter radius \n #2 increases damage: \n Explosive warhead: \n - 400(75) dmg \n - 440(90) dmg for Demo General \n Bio warhead - 300(60) dmg \n"
+"\n Long range Heavy Missile Launcher \n Can switch between Explosive(not Toxin General) and Bio(not Demo General) warhead \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n 180 hp \n 375 attack range, 40 scatter radius \n \n Explosive Warhead: \n 300(50) dmg in 50(80) radius every 10s \n 330(60) dmg for Demo General \n Bio Warhead: \n 225(40) dmg in 40(75) radius every 10s \n Medium Toxin/Beta/Gamma Field - 12/15/18.75 dps, 24s, 80/85/90 radius \n \n Scrap upgrades: \n #1: range 375 ->450, 30 scatter radius \n #2 increases damage: \n Explosive warhead: \n - 400(75) dmg \n - 440(90) dmg for Demo General \n Bio warhead - 300(60) dmg \n"
 END
 
 CONTROLBAR:ToolTipGLaScienceMarauderTank
@@ -8063,7 +8067,7 @@ CONTROLBAR:ToolTipGLAScienceTechnicalTraining
 END
 
 CONTROLBAR:ToolTipGLAScienceRebelAmbush
-"Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 5 Rebels, 3 RPG Troopers \n Rank 3: 7 Rebels, 5 RPG Troopers, 2 Hijackers \n \n Deploy from: Command Center"
+"\n Allows you to create a surprise ambush of GLA infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 5 Rebels, 3 RPG Troopers \n Rank 3: 7 Rebels, 5 RPG Troopers, 2 Hijackers \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:Slth_ToolTipGLAScienceRebelAmbush
@@ -8071,7 +8075,7 @@ CONTROLBAR:Slth_ToolTipGLAScienceRebelAmbush
 END
 
 CONTROLBAR:Demo_ToolTipGLAScienceRebelAmbush
-"Allows you to create a surprise ambush of GLA Demo infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers \n Rank 3: 5 Rebels, 4 RPG Troopers, 2 Terrorists \n \n Deploy from: Command Center"
+"\n Allows you to create a surprise ambush of GLA Demo infantry anywhere \n \n Rank 1: 3 Rebels, 1 RPG Trooper \n Rank 2: 4 Rebels, 2 RPG Troopers \n Rank 3: 5 Rebels, 4 RPG Troopers, 2 Terrorists \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:ToolTipGLAScienceCashBounty
@@ -14408,7 +14412,7 @@ CONTROLBAR:ToolTipScienceGPSScrambler
 END
 
 CONTROLBAR:ToolTipGLASneakAttack
-"Troops can create a tunnel anywhere on the map \n \n Deploy from: Command Center"
+"Create a tunnel anywhere on the map \n \n Countdown Timer: 2:30"
 END
 
 CONTROLBAR:ToolTipSelectAircraftCarriers
@@ -25316,7 +25320,7 @@ OBJECT:Infa_Bunker
 END
 
 CONTROLBAR:ToolTipGLAScienceSneakAttack
-"Troops can create a tunnel anywhere on the map \n \n Deploy from: Command Center"
+"\n Can create a tunnel anywhere on the map \n \n Deploy from: Command Center"
 END
 
 CONTROLBAR:Chem_ConstructGLAInfantryRebel
