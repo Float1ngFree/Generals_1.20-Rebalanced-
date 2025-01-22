@@ -7507,7 +7507,7 @@ CONTROLBAR:ToolTipGLABuildSupplyStash
 END
 
 CONTROLBAR:ToolTipGLABuildArmsDealer
-"\n Builds GLA vehicles \n \n 2000 hp  \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Builds GLA vehicles \n \n 2000 hp \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildCommandCenter
@@ -7591,23 +7591,23 @@ CONTROLBAR:Slth_ToolTipGLABuildTunnelNetwork
 END
 
 CONTROLBAR:ToolTipGLABuildPalace
-"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Toxin Shells \n - Anthrax Beta \n \n 3000 hp \n 5 infantry fire ports \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Toxin Shells \n - Anthrax Beta \n \n 3000 hp \n 5 infantry fire ports \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildPalace
-"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Anthrax Gamma \n \n 3000 hp \n 5 infantry fire ports \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Anthrax Gamma \n \n 3000 hp \n 5 infantry fire ports \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildPalace
-"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Demolitions Ability \n \n 3000 hp \n 5 infantry fire ports \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Holds important GLA technologies \n Can be garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Demolitions Ability \n \n 3000 hp \n 5 infantry fire ports \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:Slth_ToolTipGLABuildPalace
-"\n Holds important GLA technologies \n Can be Camouflaged and garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Anthrax Beta \n \n 3000 hp \n 5 infantry fire ports \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Holds important GLA technologies \n Can be Camouflaged and garrisoned by GLA troops \n \n Produces following upgrades: \n - Fortified Structure \n - Arm The Mob \n - Anthrax Beta \n \n 3000 hp \n 5 infantry fire ports \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildBlackMarket
-"\n Secondary income \n Holds important GLA technologies \n Provides free supplies to the GLA player \n \n Upgrades: \n - AP Rockets \n - AP Bullets \n - Radar Scan \n - Worker Shoes \n - Junk Repair \n - Buggy Ammo \n \n 1000 hp \n +$20 every 2s  \n \n When destroyed leaves 500 hp GLA Hole \n"
+"\n Secondary income \n Holds important GLA technologies \n Provides free supplies to the GLA player \n \n Upgrades: \n - AP Rockets \n - AP Bullets \n - Radar Scan \n - Worker Shoes \n - Junk Repair \n - Buggy Ammo \n \n 1000 hp \n +$20 every 2s  \n \n Power Required: 1 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildStingerSite
@@ -7627,7 +7627,7 @@ CONTROLBAR:Slth_ToolTipGLABuildStingerSite
 END
 
 CONTROLBAR:ToolTipGLABuildScudStorm
-"\n Launches a volley of 9 Heavy SCUD missiles anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Countdown Timer: 5:00"
+"\n Launches a volley of 9 Heavy SCUD missiles anywhere on the map \n \n 4000 hp \n Strong Structure Armor \n \n Countdown Timer: 5:00 \n \n Power Required: 5 (won't go offline) \n When destroyed leaves 500 hp GLA Hole \n"
 END
 
 CONTROLBAR:ToolTipGLABuildPrison
