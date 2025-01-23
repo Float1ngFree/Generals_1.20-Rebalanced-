@@ -8623,7 +8623,7 @@ UPGRADE:RebelCaptureBuilding
 END
 
 CONTROLBAR:TooltipDetonateBombTruck
-"Orders the Bomb Truck to immediately detonate at his current location"
+"Orders to immediately detonate at current location"
 END
 
 CONTROLBAR:ToolTipUSAUpgradeRangerCaptureBuilding
