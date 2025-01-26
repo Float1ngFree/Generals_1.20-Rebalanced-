@@ -7887,7 +7887,7 @@ CONTROLBAR:Slth_ToolTipGLABuildRPGTrooper
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildRPGTrooper
-"\n Anti vehicle/aircraft infantry \n Slightly stronger missile damage \n \n Can be upgraded with AP Rockets \n \n 110 hp \n 42(10) dmg in 5(10) radius over 1.1s \n 175 attack range"
+"\n Anti vehicle/aircraft infantry \n Slightly stronger missile damage \n \n Can be upgraded with AP Rockets \n \n 110 hp \n 43.2(10) dmg in 5(10) radius over 1.1s \n 175 attack range"
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildRPGTrooper
@@ -25344,7 +25344,7 @@ CONTROLBAR:Chem_ConstructGLAInfantryTerrorist
 END
 
 CONTROLBAR:Chem_ToolTipGLABuildTerrorist
-"\n Suicide soldier \n Explosion leaves a field of toxin \n \n 120 hp \n 500(200) dmg in 15(45) radius \n Small Beta(Gamma) Field - 5(6.25) dps, 6s, 8(8.5) radius"
+"\n Suicide soldier \n Explosion leaves a field of toxin \n \n 120 hp \n 500(200) dmg in 15(45) radius \n Toxin/Beta/Gamma Field - 12/15/18.75 dps, 12s, 35/37.5/40 radius"
 END
 
 CONTROLBAR:Chem_ConstructGLATunnelNetwork
