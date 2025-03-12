@@ -7151,7 +7151,7 @@ CONTROLBAR:TooltipChinaUpgradeRadar
 END
 
 CONTROLBAR:TooltipChinaUpgradeNationalism
-"\n Improves Horde bonus for Red Guard, Tank Hunter and Battlemaster: \n \n +20% additional Rate Of Fire \n \n Total bonus: \n +20% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
+"\n +20% Rate Of Fire for Red Guard, Tank Hunter and Battlemaster \n \n This bonus is active even without Horde! \n \n Improves Horde effect visual \n Total with Horde bonus: \n +20% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeBlackNapalm
@@ -7711,11 +7711,11 @@ CONTROLBAR:Demo_ToolTipGLABuildRebel
 END
 
 CONTROLBAR:ToolTipChinaBuildRedguard
-"\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n 2 units of Basic Chinese rifle infantry \n Gains Horde bonus in groups of 5+ \n \n Can be upgraded with Nationalism(+20% RoF) \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildRedguard
-"\n 2 units of Basic Chinese rifle infantry \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n 2 units of Basic Chinese rifle infantry \n Gains Horde bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n Can be upgraded with Nationalism(+20% RoF) \n \n 120 hp \n 14 dmg over 1s \n 120 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildHacker
@@ -7839,19 +7839,19 @@ CONTROLBAR:Nuke_ToolTipChinaBuildBlackLotus
 END
 
 CONTROLBAR:ToolTipChinaBuildTankHunter
-"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde bonus in groups of 5+ \n \n Can be upgraded with Nationalism(+20% RoF) \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildTankHunter
-"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Nationalism(Patriotism) bonus in groups of 5+ \n \n 110(133) hp (due to VETERAN) \n 37.5 dmg over 1.2s \n 175 attack range \n \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde bonus in groups of 5+ \n Nationalism \n \n Can be upgraded with Patriotism(+15% Dmg) \n \n 110(133) hp (due to VETERAN) \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildTankHunter
-"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Anti vehicle/aircraft infantry \n Can place a TNT charge \n Gains Horde bonus in groups of 5+ \n \n 50% resistance to Toxins/Radiation/Microwave \n \n Can be upgraded with Nationalism(+20% RoF) \n \n 110 hp \n 37.5 dmg over 1.2s \n 175 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +56(70) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +56(70) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
@@ -7927,15 +7927,15 @@ CONTROLBAR:Demo_ToolTipGLABuildToxinTruck
 END
 
 CONTROLBAR:ToolTipChinaBuildBattlemaster
-"\n Base Chinese tank \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Uranium Shells and Nuclear Drive(+25% speed) \n \n 400 hp \n 56(70) dmg (Uranium Shells) every 2s \n 165 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Base Chinese tank \n Gains Horde bonus in groups of 5+ \n \n Can be upgraded with Nationalism(+20% RoF), Uranium Shells and Nuclear Drive(+25% speed) \n \n 400 hp \n 56(70) dmg (Uranium Shells) every 2s \n 165 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildBattlemaster
-"\n Nuclear upgraded Chinese tank \n 60(28)% faster than regular(upgraded) Battlemaster \n Shells leave small radiation field \n Explodes when destroyed(removed by Isotope Stability) \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Uranium Shells and Isotope Stability \n \n 400 hp \n 55(66) dmg (Uranium Shells) every 2s \n 165 attack range \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Nuclear upgraded Chinese tank \n 60(28)% faster than regular(upgraded) Battlemaster \n Shells leave small radiation field \n Explodes when destroyed(removed by Isotope Stability) \n Gains Horde bonus in groups of 5+ \n \n Can be upgraded with Nationalism(+20% RoF), Uranium Shells and Isotope Stability \n \n 400 hp \n 55(66) dmg (Uranium Shells) every 2s \n 165 attack range \n Small Radiation Field - 5.33 dps, 7.5s, 15 radius \n \n Death Explosion(removed by Isotope Stability): \n 110(70) dmg in 50(75) radius \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:Tank_ToolTipChinaBuildBattlemaster
-"\n Base Chinese tank \n Gains Horde(Nationalism) bonus in groups of 5+ \n \n Can be upgraded with Autoloader, Uranium Shells and Nuclear Drive(+25% speed) \n \n 400(480) hp (due to VETERAN) \n 56(70) dmg (Uranium Shells) every 2s OR \n 3x37(46.25) within 1.25s every 1.75s with Autoloader \n 165 attack range \n \n Horde Bonus: +25(45)% Rate of Fire, +20% Damage"
+"\n Base Chinese tank \n Gains Horde bonus in groups of 5+ \n \n Can be upgraded with Nationalism(+20% RoF), Autoloader, Uranium Shells and Nuclear Drive(+25% speed) \n \n 400(480) hp (due to VETERAN) \n 56(70) dmg (Uranium Shells) every 2s OR \n 3x37(46.25) within 1.25s every 1.75s with Autoloader \n 165 attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipGLABuildMarauder
@@ -14156,7 +14156,7 @@ CONTROLBAR:TooltipChinaUpgradeSatelliteHackTwo
 END
 
 CONTROLBAR:TooltipChinaUpgradeFanaticism
-"\n Improves Nationalism bonus for Mini-Gunners and Tank Hunters: \n \n +15% additional Damage \n \n Total bonus: \n +35% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
+"\n Improves Nationalism bonus for Mini-Gunners and Tank Hunters: \n \n +15% additional Damage \n This bonus is active even without Horde! \n \n Total bonus(Nationalism + Patriotism): \n +15% Damage \n +20% Rate Of Fire \n \n Improves Horde effect visual \n With Horde bonus: \n +35% Damage \n +45% Rate Of Fire \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:TooltipUpgradeChinaWGUraniumShells
@@ -14240,7 +14240,7 @@ CONTROLBAR:ToolTipDropNapalmBomb
 END
 
 CONTROLBAR:ToolTipChinaArtilleryShell
-"Switch to regular Shells \n \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range \n 30 scatter radius"
+"Switch to regular Shells \n \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range \n 30 scatter radius"
 END
 
 CONTROLBAR:ToolTipChinaNapalmShell
@@ -14312,7 +14312,7 @@ CONTROLBAR:ToolTipChinaBuildPropagandaTrooper
 END
 
 CONTROLBAR:ToolTipChinaBuildMiniGunner
-"\n Upgraded Chinese gun infantry \n Can attack air units \n Gains Nationalism(Patriotism) bonus in groups of 5+ \n \n 130(156) hp (due to VETERAN) \n 9(5) ground(air) dmg over 0.5/0.25/0.16s \n 135(225) ground(air) attack range \n \n Nationalism Bonus: +45% Rate of Fire, +20(35)% Damage"
+"\n Upgraded Chinese gun infantry \n Can attack air units \n Gains Horde bonus in groups of 5+ \n Nationalism \n \n Can be upgraded with Patriotism(+15% Dmg) \n \n 130(156) hp (due to VETERAN) \n 9(5) ground(air) dmg over 0.5/0.25/0.16s \n 135(225) ground(air) attack range \n \n Horde Bonus: +25% Rate of Fire, +20% Damage"
 END
 
 CONTROLBAR:ToolTipUSABuildAvenger
@@ -25372,7 +25372,7 @@ OBJECT:Entrance
 END
 
 CONTROLBAR:Boss_TooltipChinaUpgradeNationalism
-"+25% to Horde bonus for Tank Hunter"
+"+20% Rate of Fire bonus for Tank Hunter"
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildPowerPlant
@@ -25516,7 +25516,7 @@ GUI:BioFeatures_Pos3
 END
 
 GUI:BioFeatures_Pos4
-"No Inferno/Nuke Cannon \n Aircraft cost more \n \n Emperor Tank \n Tank Drop \n All tanks start as veterans \n Tanks cost less \n Autoloader upgrade"
+"No Nuke Cannon \n Inferno Cannon requires promotion \n Aircraft & Infantry cost more \n \n Emperor Tank \n Tank Drop \n All tanks start as veterans \n Tanks cost less \n Autoloader upgrade"
 END
 
 GUI:BioFeatures_Pos5
@@ -26128,7 +26128,7 @@ SCIENCE:ChinaInfernoCannon
 END
 
 CONTROLBAR:ToolTipChinaInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 225(45) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
 END
 
 SCIENCE:BallisticMissile
