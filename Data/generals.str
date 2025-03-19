@@ -7155,7 +7155,7 @@ CONTROLBAR:TooltipChinaUpgradeNationalism
 END
 
 CONTROLBAR:TooltipChinaUpgradeBlackNapalm
-"\n +25% damage to all flame weapons \n +12.5(25%) Napalm Missile primary(secondary) damage \n +25% damage to Firestorm(480->600) \n +25% damage radius for Napalm Missiles, Bombs and Shells \n \n Upgrade time: 45s"
+"\n +25% damage to all flame weapons \n +12.5(25%) Napalm Missile primary(secondary) damage \n +25% damage to Firestorm(528->660) \n +25% damage radius for Napalm Missiles, Bombs and Shells \n \n Upgrade time: 45s"
 END
 
 CONTROLBAR:TooltipChinaUpgradeChainGuns
@@ -7823,7 +7823,7 @@ CONTROLBAR:ToolTipUSABuildBattleDrone
 END
 
 CONTROLBAR:ToolTipChinaBuildMIG
-"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 89(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n +56(70) napalm(Black) dmg in 20(25) radius over 2.5s \n 4 napalm missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
+"\n Chinese Fighter Jet \n Equipped with 4 Napalm Missiles \n Creates a fire-storm in groups of 2+ \n \n Can be upgraded with MiG Armor and Black Napalm \n \n 140(160) hp (MiG Armor) \n 89(20) dmg in 6(20) radius \n Black Napalm - 100(25) dmg in 7.5(25) radius \n +56(70) napalm(Black) dmg in 20(25) radius over 2.5s \n 4 napalm missiles over 0.399s \n 350 attack range \n 8s airfield reload time \n \n 8 missiles in 60 radius ignite Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:Nuke_ToolTipChinaBuildMIG
@@ -7851,7 +7851,7 @@ CONTROLBAR:Nuke_ToolTipChinaBuildTankHunter
 END
 
 CONTROLBAR:ToolTipChinaBuildInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +56(70) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600 Black Napalm) Flame dmg over 6s in up to 67.5 radius \n"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 60(75) dmg in 12(15) radius every 7s \n +56(70) flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius \n"
 END
 
 CONTROLBAR:ToolTipChinaBuildNukeLauncher
@@ -12119,7 +12119,7 @@ CONTROLBAR:UpgradeChinaFusionReactors
 END
 
 CONTROLBAR:ChinaUpgradeHelixNapalmBomb
-"\n Enables Helixes to drop napalm bombs \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n \n Upgrade time: 40s"
+"\n Enables Helixes to drop napalm bombs \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius \n \n Upgrade time: 40s"
 END
 
 CONTROLBAR:ChinaUpgradeHelixNukeBomb
@@ -14236,7 +14236,7 @@ CONTROLBAR:ToolTipDropNukeBomb
 END
 
 CONTROLBAR:ToolTipDropNapalmBomb
-"Drop napalm bomb on target location \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+"Drop napalm bomb on target location \n Can be upgraded with Black Napalm \n \n 120(80) dmg in 24(36) radius \n Black Napalm - 150(100) dmg in 30(45) radius \n 30s reload time \n \n Creates Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:ToolTipChinaArtilleryShell
@@ -14244,7 +14244,7 @@ CONTROLBAR:ToolTipChinaArtilleryShell
 END
 
 CONTROLBAR:ToolTipChinaNapalmShell
-"Switch to fire Napalm Shells \n \n Can be upgraded with (Black Napalm) \n \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range \n 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm)"
+"Switch to fire Napalm Shells \n \n Can be upgraded with (Black Napalm) \n \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range \n 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius"
 END
 
 CONTROLBAR:ToolTipChinaNukeWarhead
@@ -26128,7 +26128,7 @@ SCIENCE:ChinaInfernoCannon
 END
 
 CONTROLBAR:ToolTipChinaInfernoCannon
-"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 40(50) dmg in 12(15) radius every 7s \n +40(50) napalm flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 480(600) Flame dmg over 6s in up to 67.5 radius (Black Napalm) \n"
+"\n Chinese self propelled artillery \n \n Can switch between Regular/Napalm shells! \n Can be upgraded with Black Napalm \n \n 160 hp \n \n Regular Shell: \n 240(48) dmg in 10(30) radius every 8s \n 375 attack range, 30 scatter radius \n \n Napalm Shell (Black Napalm): \n 60(75) dmg in 12(15) radius every 7s \n +56(70) flame dmg in 20(25) radius over 2.5s \n 300 attack range, 20 scatter radius \n \n 3 Napalm Shells in 30 radius ignite Fire Storm: \n 528(660 Black Napalm) Flame dmg over 6s in up to 67.5 radius \n"
 END
 
 SCIENCE:BallisticMissile
