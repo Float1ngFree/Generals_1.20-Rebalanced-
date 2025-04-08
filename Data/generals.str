@@ -7735,7 +7735,7 @@ CONTROLBAR:Lazr_ToolTipUSABUildChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinook
-"\n Transport helicopter \n Collects supplies \n Improved armor \n Works with Rangers to perform Combat Drop attack \n \n 350(420) hp (due to VETERAN) \n 8 transport/fire slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
+"\n Transport helicopter \n Collects supplies \n Improved armor \n Works with Rangers to perform Combat Drop attack \n \n 350(420) hp (due to VETERAN) \n 8 transport slots \n Slightly improved armor \n Fires defensive Countermeasure Flares"
 END
 
 CONTROLBAR:ToolTipChinaBuildSupplyTruck
@@ -7795,7 +7795,7 @@ CONTROLBAR:ToolTipUSABuildMissileDefender
 END
 
 CONTROLBAR:ToolTipUSABuildPathFinder
-"\n Infantry Sniper \n Camouflaged while not moving or taking damage(2s delay) \n Spots hidden enemies within 200 range. \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n"
+"\n Infantry Sniper \n Camouflaged while not moving or taking damage(2s delay) \n Spots hidden enemies within 200 range. \n \n 120 hp \n 160 dmg over 2s \n 250 attack range \n"
 END
 
 CONTROLBAR:ToolTipUSABuildColonelBurton
@@ -7811,7 +7811,7 @@ CONTROLBAR:ToolTipUSABuildHumvee
 END
 
 CONTROLBAR:ToolTipUSABuildMedic
-"\n Infantry transport vehicle \n Heals vehicles and soldiers within 100 range \n Cleans up radiation and toxins \n If destroyed, passengers will escape with 50% hp \n \n Can be equipped with Scout or Hellfire Drone \n \n 240 hp \n Well protected vs toxin(1%) & radiation(5%) \n 3 transport slots \n 100 hazard cleanup range \n Infantry - heals 5 hp every 2s \n Vehicles - repairs 7 hp every 2s"
+"\n Infantry transport vehicle \n Heals/repairs soldiers/vehicles within 100 range \n Cleans up radiation and toxins \n If destroyed, passengers will escape with 50% hp \n \n Can be equipped with Scout or Hellfire Drone \n \n 240 hp \n Well protected vs toxin(1%) & radiation(5%) \n 4 transport slots \n 100 hazard cleanup range \n Infantry - heals 5 hp every 2s \n Vehicles - repairs 7 hp every 2s"
 END
 
 CONTROLBAR:ToolTipUSABuildScoutDrone
@@ -7999,7 +7999,7 @@ CONTROLBAR:ToolTipUSASciencePaladin
 END
 
 CONTROLBAR:ToolTipUSASciencePathFinder
-"\n Pathfinders are elite camouflaged snipers \n \n 120 hp \n 160 dmg over 2s \n 275 attack range \n Spots hidden enemies within 200 range \n"
+"\n Pathfinders are elite camouflaged snipers \n \n 120 hp \n 160 dmg over 2s \n 250 attack range \n Spots hidden enemies within 200 range \n"
 END
 
 CONTROLBAR:ToolTipUSAScienceStealthFighter
@@ -14324,7 +14324,7 @@ CONTROLBAR:ToolTipUSABuildKingRaptor
 END
 
 CONTROLBAR:ToolTipUSABuildFuelAirAurora
-"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(200) dmg in 35(55) radius \n 320 attack range \n 25 scatter radius \n 10s airfield reload time \n"
+"\n Super-sonic Strategic Bomber. Thermobaric Bomb \n Can avoid long range non-laser anti-air fire while attacking \n After super-sonic attack speed is reduced to 30% \n \n Can be upgraded with Countermeasures \n \n 80 hp \n 1000(200) dmg in 30(55) radius \n 320 attack range \n 25 scatter radius \n 10s airfield reload time \n"
 END
 
 CONTROLBAR:ToolTipUSABuildHyersonicAurora
@@ -14336,7 +14336,11 @@ CONTROLBAR:ToolTipGLABuildSniper
 END
 
 CONTROLBAR:ToolTipUSABuildMicrowave
-"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Damages nearby infantry when beam isn't activated \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 50 SUBDUAL_BUILDING dmg every 0.1s \n 200(125) disable(clear) building range \n \n 10 dmg every 0.25s in 100 radius(around tank) \n Will not deal radial damage while disabling building"
+"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Attacks infantry with microwave heat area(at range!) \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 8 MICROWAVE dmg in 40 radius every 0.167s \n 125 infantry heat & clear building range \n \n Building Disabler: \n 75 SUBDUAL_BUILDING dmg every 0.167s \n 200 disable building range"
+END
+
+CONTROLBAR:AirF_ToolTipUSABuildMicrowave
+"\n USA Anti-Infantry & Anti-Garrison armored vehicle \n Can disable buildings & clear garrisoned infantry with focused microwave beam \n Attacks infantry with microwave heat area(at range!) \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 8 MICROWAVE dmg in 40 radius every 0.167s \n 125 infantry heat & clear building range \n \n Building Disabler: \n 75 SUBDUAL_BUILDING dmg every 0.167s \n 200 disable building range \n"
 END
 
 CONTROLBAR:ToolTipUSABuildSentryDrone
@@ -14364,11 +14368,11 @@ CONTROLBAR:ToolTipChinaBuildECM
 END
 
 CONTROLBAR:ToolTipGLABuildBattleBus
-"\n Armored transport vehicle \n Infantry CAN attack from inside! \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n If destroyed - becomes a bunker(2nd life) \n \n 320(400) hp (bunker mode) \n 6 infantry fire ports \n Passengers survive 1st death with 50% hp \n Passengers die when Bunker Bus is destroyed"
+"\n Armored transport vehicle \n Infantry CAN attack from inside! \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n If destroyed - becomes a bunker(2nd life) \n \n 320(400) hp (bunker mode) \n 5 infantry fire ports \n Passengers survive 1st death with 50% hp \n Passengers die when Bunker Bus is destroyed"
 END
 
 CONTROLBAR:Demo_ToolTipGLABuildBattleBus
-"\n Armored transport vehicle \n Infantry CAN attack from inside! \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n If destroyed - becomes a bunker(2nd life) \n \n Can be upgraded with Demolitions Ability \n \n 320(400) hp (bunker mode) \n 6 infantry fire ports \n Passengers survive 1st death with 50% hp \n Passengers die when Bunker Bus is destroyed"
+"\n Armored transport vehicle \n Infantry CAN attack from inside! \n Can be upgraded with scrap parts left by destroyed enemy vehicles \n \n If destroyed - becomes a bunker(2nd life) \n \n Can be upgraded with Demolitions Ability \n \n 320(400) hp (bunker mode) \n 5 infantry fire ports \n Passengers survive 1st death with 50% hp \n Passengers die when Bunker Bus is destroyed"
 END
 
 CONTROLBAR:ToolTipUSAScienceSpectreGunship
@@ -25240,7 +25244,7 @@ CONTROLBAR:Infa_ConstructChinaVehicleHelix
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildHelix
-"\n Upgraded heavy transport Helicopter \n Equipped with 20mm gun \n \n Can be modified with Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 480 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 8 transport slots (Bunker allows to fire)"
+"\n Upgraded heavy transport Helicopter \n Equipped with 20mm gun and Napalm Bomb \n \n Can be modified with Bunker or Speaker Tower \n Can be upgraded with Countermeasures \n \n 480 hp \n 6 gun dmg every 0.1s \n 135 attack range \n 6 transport slots (Bunker allows to fire)"
 END
 
 OBJECT:Infa_Helix
@@ -25272,7 +25276,7 @@ CONTROLBAR:AirF_ConstructAmericaVehicleChinook
 END
 
 CONTROLBAR:AirF_ToolTipUSABUildChinookCombat
-"\n Assault Transport helicopter \n Infantry CAN attack through fire ports \n Collects supplies \n Improved Armor \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 8 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
+"\n Assault Transport helicopter \n Infantry CAN attack through fire ports \n Collects supplies \n Improved Armor \n Works with Rangers to perform Combat Drop attack \n \n 400(480) hp (due to VETERAN) \n 6 infantry fire ports \n Slightly improved armor \n Fires defensive Countermeasure Flares \n"
 END
 
 CONTROLBAR:SuicideAttack
@@ -25300,11 +25304,11 @@ CONTROLBAR:Nuke_ConstructChinaVehicleListeningOutpost
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildTroopCrawler
-"\n Assault Chinese Armored Personal Carrier \n Comes with 8 Mini-Gunners \n Infantry CAN attack from inside! \n If destroyed, passengers will escape with 50% hp \n Detects stealth units within 200 radius \n \n 360 hp \n 8 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
+"\n Assault Chinese Armored Personal Carrier \n Comes with 6 Mini-Gunners \n Infantry CAN attack from inside! \n If destroyed, passengers will escape with 50% hp \n Detects stealth units within 200 radius \n \n 360 hp \n 6 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
 END
 
 CONTROLBAR:Infa_ToolTipChinaBuildListeningOutpost
-"\n Assault Infantry Transport vehicle \n Stealthed(2s delay) while not moving/attacking \n \n Comes with 3 Tank Hunters \n Infantry CAN attack from inside! \n If destroyed, passengers will escape with 50% hp \n Detects stealth units within 300 radius \n \n 300 hp \n 6 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
+"\n Assault Infantry Transport vehicle \n Stealthed(2s delay) while not moving/attacking \n \n Comes with 3 Tank Hunters \n Infantry CAN attack from inside! \n If destroyed, passengers will escape with 50% hp \n Detects stealth units within 300 radius \n \n 300 hp \n 5 infantry fire ports \n \n Provides Propaganda(Subliminal) Tower effect: \n 1(1.5)% hp/s heal/repair \n +25% Rate Of Fire (+15% Damage) \n 100 effect radius"
 END
 
 CONTROLBAR:Infa_ConstructChinaBunker
@@ -25408,7 +25412,7 @@ OBJECT:Lazr_Tank
 END
 
 CONTROLBAR:Lazr_ToolTipUSABuildCrusader
-"\n Laser upgraded USA tank \n Consumes power but ISN'T disabled by Low Power! \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 75 dmg every 2.1s \n 170 attack range\n \n Power Required: 1"
+"\n Laser upgraded USA tank \n Consumes power but ISN'T disabled by Low Power! \n \n Can be equipped with Scout or Hellfire Drone \n Can be upgraded with Composite Armor (+20% hp) \n \n 450(540) hp (Composite Armor) \n 80 dmg every 2.2s \n 170 attack range\n \n Power Required: 1"
 END
 
 CONTROLBAR:ToolTipChinaBuildEmperor
