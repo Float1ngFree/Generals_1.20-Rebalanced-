@@ -7,7 +7,7 @@ DiscordLink: ''
 ModDBLink: https://www.moddb.com/mods/generals-zero-hour-patch-12
 NewsLink: https://www.moddb.com/mods/generals-zero-hour-patch-12/news/patch-12-patch-notes
 DependenceName: ''
-S3HostLink: gen.insave.ovh:9001
+S3HostLink: gen.insave.ovh:9000
 S3BucketName: zhpatch12
 S3FolderName: patch12-individual-files
 S3HostPublicKey: ''
